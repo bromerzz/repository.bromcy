@@ -129,7 +129,7 @@ def Main_Menu():
 def Coarse_Menu():   
 
     Add_Dir( "Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( "Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,
         icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")    
