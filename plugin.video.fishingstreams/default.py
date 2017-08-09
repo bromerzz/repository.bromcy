@@ -76,6 +76,7 @@ YOUTUBE_CHANNEL_ID_6 = "UCmsXKsVhTenC4qh8_uCYWeA"
 YOUTUBE_CHANNEL_ID_7 = "UCPIt4h5b2p7-LYLXJcKPkpg"
 YOUTUBE_CHANNEL_ID_8 = "UClh2Uaj8qUOSafi4rpCpLYg"
 YOUTUBE_CHANNEL_ID_10 = "UCXGoahgNr0Kdr4SdZJy4alA"
+YOUTUBE_CHANNEL_ID_11 = "PL152bjytsMC5sDSspMKm3xT99gzw79oSo"
 """
     SECTION 5:
     Add our custom functions in here, it's VERY important these go in this section
@@ -154,6 +155,9 @@ def Coarse_Menu():
         name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
         icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
+	Add_Dir( 
+        name="Matt Hayes & Mick Brown", url=BASE2+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
+        icon=""   
 
 @route(mode='game_menu')
 def Game_Menu(): 
