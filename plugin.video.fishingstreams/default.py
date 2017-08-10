@@ -81,7 +81,7 @@ YOUTUBE_CHANNEL_ID_12= "PL152bjytsMC5IAot7hLowOewo2Dioib5k"
 YOUTUBE_CHANNEL_ID_13 = "PL152bjytsMC5MRutIMrbBCFcc5EGAre0t"
 YOUTUBE_CHANNEL_ID_14 = "PL152bjytsMC4ZTchUbULfLu_lyN_kMfXx"
 YOUTUBE_CHANNEL_ID_15 = "UCaULe1cc4jCQ6ZzUrDY81Sg"
-YOUTUBE_CHANNEL_ID_16 = "PL152bjytsMC7O4En1nsgWVNzzXvHZZcd2"
+
 
 """
     SECTION 5:
@@ -139,31 +139,27 @@ def Main_Menu():
 def Coarse_Menu():   
 
     Add_Dir( "Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
         name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,
-        icon="") 
+        icon="a") 
 
     Add_Dir( 
         name="Preston Innovations Match Fishing", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
         name="Bob Nudd", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
         name="Nash TV", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
-        name="Korda TV", url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=True,
-        icon="")
-    
-    Add_Dir( 
         name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
         name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
