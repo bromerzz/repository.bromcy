@@ -202,7 +202,7 @@ def Sea_Menu():
         icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
 @route(mode='Around the World_content_menu')
-def Sea_Menu():
+def Around the World content_Menu():
 
     Add_Dir( 
         name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
