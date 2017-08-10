@@ -31,6 +31,7 @@ class Generator:
         self._generate_addons_file()
         self._generate_md5_file()
         print "Finished updating addons xml and md5 files"
+        
 
     def Create_Zips(self,addon_id,version):
         xml_path     = os.path.join(addon_id,'addon.xml')
