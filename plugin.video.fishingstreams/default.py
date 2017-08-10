@@ -77,6 +77,7 @@ YOUTUBE_CHANNEL_ID_7 = "UCPIt4h5b2p7-LYLXJcKPkpg"
 YOUTUBE_CHANNEL_ID_8 = "UClh2Uaj8qUOSafi4rpCpLYg"
 YOUTUBE_CHANNEL_ID_10 = "UCXGoahgNr0Kdr4SdZJy4alA"
 YOUTUBE_CHANNEL_ID_11 = "PL152bjytsMC5sDSspMKm3xT99gzw79oSo"
+YOUTUBE_CHANNEL_ID_12= "PL152bjytsMC5IAot7hLowOewo2Dioib5k"
 
 """
     SECTION 5:
@@ -126,19 +127,15 @@ def Main_Menu():
         name="Sea", url=' ', mode="sea_menu", folder=True,
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
 
+    Add_Dir( 
+        name="North American Content", url=' ', mode="north american content_menu", folder=True,
+        icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
 
 @route(mode='coarse_menu')
 def Coarse_Menu():   
 
     Add_Dir( "Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,
         icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
-
-    Add_Dir( "Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")    
-    
-    Add_Dir( 
-        name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg") 
 
     Add_Dir( 
         name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,
@@ -149,17 +146,25 @@ def Coarse_Menu():
         icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
-        name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
         icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+
+    Add_Dir( 
+        name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
+        icon="special://home/addons/plugin.video.fishingtube/resources/johnwilson.jpg")
 
     Add_Dir( 
         name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
         icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
-        name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
-        icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
+        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg") 
 
+    Add_Dir(
+        name="Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,
+        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")    
+    
 	
 
 @route(mode='game_menu')
@@ -179,7 +184,15 @@ def Sea_Menu():
     Add_Dir( 
         name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
-#------------------------------------------------------------
+
+@route(mode='north american content_menu')
+def Sea_Menu():
+
+    Add_Dir( 
+        name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+
+        #------------------------------------------------------------
 # A basic OK Dialog
     @route(mode='koding_settings')
     def Koding_settings():
