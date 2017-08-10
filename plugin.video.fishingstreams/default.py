@@ -77,6 +77,15 @@ YOUTUBE_CHANNEL_ID_7 = "UCPIt4h5b2p7-LYLXJcKPkpg"
 YOUTUBE_CHANNEL_ID_8 = "UClh2Uaj8qUOSafi4rpCpLYg"
 YOUTUBE_CHANNEL_ID_10 = "UCXGoahgNr0Kdr4SdZJy4alA"
 YOUTUBE_CHANNEL_ID_11 = "PL152bjytsMC5sDSspMKm3xT99gzw79oSo"
+YOUTUBE_CHANNEL_ID_12 = "PL152bjytsMC5MRutIMrbBCFcc5EGAre0t"
+YOUTUBE_CHANNEL_ID_13 = "PL152bjytsMC7O4En1nsgWVNzzXvHZZcd2"
+YOUTUBE_CHANNEL_ID_14 = "PL152bjytsMC4ZTchUbULfLu_lyN_kMfXx"
+YOUTUBE_CHANNEL_ID_15 = "PL152bjytsMC5IAot7hLowOewo2Dioib5k"
+YOUTUBE_CHANNEL_ID_16 = "PL152bjytsMC6KqgV0ZPmtC80paIWBVamO"
+
+
+
+
 
 """
     SECTION 5:
@@ -135,27 +144,47 @@ def Coarse_Menu():
         icon="chub.gif")
 
     Add_Dir( "Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")    
+        icon="chub.gif")    
     
     Add_Dir( 
         name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg") 
+        icon="chub.gif") 
 
     Add_Dir( 
         name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg") 
+        icon="chub.gif") 
 
     Add_Dir( 
         name="Preston Innovations Match Fishing", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        icon="chub.gif")
 
+    Add_Dir(
+        name="Bob Nudd", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
+        icon="chub.gif")
+         
+    Add_Dir( 
+        name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
+        icon="chub.gif")
+
+    Add_Dir( 
+        name="Korda TV", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
+        icon="chub.gif")
+
+    Add_Dir( 
+        name="Rex Hunt", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
+        icon="chub.gif")
+
+    Add_Dir( 
+        name="Predators", url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=True,
+        icon="chub.gif")
+    
     Add_Dir( 
         name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
         icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
     Add_Dir( 
         name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
-        icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        icon="chub.gif")
 
     Add_Dir( 
         name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
