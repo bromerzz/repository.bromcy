@@ -201,7 +201,7 @@ def Sea_Menu():
         name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
-@route(mode='Around the World_content_menu')
+@route(mode='around the world_content_menu')
 def Around the World content_Menu():
 
     Add_Dir( 
