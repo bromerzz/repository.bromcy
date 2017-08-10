@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 
 """ ^ SECTION 1:
@@ -88,34 +89,48 @@ YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 
 #----------------------------------------------------------------
 # This is the main menu we open into
+
+
+
+
 @route(mode='main_menu')
 def Main_Menu():
 
 # If debug mode is enabled show the koding tutorials
-    #if debug == 'true':
-        #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    #else:
-        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
+    if debug == 'true':
+        Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
+    else:
+        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
 
-        
+# An example title/message we're going to send through to a popup dialog in the first Add_Dir item
+    #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
+
+    Add_Dir( 
+        name="Long Players", url=' ', mode="long players_menu", folder=True,
+        icon="a")
+
 # Add some YT Playlists (see we're using BASE as the url)
+@route(mode='Long Players_menu')
+def Long players_Menu():  
+    Add_Dir( 
+        name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        icon="a")
+
 
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
 Add_Dir( 
-        name="SPARE", url=BASE2+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
         icon="a")
 
-@route(mode='Long Players')
-def long players_menu():
-    Open_Settings()
 
-Add_Dir( 
-        name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-        icon="a")
-Add_Dir(
-        name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="a")
+
+
+
 
 
 #----------------------------------------------------------------

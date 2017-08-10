@@ -101,9 +101,9 @@ def Main_Menu():
     else:
         Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
-# An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
-        
+        # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
+
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
         name="Wagner Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
