@@ -92,28 +92,32 @@ YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 def Main_Menu():
 
 # If debug mode is enabled show the koding tutorials
-    if debug == 'true':
-        Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    else:
-        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
+    #if debug == 'true':
+        #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
+    #else:
+        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
 
         
 # Add some YT Playlists (see we're using BASE as the url)
-Add_Dir( 
-        name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-        icon="")
-Add_Dir(
-        name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="")
+
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
 Add_Dir( 
-        name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="SPARE", url=BASE2+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        icon="a")
 
-@route(mode='koding_settings')
-def Koding_Settings():
+@route(mode='Long Players')
+def long players_menu():
     Open_Settings()
+
+Add_Dir( 
+        name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        icon="a")
+Add_Dir(
+        name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        icon="a")
+
+
 #----------------------------------------------------------------
 # A basic OK Dialog
 @route(mode='koding_settings')
