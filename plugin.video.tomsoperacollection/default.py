@@ -65,7 +65,7 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_1 = "g4LOpDVkzD0"
-YOUTUBE_CHANNEL_ID_2 = ""
+YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 
 #----------------------------------------------------------------
 
@@ -96,18 +96,18 @@ def Main_Menu():
         Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
     else:
         Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
-    
-# An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
         
 # Add some YT Playlists (see we're using BASE as the url)
-    Add_Dir( 
+Add_Dir( 
         name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        icon="")
+Add_Dir(
+        name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="")
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
-    Add_Dir( 
+Add_Dir( 
         name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
         icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
