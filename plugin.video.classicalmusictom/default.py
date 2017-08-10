@@ -105,23 +105,23 @@ def Main_Menu():
         
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
-        name="Wagner", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        name="Wagner Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Schubert", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        name="Schubert Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Debussy", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        name="Debussy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Karajan Legacy", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        name="Karajan Legacy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="a")
     
     Add_Dir( 
-        name="Elgar", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
+        name="Elgar Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
         icon="a")
 
 
