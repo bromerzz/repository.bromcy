@@ -102,38 +102,33 @@ def Main_Menu():
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
-
-    Add_Dir(
-        name="Support/Suggestions", url=my_message, mode="simple_dialog", folder=False,
-        icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
         name="Wagner", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
         name="Schubert", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="")
+        icon="a")
 
     Add_Dir( 
         name="Debussy", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
-        icon="")
+        icon="a")
 
-    
     Add_Dir( 
         name="Karajan Legacy", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
-        icon="")
+        icon="a")
     
     Add_Dir( 
         name="Elgar", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="")
+        icon="a")
 
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
-        name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
+        icon="")
 #----------------------------------------------------------------
 # A basic OK Dialog
 @route(mode='koding_settings')
