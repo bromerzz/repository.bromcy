@@ -72,7 +72,6 @@ YOUTUBE_CHANNEL_ID_4 = "a5lYyMNxR4Q"
 
 
 
-#----------------------------------------------------------------
 
 """
     SECTION 5:
@@ -97,7 +96,6 @@ YOUTUBE_CHANNEL_ID_4 = "a5lYyMNxR4Q"
 
 @route(mode='main_menu')
 def Main_Menu():
-
 # If debug mode is enabled show the koding tutorials
     if debug == 'true':
         Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
@@ -107,7 +105,6 @@ def Main_Menu():
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
-# Add some YT Playlists (see we're using BASE as the url)
 
 
     Add_Dir( 
@@ -123,8 +120,9 @@ def Main_Menu():
         icon="a")
 
 
-@route(mode='Compilations_menu')
+@route(mode='compilations_menu')
 def Compilations_Menu():  
+
     Add_Dir( 
         name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
@@ -138,27 +136,25 @@ def Compilations_Menu():
         icon="a")
 
 
-# Add some YT channels (see we're using BASE2 as the url for this one)
-@route(mode='Operas_menu')
+@route(mode='operas_menu')
 def Operas_Menu():  
 
     Add_Dir( 
         name="Puccini", url=BASE2=YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        icon="a"
 
 
-
-
-
-#----------------------------------------------------------------
+#------------------------------------------------------------
 # A basic OK Dialog
-@route(mode='koding_settings')
-def Koding_Settings():
-    Open_Settings()
-#----------------------------------------------------------------
+    @route(mode='koding_settings')
+    def Koding_settings():
+        Open_Settings()
+#---------------------------------------------------------
 # A basic OK Dialog
-@route(mode='simple_dialog', args=['title','msg'])
-def Simple_Dialog(title,msg):
-    OK_Dialog(title, msg)
+    @route(mode='simple_dialog', args=['title','msg'])
+    def Simple_Dialog(title,msg):
+       OK-Dialog(title, msg)
+
 #----------------------------------------------------------------
 
 """
