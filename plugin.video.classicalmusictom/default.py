@@ -24,8 +24,8 @@
     you choose to use their work as a base for your own.
 """
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
-# Addon: My YouTube Add-on
-# Author: Add your name here
+# Addon:  Toms Classical Music Collection - My YouTube Add-on
+# Author: Bromerzz
 
 #----------------------------------------------------------------
 

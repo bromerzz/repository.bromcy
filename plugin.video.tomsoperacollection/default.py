@@ -102,8 +102,11 @@ def Main_Menu():
     else:
         Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
 
-# An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
+   my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
+        # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
+
+# Add some YT Playlists (see we're using BASE as the url)
+
 
     Add_Dir( 
         name="Collections", url=' ', mode="collections_menu", folder=True,
@@ -117,7 +120,6 @@ def Main_Menu():
         name="Operas", url=' ', mode="operas_menu", folder=True,
         icon="a")
 
-# Add some YT Playlists (see we're using BASE as the url)
 
 @route(mode='Compliations_menu')
 def Compliations_Menu():  
@@ -135,9 +137,6 @@ def Compliations_Menu():
 Add_Dir( 
         name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
         icon="a")
-
-
-
 
 
 
