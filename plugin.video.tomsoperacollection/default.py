@@ -67,6 +67,8 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_1 = "g4LOpDVkzD0"
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
+YOUTUBE_CHANNEL_ID_3 = "1iwGIBewHPM"
+YOUTUBE_CHANNEL_ID_4 = "a5lYyMNxR4Q"
 
 
 
@@ -121,8 +123,8 @@ def Main_Menu():
         icon="a")
 
 
-@route(mode='Compliations_menu')
-def Compliations_Menu():  
+@route(mode='Compilations_menu')
+def Compilations_Menu():  
     Add_Dir( 
         name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
@@ -130,13 +132,19 @@ def Compliations_Menu():
     Add_Dir(
         name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="a")
-
+    
+    Add_Dir(
+        name="Maria Callas", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        icon="a")
 
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
-Add_Dir( 
-        name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
-        icon="a")
+@route(mode='Operas_menu')
+def Operas_Menu():  
+
+    Add_Dir( 
+        name="Puccini", url=BASE2=YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+
 
 
 
