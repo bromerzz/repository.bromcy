@@ -69,6 +69,7 @@ YOUTUBE_CHANNEL_ID_1 = "g4LOpDVkzD0"
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 YOUTUBE_CHANNEL_ID_3 = "1iwGIBewHPM"
 YOUTUBE_CHANNEL_ID_4 = "a5lYyMNxR4Q"
+YOUTUBE_CHANNEL_ID_5 = "4pYsP1nBBNQ"
 
 
 
@@ -124,7 +125,7 @@ def Main_Menu():
 def Compilations_Menu():  
 
     Add_Dir( 
-        name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        name="Non Stop Opera", url=BASE2+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
 
     Add_Dir(
@@ -132,12 +133,15 @@ def Compilations_Menu():
         icon="a")
     
     Add_Dir(
-        name="Maria Callas", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        name="Maria Callas", url=BASE2+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
         icon="a")
 
 
 @route(mode='operas_menu')
 def Operas_Menu():  
+    Add_Dir(
+        name="Madame Butterfly", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
+        icon="a")
 
    
 
