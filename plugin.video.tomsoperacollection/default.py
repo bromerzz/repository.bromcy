@@ -139,9 +139,7 @@ def Compilations_Menu():
 @route(mode='operas_menu')
 def Operas_Menu():  
 
-    Add_Dir( 
-        name="Puccini", url=BASE2=YOUTUBE_CHANNEL_ID_4+"/", folder=True,
-        icon="a"
+   
 
 
 #------------------------------------------------------------
