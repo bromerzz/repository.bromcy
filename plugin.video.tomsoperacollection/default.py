@@ -110,21 +110,19 @@ def Main_Menu():
     Add_Dir( 
         name="Collections", url=' ', mode="collections_menu", folder=True,
         icon="a")
-
-    Add_Dir( 
-        name="Compilations", url=' ', mode="compilations_menu", folder=True,
-        icon="a")
-
-    Add_Dir( 
-        name="Operas", url=' ', mode="operas_menu", folder=True,
-        icon="a")
+ 
 
 @route(mode='Collections_menu')
 def Collections_Menu():  
 
     Add_Dir( 
         name="The Three Tenors LA 1994", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="a")    
+        icon="a")   
+
+    Add_Dir( 
+        name="Compilations", url=' ', mode="compilations_menu", folder=True,
+        icon="a")
+ 
 
 
 @route(mode='Compilations_menu')
@@ -139,8 +137,14 @@ def Compilations_Menu():
         icon="a")
 
 
+
+   Add_Dir( 
+        name="Operas", url=' ', mode="operas_menu", folder=True,
+        icon="a")
+
 @route(mode='Operas_menu')
 def Operas_Menu():  
+    
     Add_Dir(
         name="Madame Butterfly", url=BASE2+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="a")
