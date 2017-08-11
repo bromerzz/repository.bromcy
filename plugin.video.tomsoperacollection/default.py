@@ -66,8 +66,6 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
-YOUTUBE_CHANNEL_ID_3 = "1iwGIBewHPM"
-YOUTUBE_CHANNEL_ID_4 = "a5lYyMNxR4Q"
 YOUTUBE_CHANNEL_ID_5 = "XaeBRqIqQkI"
 
 
@@ -103,52 +101,19 @@ def Main_Menu():
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
-
-
-    Add_Dir( 
-        name="Collections", url=' ', mode="collections_menu", folder=True,
-        icon="a")
-
-    Add_Dir( 
-        name="Compilations", url=' ', mode="compilations_menu", folder=True,
-        icon="a")
-
-    Add_Dir( 
-        name="Operas", url=' ', mode="operas_menu", folder=True,
-        icon="a")
-
-
-
-@route(mode='Collections_menu')
-def Collections_Menu():  
-
-    Add_Dir( 
-        name="The Three Tenors LA 1994", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="a")  
- 
-
-
-@route(mode='Compilations_menu')
-def Compilations_Menu():  
+# Add some YT Playlists (see we're using BASE as the url)
 
     Add_Dir(
-        name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="a")
-    
+        name="The Three Tenors LA1994",url=BASE+YOUTUBE_CHANNEL_ID_5+"/",folder=True,
+        icon="/")
+
+
     Add_Dir(
-        name="Maria Callas", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
-        icon="a")
-   
+        name="Selection",url=BASE+YOUTUBE_CHANNEL_ID_2+"/",folder=True,
+        icon="/")
 
-@route(mode='Operas_menu')
-def Operas_Menu():  
-    
-    Add_Dir(
-        name="Madame Butterfly", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
-        icon="a")
 
-   
-
+        # Add some YT channels (see we're using BASE2 as the url for this one)
 
 #------------------------------------------------------------
 # A basic OK Dialog
