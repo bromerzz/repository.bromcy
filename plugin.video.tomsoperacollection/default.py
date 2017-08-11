@@ -25,8 +25,8 @@
     you choose to use their work as a base for your own.
 """
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
-# Addon: My YouTube Add-on
-# Author: Add your name here
+# Addon:  Toms Opera Collection - My YouTube Add-on
+# Author: Bromerzz
 
 #----------------------------------------------------------------
 
@@ -68,6 +68,8 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 YOUTUBE_CHANNEL_ID_1 = "g4LOpDVkzD0"
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 
+
+
 #----------------------------------------------------------------
 
 """
@@ -104,13 +106,21 @@ def Main_Menu():
     #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
     Add_Dir( 
-        name="Long Players", url=' ', mode="long players_menu", folder=True,
+        name="Collections", url=' ', mode="collections_menu", folder=True,
+        icon="a")
+
+    Add_Dir( 
+        name="Compilations", url=' ', mode="compilations_menu", folder=True,
+        icon="a")
+
+    Add_Dir( 
+        name="Operas", url=' ', mode="operas_menu", folder=True,
         icon="a")
 
 # Add some YT Playlists (see we're using BASE as the url)
 
-@route(mode='Long Players_menu')
-def Long players_Menu():  
+@route(mode='Compliations_menu')
+def Compliations_Menu():  
     Add_Dir( 
         name="Non Stop Opera", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
