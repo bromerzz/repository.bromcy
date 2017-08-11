@@ -65,17 +65,10 @@ BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
-YOUTUBE_CHANNEL_ID_1 = ""
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
-<<<<<<< Updated upstream
 YOUTUBE_CHANNEL_ID_3 = "1iwGIBewHPM"
 YOUTUBE_CHANNEL_ID_4 = "a5lYyMNxR4Q"
-YOUTUBE_CHANNEL_ID_5 = "4pYsP1nBBNQ"
-=======
-YOUTUBE_CHANNEL_ID_3 = ""
-YOUTUBE_CHANNEL_ID_4 = ""
 YOUTUBE_CHANNEL_ID_5 = "XaeBRqIqQkI"
->>>>>>> Stashed changes
 
 
 
@@ -126,7 +119,7 @@ def Main_Menu():
         name="Operas", url=' ', mode="operas_menu", folder=True,
         icon="a")
 
-@route(mode='collections_menu')
+@route(mode='Collections_menu')
 def Collections_Menu():  
 
     Add_Dir( 
@@ -134,34 +127,22 @@ def Collections_Menu():
         icon="a")    
 
 
-@route(mode='compilations_menu')
+@route(mode='Compilations_menu')
 def Compilations_Menu():  
-
-    Add_Dir( 
-<<<<<<< Updated upstream
-        name="Non Stop Opera", url=BASE2+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-=======
-        name="Vacant", url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
->>>>>>> Stashed changes
-        icon="a")
 
     Add_Dir(
         name="Best of Opera", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="a")
     
     Add_Dir(
-<<<<<<< Updated upstream
         name="Maria Callas", url=BASE2+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
-=======
-        name="Vacant", url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
->>>>>>> Stashed changes
         icon="a")
 
 
-@route(mode='operas_menu')
+@route(mode='Operas_menu')
 def Operas_Menu():  
     Add_Dir(
-        name="Madame Butterfly", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
+        name="Madame Butterfly", url=BASE2+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="a")
 
    
