@@ -70,7 +70,7 @@ YOUTUBE_CHANNEL_ID_3 = "PL-IXdkJ4LY4mbSNXjhVdm3weCw-Evf8rj"
 YOUTUBE_CHANNEL_ID_4 = "PL-IXdkJ4LY4k_0zFylkrXAA3sTQ6cmVg-"
 YOUTUBE_CHANNEL_ID_5 = "PL-IXdkJ4LY4lboFVpod8_3ajG58_X576-"
 YOUTUBE_CHANNEL_ID_6 = "PL1mZeR4wTBoyFZMFCUsPqpgGO2tPd4eAe"
-YOUTUBE_CHANNEL_ID_7 = "UCXlMZ5acHFFIbpYSc4tslhA"
+
 #----------------------------------------------------------------
 
 """
@@ -129,9 +129,7 @@ def Main_Menu():
         name="50 Great Clips Various ", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
         icon="a")
 
-    Add_Dir(
-        name="Vivaldi Spring from the Four Seasons", url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
-        icon="a")
+
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
