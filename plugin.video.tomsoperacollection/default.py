@@ -66,15 +66,7 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
-<<<<<<< Updated upstream
 
-<<<<<<< Updated upstream
-=======
-YOUTUBE_CHANNEL_ID_1 = "4pYsP1nBBNQ&t"
->>>>>>> Stashed changes
-
-=======
->>>>>>> Stashed changes
 """
     SECTION 5:
     Add our custom functions in here, it's VERY important these go in this section
@@ -109,24 +101,9 @@ def Main_Menu():
 
 # Add some YT Playlists (see we're using BASE as the url)
 
-<<<<<<< Updated upstream
-
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
     Add_Dir(
         name="Classical Opera extracts",url=BASE+YOUTUBE_CHANNEL_ID_2+"/",folder=True,
         icon="/")
-
-=======
-    Add_Dir(
-        name="Classical Opera extracts",url=BASE+YOUTUBE_CHANNEL_ID_2+"/",folder=True,
-        icon="/")
-
-    Add_Dir(
-        name="Madame Butterfly",url=BASE+YOUTUBE_CHANNEL_ID_1+"/",folder=True,
-        icon="/")
->>>>>>> Stashed changes
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
 
