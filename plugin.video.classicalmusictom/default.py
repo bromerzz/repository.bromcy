@@ -76,7 +76,7 @@ YOUTUBE_CHANNEL_ID_9 = "PLS6C4jHVZhO7mdvWazKgf3aHo4rryrnbW"
 YOUTUBE_CHANNEL_ID_10 = "PL2788304DC59DBEB4"
 YOUTUBE_CHANNEL_ID_11 = "PLc87N-d3x2CpUxoF7DRaHbCjFMbg286d3"
 YOUTUBE_CHANNEL_ID_12 = "PLcGkkXtask_c_iDYwGpTkK0i--J8iafgH"
-YOUTUBE_CHANNEL_ID_13 = "PL3E85427E7F6E6C28&index=24"
+YOUTUBE_CHANNEL_ID_13 = "PL3E85427E7F6E6C28"
 
 #----------------------------------------------------------------
 
@@ -137,7 +137,7 @@ def Main_Menu():
         icon="a")
 
     Add_Dir(
-        name="Tchakovsky Symphonies 1 to 5",url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
+        name="Tchaikovsky Symphonies 1 to 5",url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
         icon="a")
 
     Add_Dir(
@@ -157,7 +157,7 @@ def Main_Menu():
         icon="a")
 
     Add_Dir(
-        name="Bach",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
+        name="Bach and Debussy",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
         icon="a")
 
     Add_Dir(
