@@ -82,6 +82,9 @@ YOUTUBE_CHANNEL_ID_13 = "PL152bjytsMC7O4En1nsgWVNzzXvHZZcd2"
 YOUTUBE_CHANNEL_ID_14 = "PL152bjytsMC4ZTchUbULfLu_lyN_kMfXx"
 YOUTUBE_CHANNEL_ID_15 = "PL152bjytsMC5IAot7hLowOewo2Dioib5k"
 YOUTUBE_CHANNEL_ID_16 = "PL152bjytsMC6KqgV0ZPmtC80paIWBVamO"
+YOUTUBE_CHANNEL_ID_17 = "PL152bjytsMC7hs0a9cA-dbPclJtcnKqQY"
+YOUTUBE_CHANNEL_ID_18 = "PL152bjytsMC67WcR2MUh2uwpAv2CXWOQi"
+YOUTUBE_CHANNEL_ID_19 = "PL152bjytsMC5JDSOCLE2mx7bykXARhO4f"
 
 
 
@@ -148,6 +151,18 @@ def Coarse_Menu():
     
     Add_Dir( 
         name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
+        icon="chub.gif") 
+
+    Add_Dir( 
+        name="Fishing Series", url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,
+        icon="chub.gif") 
+
+    Add_Dir( 
+        name="Match Fishing", url=BASE+YOUTUBE_CHANNEL_ID_17+"/", folder=True,
+        icon="chub.gif") 
+
+    Add_Dir( 
+        name="Coarse Fishing", url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,
         icon="chub.gif") 
 
     Add_Dir( 
