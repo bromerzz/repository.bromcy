@@ -70,6 +70,13 @@ YOUTUBE_CHANNEL_ID_3 = "PL-IXdkJ4LY4mbSNXjhVdm3weCw-Evf8rj"
 YOUTUBE_CHANNEL_ID_4 = "PL-IXdkJ4LY4k_0zFylkrXAA3sTQ6cmVg-"
 YOUTUBE_CHANNEL_ID_5 = "PL-IXdkJ4LY4lboFVpod8_3ajG58_X576-"
 YOUTUBE_CHANNEL_ID_6 = "PL1mZeR4wTBoyFZMFCUsPqpgGO2tPd4eAe"
+YOUTUBE_CHANNEL_ID_7 = "PLS6C4jHVZhO5xlfh8IZYzbgJaKZt8XNDZ"
+YOUTUBE_CHANNEL_ID_8 = "PLS6C4jHVZhO6fV14M7M0kuSfIf5dqx5oz"
+YOUTUBE_CHANNEL_ID_9 = "PLS6C4jHVZhO7mdvWazKgf3aHo4rryrnbW"
+YOUTUBE_CHANNEL_ID_10 = "PL2788304DC59DBEB4"
+YOUTUBE_CHANNEL_ID_11 = "PLc87N-d3x2CpUxoF7DRaHbCjFMbg286d3"
+YOUTUBE_CHANNEL_ID_12 = "PLcGkkXtask_c_iDYwGpTkK0i--J8iafgH"
+YOUTUBE_CHANNEL_ID_13 = "PL3E85427E7F6E6C28&index=24"
 
 #----------------------------------------------------------------
 
@@ -129,6 +136,37 @@ def Main_Menu():
         name="50 Great Clips Various ", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
         icon="a")
 
+    Add_Dir(
+        name="Tchakovsky Symphonies 1 to 5",url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Nielsen Symphonies",url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Brahms",url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Classical Short Clips",url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Just Instrumental",url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Bach",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Khachaturian Sabre Dance",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
+        icon="a")
+
+    #Add_Dir(
+       # name="",url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
+        #icon="a")
 
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
