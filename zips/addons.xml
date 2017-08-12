@@ -45,9 +45,13 @@
 </addon>
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.18" provider-name="bromerzz">
 =======
 <addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.19" provider-name="bromerzz">
+>>>>>>> Stashed changes
+=======
+<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.20" provider-name="bromerzz">
 >>>>>>> Stashed changes
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
