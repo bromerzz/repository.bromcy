@@ -77,7 +77,7 @@ YOUTUBE_CHANNEL_ID_10 = "PL2788304DC59DBEB4"
 YOUTUBE_CHANNEL_ID_11 = "PLc87N-d3x2CpUxoF7DRaHbCjFMbg286d3"
 YOUTUBE_CHANNEL_ID_12 = "PLcGkkXtask_c_iDYwGpTkK0i--J8iafgH"
 YOUTUBE_CHANNEL_ID_13 = "PL3E85427E7F6E6C28"
-
+YOUTUBE_CHANNEL_ID_14 = "PL_qM1lclHDwUPGV9v5tJzTv1X5e8fAJRu"
 #----------------------------------------------------------------
 
 """
@@ -164,9 +164,9 @@ def Main_Menu():
         name="Czech Composers Plus",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
         icon="a")
 
-    #Add_Dir(
-       # name="",url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
-        #icon="a")
+    Add_Dir(
+        name="Baroque Music ",url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
+        icon="a")
 
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
