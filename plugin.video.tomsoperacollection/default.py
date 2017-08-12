@@ -70,7 +70,7 @@ YOUTUBE_CHANNEL_ID_1 = "PLTwpcgYYM-zwDTu1TAVhGz9QEG88aeToQ"
 YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 YOUTUBE_CHANNEL_ID_3 = "PLIn0resN3fmCohhLwAwVs5KRl-DCb1kB2"
 YOUTUBE_CHANNEL_ID_4 = "PLE1DB862865A96BAE"
-YOUTUBE_CHANNEL_ID_5 = "PLl3WjFEJ7SdZJJ5djgY1wF0f3VFVVuZR7"
+#YOUTUBE_CHANNEL_ID_ = ""
 
 """
     SECTION 5:
@@ -122,9 +122,9 @@ def Main_Menu():
         name="Rossini Ermione Glyndebourne Festival",url=BASE+YOUTUBE_CHANNEL_ID_4+"/",folder=True,
         icon="/")
 
-    Add_Dir(
-        name="Pedro Infante Canciones de Borrachos de sus",url=BASE+YOUTUBE_CHANNEL_ID_5+"/",folder=True,
-        icon="/")
+    #dd_Dir(
+        #name="",url=BASE+YOUTUBE_CHANNEL_ID_+"/",folder=True,
+        #icon="/")
 
     #Add_Dir(
         #name="",url=BASE+YOUTUBE_CHANNEL_ID_+"/",folder=True,
