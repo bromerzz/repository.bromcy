@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< Updated upstream
 <addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.18" provider-name="bromerzz">
+=======
+<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.19" provider-name="bromerzz">
+>>>>>>> Stashed changes
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
