@@ -133,7 +133,7 @@ def Main_Menu():
         icon="a")
 
     Add_Dir(
-        name="50 Great Clips Various ", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
+        name=" Variety of Composers", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
         icon="a")
 
     Add_Dir(
@@ -161,7 +161,7 @@ def Main_Menu():
         icon="a")
 
     Add_Dir(
-        name="Khachaturian Sabre Dance",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
+        name="Czech Composers Plus",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
         icon="a")
 
     #Add_Dir(
