@@ -63,7 +63,7 @@ addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
 # Set the base plugin url you want to hook into
 BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
-BASE3 = "plugin://plugin.video.youtube/play/?video/"
+BASE3 = "plugin://plugin.video.youtube/play/?video_id=/"
 
 # Set each of your YouTube playlist id's
 
