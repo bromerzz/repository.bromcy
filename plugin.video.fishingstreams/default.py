@@ -186,7 +186,7 @@ def Coarse_Menu():
         icon="chub.gif")
 
     Add_Dir( 
-        name="Rex Hunt", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
+        name="Rex Hunt and Robson Green", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
         icon="chub.gif")
 
     Add_Dir( 
