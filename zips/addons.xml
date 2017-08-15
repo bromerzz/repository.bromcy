@@ -44,7 +44,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.30" provider-name="bromerzz">
+<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.31" provider-name="bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />

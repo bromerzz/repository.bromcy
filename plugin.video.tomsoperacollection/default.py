@@ -72,6 +72,9 @@ YOUTUBE_CHANNEL_ID_2 = "PLDBt7LIJrBCVjfCZnQxBqnMtQ74IJW0uT"
 YOUTUBE_CHANNEL_ID_3 = "PLIn0resN3fmCohhLwAwVs5KRl-DCb1kB2"
 YOUTUBE_CHANNEL_ID_4 = "PLE1DB862865A96BAE"
 YOUTUBE_CHANNEL_ID_5 = "p2U4Eyd856o"
+YOUTUBE_CHANNEL_ID_6 = "jLGkXg3j49s"
+YOUTUBE_CHANNEL_ID_7 = "xGDhQwsgMBQ"
+YOUTUBE_CHANNEL_ID_8 = "Drce8uXvyHg"
 #YOUTUBE_CHANNEL_ID_ = ""
 
 """
@@ -128,13 +131,26 @@ def Main_Menu():
         name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',
         icon="/")
 
-    #dd_Dir(
+    Add_Dir(
+        name="Tosca Arena di Verona",url=BASE3+YOUTUBE_CHANNEL_ID_6+"/",folder=True,
+        icon="/")
+
+    Add_Dir(
+        name="Tosca Teatro alla Scala",url=BASE3+YOUTUBE_CHANNEL_ID_7+"/",folder=True,
+        icon="/")
+
+    Add_Dir(
+        name="La Traviata - Vienna Philharmonic",url=BASE3+YOUTUBE_CHANNEL_ID_8+"/",folder=True,
+        icon="/")
+
+         #Add_Dir(
         #name="",url=BASE+YOUTUBE_CHANNEL_ID_+"/",folder=True,
         #icon="/")
 
-    #Add_Dir(
+         #Add_Dir(
         #name="",url=BASE+YOUTUBE_CHANNEL_ID_+"/",folder=True,
         #icon="/")
+
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
 
