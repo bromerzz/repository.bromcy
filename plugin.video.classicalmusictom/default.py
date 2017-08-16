@@ -178,7 +178,7 @@ def Main_Menu():
         icon="a")
 
     Add_Dir( 
-        name="Royal Philharmonic, Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16"/", folder=false, mode-'play_yt',
+        name="Royal Philharmonic, Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16"/", folder=False, mode='play_yt',
         icon="a")
 
     #Add_Dir( 
