@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.22" provider-name="Bromerzz">
+<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.23" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />

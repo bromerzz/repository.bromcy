@@ -181,9 +181,6 @@ def Main_Menu():
         name="Royal Philharmonic, Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False,
         icon="a", mode='play_yt')
 
-    #Add_Dir( 
-        #name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
-        #icon="")
 #----------------------------------------------------------------
 # A basic OK Dialog
 @route(mode='koding_settings')
@@ -195,8 +192,11 @@ def Koding_Settings():
 def Simple_Dialog(title,msg):
     OK_Dialog(title, msg)
 #----------------------------------------------------------------
-
-"""
+# Play a youtube video
+@route(mode='play_yt', args=['url'])
+def Play_YT(url):
+    xbmc.Player().play('plugin://plugin.video.youtube/'+url)
+    """
     SECTION 6:
     Essential if creating list items, this tells kodi we're done creating our list items.
     The list will not populate without this. In the run command you need to set default to
