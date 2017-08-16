@@ -78,6 +78,8 @@ YOUTUBE_CHANNEL_ID_11 = "PLc87N-d3x2CpUxoF7DRaHbCjFMbg286d3"
 YOUTUBE_CHANNEL_ID_12 = "PLcGkkXtask_c_iDYwGpTkK0i--J8iafgH"
 YOUTUBE_CHANNEL_ID_13 = "PL3E85427E7F6E6C28"
 YOUTUBE_CHANNEL_ID_14 = "PL_qM1lclHDwUPGV9v5tJzTv1X5e8fAJRu"
+YOUTUBE_CHANNEL_ID_15 = "ZeBljzppZsM"
+YOUTUBE_CHANNEL_ID_16 = "4g4UZOedczs"
 #----------------------------------------------------------------
 
 """
@@ -171,6 +173,14 @@ def Main_Menu():
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
+        name="Royal Philharmonic, The Symphonic Beatles", url=BASE2+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
+        icon="")
+
+    Add_Dir( 
+        name="Royal Philharmonic, Queen", url=BASE2+YOUTUBE_CHANNEL_ID_16+"/", folder=True,
+        icon="")
+
+      Add_Dir( 
         name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
         icon="")
 #----------------------------------------------------------------
