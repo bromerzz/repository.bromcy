@@ -112,34 +112,34 @@ def Main_Menu():
         
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
-        name="Tchaikovsky, Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1"/", folder=False,mode='play_yt',
-        icon="a")
+        name="Tchaikovsky, Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False,
+        icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Tchaikovsky, Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2"/", folder=False,mode='play_yt',
-        icon="a")
+        name="Tchaikovsky, Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False,
+        icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Tchaikovsky, Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3"/", folder=False,mode='play_yt',
-        icon="a")  
+        name="Tchaikovsky, Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False,
+        icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Cinderalla, National de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_4"/", folder=False,mode='play_yt',
-        icon="a")
+        name="Cinderalla, National de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False,
+        icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Tchaikovsky, Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5"/", folder=False,mode='play_yt',
-        icon="a")
+        name="Tchaikovsky, Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False,
+        icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_6"/", folder=False,mode='play_yt',
-        icon="a")
+        name="Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
+        icon="a", mode='play_yt')
 
     #Add_Dir( 
         #name="", url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
         #icon="a")
 #----------------------------------------------------------------
-# A basic OK Dialog
+# Open add-on settings
 @route(mode='koding_settings')
 def Koding_Settings():
     Open_Settings()
@@ -149,7 +149,11 @@ def Koding_Settings():
 def Simple_Dialog(title,msg):
     OK_Dialog(title, msg)
 #----------------------------------------------------------------
-
+# Play a youtube video
+@route(mode='play_yt', args=['url'])
+def Play_YT(url):
+    xbmc.Player().play('plugin://plugin.video.youtube/'+url)
+#----------------------------------------------------------------
 """
     SECTION 6:
     Essential if creating list items, this tells kodi we're done creating our list items.
