@@ -174,12 +174,12 @@ def Main_Menu():
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
-        name="Royal Philharmonic, The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt',
-        icon="a")
+        name="Royal Philharmonic, The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15"/", folder=False,
+        icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Royal Philharmonic, Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',
-        con="a")
+        name="Royal Philharmonic, Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16"/", folder=False,
+        con="a", mode='play_yt')
 
     #Add_Dir( 
         #name="", url=BASE2+YOUTUBE_CHANNEL_ID_+"/", folder=True,
