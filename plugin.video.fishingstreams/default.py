@@ -58,8 +58,8 @@ from koding import Open_Settings, Play_Video, Run, Text_File
     of a global variable from inside a function the value will revert back to the
     value set here once that function has completed.
 """
-debug        = Addon_Setting(setting='debug')       # Grab the setting of our debug mode in add-on settings
-addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
+#debug        = Addon_Setting(setting='debug')       # Grab the setting of our debug mode in add-on settings
+#addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
 
 # Set the base plugin url you want to hook into
 BASE  = "plugin://plugin.video.youtube/playlist/"
