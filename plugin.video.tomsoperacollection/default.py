@@ -130,7 +130,7 @@ def Main_Menu():
         icon="/")
 
     Add_Dir(
-        name="Tosca Arena di Verona",url=BASE3+YOUTUBE_CHANNEL_ID_6,folder=False, mode='play_yt'
+        name="Tosca Arena di Verona",url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',
         icon="/")
 
 
