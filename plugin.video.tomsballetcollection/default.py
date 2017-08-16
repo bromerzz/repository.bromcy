@@ -69,6 +69,8 @@ YOUTUBE_CHANNEL_ID_1 = "9rJoB7y6Ncs"
 YOUTUBE_CHANNEL_ID_2 = "xtLoaMfinbU"
 YOUTUBE_CHANNEL_ID_3 = "g6eA4PjWhws"
 YOUTUBE_CHANNEL_ID_4 = "Y6G0WG6YwBo"
+YOUTUBE_CHANNEL_ID_5 = "Oni4iY-b1sg"
+YOUTUBE_CHANNEL_ID_6 = "0qmZaP9hg5M"
 
 
 #----------------------------------------------------------------
@@ -110,19 +112,27 @@ def Main_Menu():
         
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
-        name="Tchaikovsky Swan lake Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        name="Tchaikovsky, Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Tchaikovsky Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        name="Tchaikovsky, Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Tchaikovsky Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        name="Tchaikovsky, Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
         icon="a")  
 
     Add_Dir( 
-        name="Cinderalla - National de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        name="Cinderalla, National de Paris", url=BASE2+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        icon="a")
+
+    Add_Dir( 
+        name="Tchaikovsky, Iolanta", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
+        icon="a")
+
+    Add_Dir( 
+        name="Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
         icon="a")
 
     #Add_Dir( 
