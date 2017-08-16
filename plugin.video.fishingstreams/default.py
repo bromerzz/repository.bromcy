@@ -117,13 +117,13 @@ YOUTUBE_CHANNEL_ID_19 = "PL152bjytsMC5JDSOCLE2mx7bykXARhO4f"
 @route(mode='main_menu')
 def Main_Menu():
 #If debug mode is enabled show the koding tutorials
-    if debug == 'true':
-        Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    else:
-        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", True, '', '', '' )
+    #if debug == 'true':
+        #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
+    #else:
+        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", True, '', '', '' )
     
 #An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    #my_message= "{'title' : 'Thankyou, 'msg' : \"Thankyou to the Anglers out there who spent the time on the water to create these videos of this great sport.\"}" 
+    my_message= "{'Thankyou' : 'Thankyou, 'msg' : \"Thankyou to the Anglers out there who spent the time on the water to create these videos of this great sport.\"}" 
 
 
     Add_Dir( 
