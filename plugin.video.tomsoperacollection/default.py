@@ -73,6 +73,7 @@ YOUTUBE_CHANNEL_ID_3 = "PLIn0resN3fmCohhLwAwVs5KRl-DCb1kB2"
 YOUTUBE_CHANNEL_ID_4 = "PLE1DB862865A96BAE"
 YOUTUBE_CHANNEL_ID_5 = "p2U4Eyd856o"
 YOUTUBE_CHANNEL_ID_6 = "jLGkXg3j49s"
+YOUTUBE_CHANNEL_ID_7 = "Drce8uXvyHg"
 
 
 """
@@ -131,6 +132,10 @@ def Main_Menu():
 
     Add_Dir(
         name="Tosca Arena di Verona",url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',
+        icon="/")
+
+    Add_Dir(
+        name="La Traviata",url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',
         icon="/")
 
 
