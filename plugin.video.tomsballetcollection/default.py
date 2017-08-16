@@ -110,19 +110,19 @@ def Main_Menu():
         
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
-        name="Tchaikovsky Swan lake Kirov Ballet", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
+        name="Tchaikovsky Swan lake Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Tchaikovsky Nutcracker Suite", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
+        name="Tchaikovsky Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Tchaikovsky Sleeping Beauty", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
+        name="Tchaikovsky Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
         icon="a")  
 
     Add_Dir( 
-        name="Cinderalla - National de Paris", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
+        name="Cinderalla - National de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="a")
 
     #Add_Dir( 
