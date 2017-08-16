@@ -123,7 +123,7 @@ def Main_Menu():
         icon="/")
 
     Add_Dir(
-        name="Rossini Ermione Glyndebourne Festival",url=BASE+YOUTUBE_CHANNEL_ID_4+"/",folder=True,
+        name="Glyndebourne Festival plus Others",url=BASE+YOUTUBE_CHANNEL_ID_4+"/",folder=True,
         icon="/")
 
     Add_Dir( 
