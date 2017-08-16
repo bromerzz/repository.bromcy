@@ -133,15 +133,15 @@ def Main_Menu():
         icon="/")
 
     Add_Dir(
-        name="Tosca Arena di Verona",url=BASE4+YOUTUBE_CHANNEL_ID_6+"/",folder=True,
+        name="Tosca Arena di Verona",url=BASE3+YOUTUBE_CHANNEL_ID_6+"/",folder=True,
         icon="/")
 
     Add_Dir(
-        name="Tosca Teatro alla Scala",url=BASE4+YOUTUBE_CHANNEL_ID_7+"/",folder=True,
+        name="Tosca Teatro alla Scala",url=BASE3+YOUTUBE_CHANNEL_ID_7+"/",folder=True,
         icon="/")
 
     Add_Dir(
-        name="La Traviata - Vienna Philharmonic",url=BASE4+YOUTUBE_CHANNEL_ID_8+"/",folder=True,
+        name="La Traviata - Vienna Philharmonic",url=BASE3+YOUTUBE_CHANNEL_ID_8+"/",folder=True,
         icon="/")
 
          #Add_Dir(
