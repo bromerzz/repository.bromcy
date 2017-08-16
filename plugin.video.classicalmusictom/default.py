@@ -62,6 +62,7 @@ addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
 # Set the base plugin url you want to hook into
 BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
+BASE3 = "play/?video_id="
 
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_1 = "PL-IXdkJ4LY4khPG5tLx_1JSb2cfsU9mKq"
@@ -173,11 +174,11 @@ def Main_Menu():
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
-        name="Royal Philharmonic, The Symphonic Beatles", url=BASE2+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
+        name="Royal Philharmonic, The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
         icon="a")
 
     Add_Dir( 
-        name="Royal Philharmonic, Queen", url=BASE2+YOUTUBE_CHANNEL_ID_16+"/", folder=True,
+        name="Royal Philharmonic, Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=True,
         icon="a")
 
     #Add_Dir( 
