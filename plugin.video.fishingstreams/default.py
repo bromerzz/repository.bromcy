@@ -85,7 +85,7 @@ YOUTUBE_CHANNEL_ID_16 = "PL152bjytsMC6KqgV0ZPmtC80paIWBVamO"
 YOUTUBE_CHANNEL_ID_17 = "PL152bjytsMC7hs0a9cA-dbPclJtcnKqQY"
 YOUTUBE_CHANNEL_ID_18 = "PL152bjytsMC67WcR2MUh2uwpAv2CXWOQi"
 YOUTUBE_CHANNEL_ID_19 = "PL152bjytsMC5JDSOCLE2mx7bykXARhO4f"
-
+YOUTUBE_CHANNEL_ID_20 = "UCQUFq9cNM0Zm6boX0dRhuLQ"
 
 
 
@@ -137,6 +137,10 @@ def Main_Menu():
     Add_Dir( 
         name="Sea", url=' ', mode="sea_menu", folder=True,
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
+
+    Add_Dir( 
+        name="Around the World Other Styles and Methods", url=' ', mode="around the world other styles and methods_menu", folder=True,
+        icon="")
 
 
 
@@ -225,6 +229,13 @@ def Sea_Menu():
     Add_Dir( 
         name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+
+@route(mode='around the world other styles and methods_menu')
+def _Menu():
+
+    Add_Dir( 
+        name="Big Bass", url=BASE+YOUTUBE_CHANNEL_ID_20+"/", folder=True,
+        icon="h")    
 
 
 
