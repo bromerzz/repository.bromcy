@@ -237,12 +237,14 @@ def Sea_Menu():
         name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
+    Add_Dir( 
+        name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,
+        icon="h")   
+
+
+
 @route(mode='around the world other styles and methods_menu')
 def _Menu():
-
-    Add_Dir( 
-        name="Big Bass", url=BASE+YOUTUBE_CHANNEL_ID_20+"/", folder=True,
-        icon="h")  
 
     Add_Dir( 
         name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,
@@ -262,11 +264,7 @@ def _Menu():
 
     Add_Dir( 
         name="Catfish Fishing", url=BASE+YOUTUBE_CHANNEL_ID_25+"/", folder=True,
-        icon="h")    
-
-    Add_Dir( 
-        name="Kayak Fishing", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,
-        icon="h")   
+        icon="h")     
 
     Add_Dir( 
         name="Hobie Outdoors Fishing", url=BASE+YOUTUBE_CHANNEL_ID_27+"/", folder=True,
