@@ -86,7 +86,14 @@ YOUTUBE_CHANNEL_ID_17 = "PL152bjytsMC7hs0a9cA-dbPclJtcnKqQY"
 YOUTUBE_CHANNEL_ID_18 = "PL152bjytsMC67WcR2MUh2uwpAv2CXWOQi"
 YOUTUBE_CHANNEL_ID_19 = "PL152bjytsMC5JDSOCLE2mx7bykXARhO4f"
 YOUTUBE_CHANNEL_ID_20 = "UCQUFq9cNM0Zm6boX0dRhuLQ"
-
+YOUTUBE_CHANNEL_ID_21 = "PL152bjytsMC5MRutIMrbBCFcc5EGAre0t"
+YOUTUBE_CHANNEL_ID_22 = "PL152bjytsMC66c6QZETlkRREvsbZhYKdO"
+YOUTUBE_CHANNEL_ID_23 = "PL152bjytsMC7UF5NuryOkRpUMRsoa8rFy"
+YOUTUBE_CHANNEL_ID_24 = "PL152bjytsMC72aLxD2li9Fh57ajyJMXzp"
+YOUTUBE_CHANNEL_ID_25 = "PL152bjytsMC442b8eCTm2SC-EZyNNtJCo"
+YOUTUBE_CHANNEL_ID_26 = "PL152bjytsMC5Wg7vcSqJy6MvH9LQnok7C"
+YOUTUBE_CHANNEL_ID_27 = "PL152bjytsMC5IK0pAmAosCCBczD2RaCm7"
+YOUTUBE_CHANNEL_ID_28 = "PL152bjytsMC6UZhJsq1Erq9gKuxQfix51"
 
 
 
@@ -235,7 +242,40 @@ def _Menu():
 
     Add_Dir( 
         name="Big Bass", url=BASE+YOUTUBE_CHANNEL_ID_20+"/", folder=True,
+        icon="h")  
+
+    Add_Dir( 
+        name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,
+        icon="h")  
+        
+    Add_Dir( 
+        name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,
+        icon="h")  
+        
+    Add_Dir( 
+        name="Spear Fishing", url=BASE+YOUTUBE_CHANNEL_ID_23+"/", folder=True,
+        icon="h")  
+        
+    Add_Dir( 
+        name="Blue Fishing", url=BASE+YOUTUBE_CHANNEL_ID_24+"/", folder=True,
+        icon="h")             
+
+    Add_Dir( 
+        name="Catfish Fishing", url=BASE+YOUTUBE_CHANNEL_ID_25+"/", folder=True,
         icon="h")    
+
+    Add_Dir( 
+        name="Kayak Fishing", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,
+        icon="h")   
+
+    Add_Dir( 
+        name="Hobie Outdoors Fishing", url=BASE+YOUTUBE_CHANNEL_ID_27+"/", folder=True,
+        icon="h")  
+
+    Add_Dir( 
+        name="Jet Ski Fishing", url=BASE+YOUTUBE_CHANNEL_ID_28+"/", folder=True,
+        icon="h")             
+         
 
 
 
