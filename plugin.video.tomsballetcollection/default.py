@@ -104,11 +104,11 @@ def Main_Menu():
         #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    my_message= "{'title' : 'Sorry - having a few link connection problems at present', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
+    #my_message= "{'title' : 'Sorry - having a few link connection problems at present', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
-    Add_Dir(
-        name="Site issues work in progress -read here", url=my_message, mode="simple_dialog", folder=False,
-        icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
+    #Add_Dir(
+        #name="Site issues work in progress -read here", url=my_message, mode="simple_dialog", folder=False,
+        #icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
     Add_Dir( 
