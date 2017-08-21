@@ -71,6 +71,9 @@ YOUTUBE_CHANNEL_ID_3 = "g6eA4PjWhws"
 YOUTUBE_CHANNEL_ID_4 = "Y6G0WG6YwBo"
 YOUTUBE_CHANNEL_ID_5 = "Oni4iY-b1sg"
 YOUTUBE_CHANNEL_ID_6 = "0qmZaP9hg5M"
+YOUTUBE_CHANNEL_ID_7 = "6DbjJJbEamQ"
+YOUTUBE_CHANNEL_ID_8 = "KNkjaoZpOdI"
+YOUTUBE_CHANNEL_ID_9 = "0qmZaP9hg5M"
 
 
 #----------------------------------------------------------------
@@ -134,6 +137,20 @@ def Main_Menu():
     Add_Dir( 
         name="Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
         icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Rumpelstiltskin, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="The Secret Garden, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="A Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False,
+        icon="a", mode='play_yt')
+
+
 
     #Add_Dir( 
         #name="", url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
