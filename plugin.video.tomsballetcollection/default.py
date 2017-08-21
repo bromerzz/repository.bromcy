@@ -73,7 +73,8 @@ YOUTUBE_CHANNEL_ID_5 = "Oni4iY-b1sg"
 YOUTUBE_CHANNEL_ID_6 = "0qmZaP9hg5M"
 YOUTUBE_CHANNEL_ID_7 = "6DbjJJbEamQ"
 YOUTUBE_CHANNEL_ID_8 = "KNkjaoZpOdI"
-YOUTUBE_CHANNEL_ID_9 = "0qmZaP9hg5M"
+YOUTUBE_CHANNEL_ID_9 = "GD8IT91Xy90"
+YOUTUBE_CHANNEL_ID_10 = "b8U8B9AA8YA"
 
 
 #----------------------------------------------------------------
@@ -127,15 +128,15 @@ def Main_Menu():
         icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Cinderalla, National de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False,
-        icon="a", mode='play_yt')
-
-    Add_Dir( 
         name="Tchaikovsky, Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False,
         icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
+        name="Cinderalla, National de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="A Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
         icon="a", mode='play_yt')
 
     Add_Dir( 
@@ -147,8 +148,14 @@ def Main_Menu():
         icon="a", mode='play_yt')
 
     Add_Dir( 
-        name="A Little Princess, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False,
+        name="Snow White, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False,
         icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="The Canterville Ghost, London Childrens Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False,
+        icon="a", mode='play_yt')
+
+
 
 
 
