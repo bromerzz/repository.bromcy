@@ -74,7 +74,7 @@ YOUTUBE_CHANNEL_ID_4 = "PLE1DB862865A96BAE"
 YOUTUBE_CHANNEL_ID_5 = "p2U4Eyd856o"
 YOUTUBE_CHANNEL_ID_6 = "jLGkXg3j49s"
 YOUTUBE_CHANNEL_ID_7 = "Drce8uXvyHg"
-YOUTUBE_CHANNEL_ID_8 = "fmAKntaxACY"
+YOUTUBE_CHANNEL_ID_8 = "fmAKntaxACY&t=85s"
 YOUTUBE_CHANNEL_ID_9 = "PL4D3890AB7A589B44"
 YOUTUBE_CHANNEL_ID_10 = "PLCCD3F9F3A9431965"
 YOUTUBE_CHANNEL_ID_11 = "PL5017B9281C38ED4A"
@@ -151,33 +151,33 @@ def Main_Menu():
         icon="/")
 
     Add_Dir(
-        name="Placido Domingo, Selection",url=BASE+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',
+        name="Placido Domingo, Selection",url=BASE+YOUTUBE_CHANNEL_ID_9, folder=True,
         icon="/")
 
 
 	Add_Dir(
-        name="Bryn Terfel",url=BASE+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',
+        name="Bryn Terfel",url=BASE+YOUTUBE_CHANNEL_ID_10, folder=True,
         icon="/")
 
 	Add_Dir(
-        name="Juan Diego Florez",url=BASE+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',
+        name="Juan Diego Florez",url=BASE+YOUTUBE_CHANNEL_ID_11, folder=True,
         icon="/")
 
 
 	Add_Dir(
-        name="Mezzo Sopranos",url=BASE+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',
+        name="Mezzo Sopranos",url=BASE+YOUTUBE_CHANNEL_ID_12, folder=True,
         icon="/")
 
 	Add_Dir(
-        name="Jose Carrera Zarzuela",url=BASE+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',
+        name="Jose Carrera Zarzuela",url=BASE+YOUTUBE_CHANNEL_ID_13, folder=True,
         icon="/")
 
 	Add_Dir(
-        name="Welsh National Opera, La Boheme",url=BASE+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',
+        name="Welsh National Opera, La Boheme",url=BASE+YOUTUBE_CHANNEL_ID_14, folder=True,
         icon="/")
 
 	Add_Dir(
-        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',
+        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15, folder=True,
         icon="/")
 
     
