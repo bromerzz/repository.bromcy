@@ -178,9 +178,6 @@ def Main_Menu():
         name="La Traviata",url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',
         icon="/")
 
-	Add_Dir(
-        name="Bizet, Carmen with Jonas Kaufman",url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',
-        icon="/")
 
     
 
