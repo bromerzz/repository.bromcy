@@ -146,13 +146,14 @@ def Main_Menu():
         name="La Traviata",url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',
         icon="/")
 
-	#Add_Dir(
-        #name="Bizet, Carmen with Jonas Kaufman",url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',
-        #icon="/")
+	Add_Dir(
+        name="Bizet, Carmen with Jonas Kaufman",url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',
+        icon="/")
 
     Add_Dir(
         name="Placido Domingo, Selection",url=BASE+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',
         icon="/")
+
 
 	Add_Dir(
         name="Bryn Terfel",url=BASE+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',
@@ -161,6 +162,7 @@ def Main_Menu():
 	Add_Dir(
         name="Juan Diego Florez",url=BASE+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',
         icon="/")
+
 
 	Add_Dir(
         name="Mezzo Sopranos",url=BASE+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',
@@ -177,6 +179,7 @@ def Main_Menu():
 	Add_Dir(
         name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',
         icon="/")
+    
 
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
