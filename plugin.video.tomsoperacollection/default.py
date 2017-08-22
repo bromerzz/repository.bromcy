@@ -80,10 +80,8 @@ YOUTUBE_CHANNEL_ID_10 = "PLCCD3F9F3A9431965"
 YOUTUBE_CHANNEL_ID_11 = "PL5017B9281C38ED4A"
 YOUTUBE_CHANNEL_ID_12 = "PL46A47F536529049F"
 YOUTUBE_CHANNEL_ID_13 = "PL3Y5ENAJSPRo5s36cu7QW7Y1b93gw7uie"
-YOUTUBE_CHANNEL_ID_14 = "U6kTos3Kx40"
-YOUTUBE_CHANNEL_ID_15 = "PL494BBD335363B5DE "
-YOUTUBE_CHANNEL_ID_16 = "PL7ShuxblyYmG8XMIaPN9AkSxDIGbDedfg"
-#YOUTUBE_CHANNEL_ID_17 = ""
+YOUTUBE_CHANNEL_ID_14 = "PL494BBD335363B5DE "
+YOUTUBE_CHANNEL_ID_15 = "PL7ShuxblyYmG8XMIaPN9AkSxDIGbDedfg"
 
 
 """
@@ -173,20 +171,12 @@ def Main_Menu():
         icon="/")
 
 	Add_Dir(
-        name="Welsh National Opera, Rigoletto",url=BASE3+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',
+        name="Welsh National Opera, La Boheme",url=BASE+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',
         icon="/")
 
 	Add_Dir(
-        name="Welsh National Opera, La Boheme",url=BASE+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',
+        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',
         icon="/")
-
-	Add_Dir(
-        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',
-        icon="/")
-
-	#Add_Dir(
-        #name="",url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',
-        #icon="/")
 
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
