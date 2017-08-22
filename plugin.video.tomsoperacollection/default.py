@@ -74,7 +74,7 @@ YOUTUBE_CHANNEL_ID_4 = "PLE1DB862865A96BAE"
 YOUTUBE_CHANNEL_ID_5 = "p2U4Eyd856o"
 YOUTUBE_CHANNEL_ID_6 = "jLGkXg3j49s"
 YOUTUBE_CHANNEL_ID_7 = "Drce8uXvyHg"
-YOUTUBE_CHANNEL_ID_8 = "fmAKntaxACY&t=85s"
+YOUTUBE_CHANNEL_ID_8 = "fmAKntaxACY&t"
 YOUTUBE_CHANNEL_ID_9 = "PL4D3890AB7A589B44"
 YOUTUBE_CHANNEL_ID_10 = "PLCCD3F9F3A9431965"
 YOUTUBE_CHANNEL_ID_11 = "PL5017B9281C38ED4A"
@@ -177,6 +177,12 @@ def Main_Menu():
     Add_Dir(
         name="La Traviata",url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',
         icon="/")
+
+    Add_Dir(
+        name="Bizet, Carmen , Jonas Kaufman",url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',
+        icon="/")
+    
+
 
 
     
