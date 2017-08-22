@@ -82,6 +82,12 @@ YOUTUBE_CHANNEL_ID_14 = "PL_qM1lclHDwUPGV9v5tJzTv1X5e8fAJRu"
 YOUTUBE_CHANNEL_ID_15 = "ZeBljzppZsM"
 YOUTUBE_CHANNEL_ID_16 = "4g4UZOedczs"
 YOUTUBE_CHANNEL_ID_17 = "HuoOxF9U0C4"
+YOUTUBE_CHANNEL_ID_18 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr"
+YOUTUBE_CHANNEL_ID_19 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr"
+YOUTUBE_CHANNEL_ID_20 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr&index=5"
+YOUTUBE_CHANNEL_ID_21 = "SQNymNaTr-Y"
+YOUTUBE_CHANNEL_ID_22 = "rOjHhS5MtvA"
+YOUTUBE_CHANNEL_ID_23 = "neDnpgZPPvY"
 #----------------------------------------------------------------
 
 """
@@ -171,9 +177,27 @@ def Main_Menu():
     Add_Dir(
         name="Baroque Music ",url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
         icon="a")
+    
+    Add_Dir(
+        name="Mozart, Clarinet Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Mozart, Serenade for 13 Winds B Flat Major",url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,
+        icon="a")
+
+    Add_Dir(
+        name="Mozart, Bassoon Concerto",url=BASE+YOUTUBE_CHANNEL_ID_20+"/", folder=True,
+        icon="a")
+
+
 
 
         # Add some YT channels (see we're using BASE2 as the url for this one)
+
+
+        # Add some YT channels (see we're using BASE3 as the url for this one)
+
 
     Add_Dir( 
         name="Royal Philharmonic, The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False,
@@ -187,7 +211,20 @@ def Main_Menu():
         name="Royal Philharmonic, Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False,
         icon="a", mode='play_yt')
 
-#----------------------------------------------------------------
+    Add_Dir( 
+        name="Rmsky Korsakov, Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir(
+        name="Beethoven No 9, Chicago Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Mozart, Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False,
+        icon="a", mode='play_yt')
+
+
+        #----------------------------------------------------------------
 # A basic OK Dialog
 @route(mode='koding_settings')
 def Koding_Settings():
