@@ -167,10 +167,6 @@ def Tchaikovsky_Menu():
         icon="a", mode='play_yt')
 
 
-@route(mode='national de paris_menu')
-def National de Paris_Menu():
-
-
     Add_Dir( 
         name="Cinderalla", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False,
         icon="a", mode='play_yt')
