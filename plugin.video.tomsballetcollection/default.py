@@ -150,7 +150,7 @@ def Tchaikovsky_Menu():
 
 
 @route(mode='london childrens ballet_menu')
-def London Childrens Ballet():
+def London Childrens Ballet_Menu():
 
     
 
@@ -177,7 +177,7 @@ def London Childrens Ballet():
 
 
 @route(mode='national de paris_menu') 
-def National de Paris():   
+def National de Paris_Menu():   
 
 
 
