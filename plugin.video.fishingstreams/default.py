@@ -146,8 +146,7 @@ def Main_Menu():
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
 
     Add_Dir( 
-        name="Around the World Other Styles and Methods", url=' ', mode="around the world other styles and methods_menu", folder=True,
-        icon="")
+        name="Around the World Other Styles and Methods", url=' ', mode="around the world other styles and methods_menu", folder=True,)
 
 
 
