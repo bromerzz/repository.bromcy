@@ -128,7 +128,7 @@ def Tchaikovsky_Menu():
 
 
     Add_Dir( 
-        name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt')
+        name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, icon="b", mode='play_yt')
 
     Add_Dir( 
         name="Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt')
