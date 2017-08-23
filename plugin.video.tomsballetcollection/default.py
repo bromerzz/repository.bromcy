@@ -149,7 +149,7 @@ def Tchaikovsky_Menu():
 
 
 @route(mode='london childrens ballet_menu') 
-def London Childrens Ballet():  
+def London Childrens Ballet_Menu():  
 
     Add_Dir( 
         name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
@@ -173,7 +173,7 @@ def London Childrens Ballet():
 
 
 @route(mode='national de paris_menu') 
-def National de Paris():  
+def National de Paris_Menu():  
 
 
     Add_Dir( 
