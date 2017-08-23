@@ -146,6 +146,11 @@ def Tchaikovsky_Menu():
         name="Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False,
         icon="a", mode='play_yt')
 
+
+
+@route(mode='london childrens ballet_menu') 
+def London Childrens Ballet():  
+
     Add_Dir( 
         name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
         icon="a", mode='play_yt')
@@ -165,6 +170,10 @@ def Tchaikovsky_Menu():
     Add_Dir( 
         name="The Canterville Ghost", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False,
         icon="a", mode='play_yt')
+
+
+@route(mode='national de paris_menu') 
+def National de Paris():  
 
 
     Add_Dir( 
