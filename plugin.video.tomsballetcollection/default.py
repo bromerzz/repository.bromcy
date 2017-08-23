@@ -176,8 +176,10 @@ def London Childrens Ballet():
 
 
 
-@route(mode='national de paris_menu')
-def National de Paris_Menu():     
+@route(mode='national de paris_menu') 
+def National de Paris():   
+
+
 
     Add_Dir( 
         name="Cinderalla", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False,
