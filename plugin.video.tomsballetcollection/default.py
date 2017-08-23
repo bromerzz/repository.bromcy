@@ -148,10 +148,8 @@ def Tchaikovsky_Menu():
 
 
 
-
 @route(mode='london childrens ballet_menu')
 def London Childrens Ballet_Menu():
-
     
 
     Add_Dir( 
@@ -175,10 +173,8 @@ def London Childrens Ballet_Menu():
         icon="a", mode='play_yt')
 
 
-
-@route(mode='national de paris_menu') 
-def National de Paris_Menu():   
-
+@route(mode='national de paris_menu')
+def National de Paris_Menu():
 
 
     Add_Dir( 
