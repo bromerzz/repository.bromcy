@@ -145,13 +145,14 @@ def Tchaikovsky_Menu():
     Add_Dir( 
         name="Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False,
         icon="a", mode='play_yt')
-    
+
 
 
 
 @route(mode='london childrens ballet_menu')
-def London Childrens Ballet_Menu():
+def London Childrens Ballet():
 
+    
 
     Add_Dir( 
         name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False,
@@ -185,12 +186,6 @@ def National de Paris_Menu():
 
 
 
-
-
-
-    #Add_Dir( 
-        #name="", url=BASE+YOUTUBE_CHANNEL_ID_+"/", folder=True,
-        #icon="a")
 #----------------------------------------------------------------
 # Open add-on settings
 @route(mode='koding_settings')
