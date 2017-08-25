@@ -113,18 +113,14 @@ def Main_Menu():
     #Add_Dir(
         #name="Site issues work in progress -read here", url=my_message, mode="simple_dialog", folder=False,
         #icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
-    Add_Dir( 
-        name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
+    #Add_Dir( 
+        #name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
 
-    Add_Dir( 
-        name="National de Paris", url=' ', mode="national de paris_menu", folder=True,)
+    #Add_Dir( 
+        #name="National de Paris", url=' ', mode="national de paris_menu", folder=True,)
 
-    Add_Dir( 
-        name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
-
-
-@route(mode='tchaikovsky_menu')
-def Tchaikovsky_Menu():  
+    #Add_Dir( 
+        #name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
 
 
     Add_Dir( 
@@ -139,18 +135,6 @@ def Tchaikovsky_Menu():
     Add_Dir( 
         name="Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt')
 
-
-#@route(mode='national de paris_menu') 
-#def National de Paris_Menu():  
-
-
-    #Add_Dir( 
-        #name="Cinderalla", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt')
-
-
-
-@route(mode='london childrens ballet_menu') 
-def London Childrens Ballet_Menu():  
 
     Add_Dir( 
         name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt')
@@ -174,19 +158,19 @@ def London Childrens Ballet_Menu():
 
 #----------------------------------------------------------------
 # Open add-on settings
-    @route(mode='koding_settings')
-    def Koding_Settings():
-        Open_Settings()
+@route(mode='koding_settings')
+def Koding_Settings():
+    Open_Settings()
 #----------------------------------------------------------------
 # A basic OK Dialog
-    @route(mode='simple_dialog', args=['title','msg'])
-    def Simple_Dialog(title,msg):
-        OK_Dialog(title, msg)
+@route(mode='simple_dialog', args=['title','msg'])
+def Simple_Dialog(title,msg):
+    OK_Dialog(title, msg)
 #----------------------------------------------------------------
 # Play a youtube video
-    @route(mode='play_yt', args=['url'])
-    def Play_YT(url):
-        xbmc.Player().play('plugin://plugin.video.youtube/'+url)
+@route(mode='play_yt', args=['url'])
+def Play_YT(url):
+    xbmc.Player().play('plugin://plugin.video.youtube/'+url)
 #----------------------------------------------------------------
 """
     SECTION 6:
