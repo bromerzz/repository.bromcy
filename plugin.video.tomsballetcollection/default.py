@@ -113,8 +113,8 @@ def Main_Menu():
     #Add_Dir(
         #name="Site issues work in progress -read here", url=my_message, mode="simple_dialog", folder=False,
         #icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
-    #Add_Dir( 
-        #name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
+    Add_Dir( 
+        name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
 
     #Add_Dir( 
         #name="National de Paris", url=' ', mode="national de paris_menu", folder=True,)
@@ -122,7 +122,9 @@ def Main_Menu():
     #Add_Dir( 
         #name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
 
-
+@route(mode='tchaikovsky_menu')
+def Tchaikovsky_menu:
+	
     Add_Dir( 
         name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, icon="b", mode='play_yt')
 
