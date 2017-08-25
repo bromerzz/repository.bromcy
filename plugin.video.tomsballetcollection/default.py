@@ -174,19 +174,19 @@ def London Childrens Ballet_Menu():
 
 #----------------------------------------------------------------
 # Open add-on settings
-@route(mode='koding_settings')
-def Koding_Settings():
-    Open_Settings()
+    @route(mode='koding_settings')
+    def Koding_Settings():
+        Open_Settings()
 #----------------------------------------------------------------
 # A basic OK Dialog
-@route(mode='simple_dialog', args=['title','msg'])
-def Simple_Dialog(title,msg):
-    OK_Dialog(title, msg)
+    @route(mode='simple_dialog', args=['title','msg'])
+    def Simple_Dialog(title,msg):
+        OK_Dialog(title, msg)
 #----------------------------------------------------------------
 # Play a youtube video
-@route(mode='play_yt', args=['url'])
-def Play_YT(url):
-    xbmc.Player().play('plugin://plugin.video.youtube/'+url)
+    @route(mode='play_yt', args=['url'])
+    def Play_YT(url):
+        xbmc.Player().play('plugin://plugin.video.youtube/'+url)
 #----------------------------------------------------------------
 """
     SECTION 6:
