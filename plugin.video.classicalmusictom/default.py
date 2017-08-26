@@ -100,9 +100,9 @@ YOUTUBE_CHANNEL_ID_32 = "ETXPKHPPov8"
 YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
 YOUTUBE_CHANNEL_ID_34 = "dV1zTM2P_LE"
 YOUTUBE_CHANNEL_ID_35 = "rOjHhS5MtvA&t=147s"
-YOUTUBE_CHANNEL_ID_35 = "nFFxFhf2aS8"
-YOUTUBE_CHANNEL_ID_36 = "nzB1_2G_QX0"
-YOUTUBE_CHANNEL_ID_37 = "5uiVoZTBN0"
+YOUTUBE_CHANNEL_ID_36 = "nFFxFhf2aS8"
+YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
+YOUTUBE_CHANNEL_ID_38 = "5uiVoZTBN0"
 """
     SECTION 5:
     Add our custom functions in here, it's VERY important these go in this section
@@ -293,7 +293,7 @@ def Main_Menu():
         icon="a", mode='play_yt')   
 
     Add_Dir( 
-        name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False,
+        name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38, folder=False,
         icon="a", mode='play_yt')                           
 
         #----------------------------------------------------------------
