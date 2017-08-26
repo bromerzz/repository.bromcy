@@ -88,8 +88,21 @@ YOUTUBE_CHANNEL_ID_20 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr&index=5"
 YOUTUBE_CHANNEL_ID_21 = "SQNymNaTr-Y"
 YOUTUBE_CHANNEL_ID_22 = "rOjHhS5MtvA"
 YOUTUBE_CHANNEL_ID_23 = "neDnpgZPPvY"
-#----------------------------------------------------------------
-
+YOUTUBE_CHANNEL_ID_24 = "EQH0C5yB6JI"
+YOUTUBE_CHANNEL_ID_25 = "s68W8KDp5eM"
+YOUTUBE_CHANNEL_ID_26 = "RDs68W8KDp5eM"
+YOUTUBE_CHANNEL_ID_27 = "RDs68W8KDp5eM&index=13"
+YOUTUBE_CHANNEL_ID_28 = "m18gDXZP9Hk"
+YOUTUBE_CHANNEL_ID_29 = "m18gDXZP9Hk"
+YOUTUBE_CHANNEL_ID_30 = "neDnpgZPPvY"
+YOUTUBE_CHANNEL_ID_31 = "fNU-XAZjhzA"
+YOUTUBE_CHANNEL_ID_32 = "ETXPKHPPov8"
+YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
+YOUTUBE_CHANNEL_ID_34 = "dV1zTM2P_LE"
+YOUTUBE_CHANNEL_ID_35 = "rOjHhS5MtvA&t=147s"
+YOUTUBE_CHANNEL_ID_35 = "nFFxFhf2aS8"
+YOUTUBE_CHANNEL_ID_36 = "nzB1_2G_QX0"
+YOUTUBE_CHANNEL_ID_37 = "5uiVoZTBN0"
 """
     SECTION 5:
     Add our custom functions in here, it's VERY important these go in this section
@@ -223,6 +236,65 @@ def Main_Menu():
         name="Mozart, Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False,
         icon="a", mode='play_yt')
 
+    Add_Dir( 
+        name="Strauss, Horn Certo No1, Okayama Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False,
+        icon="a", mode='play_yt')
+    
+    Add_Dir( 
+        name="Strauss, French Horn No 1, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_25, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Horn Lesson, Berlin Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_26, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Mozart, Horn Concerto No 2", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Strauss, Concerto No 1, French Horn, Monila Nemcova", url=BASE3+YOUTUBE_CHANNEL_ID_28, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Carmina Burana, BBC Proms 1994", url=BASE3+YOUTUBE_CHANNEL_ID_29, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Mozart, Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_30, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Mozart Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Mozart Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Brahms and Sibelius, Double Concerto for Violin and Viola", url=BASE3+YOUTUBE_CHANNEL_ID_33, folder=False,
+        icon="a", mode='play_yt')   
+
+    Add_Dir( 
+        name="Beethoven, Symphony No 8, BBC Proms 2012", url=BASE3+YOUTUBE_CHANNEL_ID_34, folder=False,
+        icon="a", mode='play_yt')
+
+    Add_Dir( 
+        name="Beethoven, Symphony No 9, Chicago Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_35, folder=False,
+        icon="a", mode='play_yt')
+
+     Add_Dir( 
+        name="Birtwistles Deep Time and Elgar 2nd Symphony, BBC Proms 2017", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False,
+        icon="a", mode='play_yt')
+        
+    Add_Dir( 
+        name="Beethoven, The 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False,
+        icon="a", mode='play_yt')   
+
+    Add_Dir( 
+        name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False,
+        icon="a", mode='play_yt')                           
 
         #----------------------------------------------------------------
 # A basic OK Dialog
