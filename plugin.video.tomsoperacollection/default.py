@@ -117,6 +117,17 @@ def Main_Menu():
     #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
 # Add some YT Playlists (see we're using BASE as the url)
+
+    Add_Dir( 
+        name="English National Opera", url=' ', mode="english national opera_menu", folder=True,
+        icon="h")
+
+    Add_Dir( 
+        name="Welsh National Opera", url=' ', mode="coarse_menu", folder=True,
+        icon="h")
+
+
+
 @route(mode='english national opera_menu')
 def English National Opera_Menu():
 
