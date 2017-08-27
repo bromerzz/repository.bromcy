@@ -289,8 +289,7 @@ def Around The World Other Methods_Menu():
         icon="h")  
 
     Add_Dir( 
-        name="Jet Ski Fishing", url=BASE+YOUTUBE_CHANNEL_ID_28+"/", folder=True,
-        icon="h") 
+        name="Jet Ski Fishing", url=BASE+YOUTUBE_CHANNEL_ID_28+"/", folder=True,)
 
 
          
