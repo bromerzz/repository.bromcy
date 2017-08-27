@@ -136,6 +136,47 @@ def Main_Menu():
     #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
         # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
 
+
+    Add_Dir( 
+        name="Wagner", url=' ', mode="wagner_menu", folder=True,)
+
+    Add_Dir( 
+        name="Schubert", url=' ', mode="schubert_menu", folder=True,)
+
+    Add_Dir( 
+        name="Strauss", url=' ', mode="strauss_menu", folder=True,)
+
+    Add_Dir( 
+        name="Elgar", url=' ', mode="elgar_menu", folder=True,)
+
+    Add_Dir( 
+        name="Brahms", url=' ', mode="brahms_menu", folder=True,)
+
+    Add_Dir( 
+        name="Bach", url=' ', mode="bach_menu", folder=True,)
+
+    Add_Dir( 
+        name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
+
+    Add_Dir( 
+        name="Beethoven", url=' ', mode="beethoven_menu", folder=True,)
+
+    Add_Dir( 
+        name="Mozart", url=' ', mode="mozart_menu", folder=True,)
+
+    Add_Dir( 
+        name="BBC Proms", url=' ', mode="bbc proms_menu", folder=True,)
+
+    Add_Dir( 
+        name="Royal Philharmonic", url=' ', mode="royal philharmonic_menu", folder=True,)
+
+    Add_Dir( 
+        name="Compilations", url=' ', mode="compilations_menu", folder=True,)
+
+
+
+
+
 @route(mode='wagner_menu')
 def Wagner_Menu():
 
@@ -276,7 +317,7 @@ def Mozart_Menu():
 
 
 
-@route(mode='BBC proms_menu')
+@route(mode='BBC Proms_menu')
 def BBC Proms_Menu():
 
     Add_Dir( 
