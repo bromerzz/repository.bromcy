@@ -141,10 +141,7 @@ def Main_Menu():
 
     Add_Dir(name="Sea", url=' ', mode="sea_menu", folder=True,)
 
-    #Add_Dir(name="Other Styles", url=' ', mode="other styles_menu", folder=True,)
-
-
-
+    Add_Dir(name="Other Styles", url=' ', mode="other styles_menu", folder=True,)
 
 
 
@@ -230,17 +227,14 @@ def Sea_Menu():
         name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,)   
 
 
+
+@route(mode='other styles_menu')
+def Other Styles_Menu():
+
+
+
     Add_Dir( 
         name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
-        
-
-        
-
-
-
-
-#@route(mode='other styles_menu')
-#def Other Styles_Menu():   
 
     Add_Dir( 
         name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
