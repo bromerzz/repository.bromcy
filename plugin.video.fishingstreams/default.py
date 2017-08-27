@@ -64,6 +64,8 @@ from koding import Open_Settings, Play_Video, Run, Text_File
 # Set the base plugin url you want to hook into
 BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
+BASE3 = "play/?video_id="
+
 
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_9 = "UCVswrIIzaKCZbENg3n-_ZEg"
@@ -279,14 +281,19 @@ def _Menu():
 
 #------------------------------------------------------------
 # A basic OK Dialog
-    @route(mode='koding_settings')
-    def Koding_settings():
-        Open_Settings()
+@route(mode='koding_settings')
+def Koding_settings():
+    Open_Settings()
 #---------------------------------------------------------
 # A basic OK Dialog
-    @route(mode='simple_dialog', args=['title','msg'])
-    def Simple_Dialog(title,msg):
-       OK-Dialog(title, msg)
+@route(mode='simple_dialog', args=['title','msg'])
+def Simple_Dialog(title,msg):
+   OK-Dialog(title, msg)
+#---------------------------------------------------------
+# Play a youtube video
+@route(mode='play_yt', args=['url'])
+def Play_YT(url):
+    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
 
 #----------------------------------------------------------------
 
