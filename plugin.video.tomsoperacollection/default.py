@@ -105,6 +105,10 @@ YOUTUBE_CHANNEL_ID_15 = "PL7ShuxblyYmG8XMIaPN9AkSxDIGbDedfg"
 # This is the main menu we open into
 
 
+
+
+
+
 @route(mode='main_menu')
 def Main_Menu():
 # If debug mode is enabled show the koding tutorials
@@ -118,13 +122,24 @@ def Main_Menu():
 
 # Add some YT Playlists (see we're using BASE as the url)
 
+
     Add_Dir( 
         name="English National Opera", url=' ', mode="english national opera_menu", folder=True,
         icon="h")
 
     Add_Dir( 
-        name="Welsh National Opera", url=' ', mode="coarse_menu", folder=True,
+        name="Welsh National Opera", url=' ', mode="welsh national opera_menu", folder=True,
         icon="h")
+
+    Add_Dir( 
+        name="Puccini", url=' ', mode="puccini_menu", folder=True,
+        icon="h")
+
+    Add_Dir( 
+        name="Tosca", url=' ', mode="tosca_menu", folder=True,
+        icon="h")
+   
+
 
 
 
@@ -134,6 +149,10 @@ def English National Opera_Menu():
     Add_Dir(
         name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15+"/",folder=True,
         icon="/")
+
+
+@route(mode='puccini_menu')
+def puccini_Menu():    
 
     Add_Dir(
         name="Puccini",url=BASE+YOUTUBE_CHANNEL_ID_1+"/",folder=True,
@@ -182,6 +201,9 @@ def Welsh National Opera_Menu():
             # Add some YT channels (see we're using BASE2 as the url for this one)
 
             # Add some YT channels (see we're using BASE3 as the url for this one)
+
+@route(mode='tosca_menu')
+def tosca_Menu(): 
 
     Add_Dir( 
         name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',
