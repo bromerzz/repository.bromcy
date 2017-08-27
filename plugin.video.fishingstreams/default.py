@@ -132,20 +132,20 @@ def Main_Menu():
         #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", True, '', '', '' )
     
 #An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    my_message= "{'Thankyou' : 'Thankyou, 'msg' : \"Thankyou to the Anglers out there who spent the time on the water to create these videos of this great sport.\"}" 
+    #my_message= "{'Thankyou' : 'Thankyou, 'msg' : \"Thankyou to the Anglers out there who spent the time on the water to create these videos of this great sport.\"}" 
 
 
     Add_Dir( 
         name="Coarse", url=' ', mode="coarse_menu", folder=True,
-        icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
+        icon="h")
 
     Add_Dir( 
         name="Game", url=' ', mode="game_menu", folder=True,
-        icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
+        icon="h")
 
     Add_Dir( 
         name="Sea", url=' ', mode="sea_menu", folder=True,
-        icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
+        icon="h")
 
     Add_Dir( 
         name="Around the World Other Styles and Methods", url=' ', mode="around the world other styles and methods_menu", folder=True,)
