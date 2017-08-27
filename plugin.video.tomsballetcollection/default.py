@@ -111,7 +111,7 @@ def Main_Menu():
         icon="h")
 
     Add_Dir( 
-        name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,
+        name="London Childrens", url=' ', mode="london childrens_menu", folder=True,
         icon="h")
 
 
@@ -140,8 +140,8 @@ def Tchaikovsky_Menu():
 
 
 
-@route(mode='london childrens ballet_menu')
-def London Childrens Ballet_Menu():
+@route(mode='london childrens_menu')
+def London Childrens_Menu():
 
 
     Add_Dir( 
