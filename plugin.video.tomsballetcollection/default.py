@@ -100,37 +100,26 @@ YOUTUBE_CHANNEL_ID_9 = "GD8IT91Xy90"
 # This is the main menu we open into
 @route(mode='main_menu')
 def Main_Menu():
-
-
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
-
     Add_Dir(name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
 
 
 
 @route(mode='tchaikovsky_menu')
 def Tchaikovsky_Menu():
-    Add_Dir(name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
-
-    Add_Dir(name="Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
-
-    Add_Dir(name="Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
-
-    Add_Dir(name="Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
+    Add_Dir(name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
 
 
 
 @route(mode='london childrens ballet_menu')
 def London Childrens Ballet_Menu():
-    Add_Dir(name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
-
-    Add_Dir(name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
-
-    Add_Dir(name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
-
-    Add_Dir(name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',)
-
-
+    Add_Dir(name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9+"/", folder=False, mode='play_yt',)
 
 
 #----------------------------------------------------------------
