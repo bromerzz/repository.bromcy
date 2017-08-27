@@ -57,8 +57,8 @@ from koding import Open_Settings, Play_Video, Run, Text_File
     of a global variable from inside a function the value will revert back to the
     value set here once that function has completed.
 """
-debug        = Addon_Setting(setting='debug')       # Grab the setting of our debug mode in add-on settings
-addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
+#debug        = Addon_Setting(setting='debug')       # Grab the setting of our debug mode in add-on settings
+#addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
 
 # Set the base plugin url you want to hook into
 BASE  = "plugin://plugin.video.youtube/playlist/"
@@ -147,63 +147,67 @@ def Main_Menu():
 def English National Opera_Menu():
 
     Add_Dir(
-        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15+"/",folder=True,
+        name="English National Opera, Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
         icon="/")
+
+
+
 
 
 @route(mode='puccini_menu')
-def puccini_Menu():    
+def Puccini_Menu():    
 
     Add_Dir(
-        name="Puccini",url=BASE+YOUTUBE_CHANNEL_ID_1+"/",folder=True,
+        name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Classical Opera extracts",url=BASE+YOUTUBE_CHANNEL_ID_2+"/",folder=True,
+        name="Classical Opera extracts", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Richard Wagner",url=BASE+YOUTUBE_CHANNEL_ID_3+"/",folder=True,
+        name="Richard Wagner", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Glyndebourne Festival plus Others",url=BASE+YOUTUBE_CHANNEL_ID_4+"/",folder=True,
+        name="Glyndebourne Festival plus Others", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Placido Domingo, Selection",url=BASE+YOUTUBE_CHANNEL_ID_9+"/",folder=True,
+        name="Placido Domingo, Selection", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Bryn Terfel",url=BASE+YOUTUBE_CHANNEL_ID_10+"/",folder=True,
+        name="Bryn Terfel", url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Juan Diego Florez",url=BASE+YOUTUBE_CHANNEL_ID_11+"/",folder=True,
+        name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Mezzo Sporanos",url=BASE+YOUTUBE_CHANNEL_ID_12+"/",folder=True,
+        name="Mezzo Sporanos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
         icon="/")
 
     Add_Dir(
-        name="Jose Carrera Zarzuela",url=BASE+YOUTUBE_CHANNEL_ID_13+"/",folder=True,
+        name="Jose Carrera Zarzuela", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
         icon="/")
+
+
+
 
 @route(mode='welsh national opera_menu')
 def Welsh National Opera_Menu():    
 
     Add_Dir(
-        name="Welsh National Opera, La Boheme",url=BASE+YOUTUBE_CHANNEL_ID_14+"/",folder=True,
+        name="Welsh National Opera, La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
         icon="/")
 
 
-            # Add some YT channels (see we're using BASE2 as the url for this one)
 
-            # Add some YT channels (see we're using BASE3 as the url for this one)
 
 @route(mode='tosca_menu')
-def tosca_Menu(): 
+def Tosca_Menu(): 
 
     Add_Dir( 
         name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',
