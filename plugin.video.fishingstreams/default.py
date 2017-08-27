@@ -240,8 +240,8 @@ def Around The World Other Methods_Menu():
 
 
 
-    Add_Dir( 
-        name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
+    #Add_Dir( 
+        #name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
         
     Add_Dir( 
         name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
