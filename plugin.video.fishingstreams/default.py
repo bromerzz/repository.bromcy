@@ -135,14 +135,11 @@ def Main_Menu():
     #my_message= "{'Thankyou' : 'Thankyou, 'msg' : \"Thankyou to the Anglers out there who spent the time on the water to create these videos of this great sport.\"}" 
 
 
-    Add_Dir( 
-        name="Coarse", url=' ', mode="coarse_menu", folder=True,)
+    Add_Dir(name="Coarse", url=' ', mode="coarse_menu", folder=True,)
 
-    Add_Dir( 
-        name="Game", url=' ', mode="game_menu", folder=True,)
+    Add_Dir(name="Game", url=' ', mode="game_menu", folder=True,)
 
-    Add_Dir( 
-        name="Sea", url=' ', mode="sea_menu", folder=True,)
+    Add_Dir(name="Sea", url=' ', mode="sea_menu", folder=True,)
 
     #Add_Dir( 
         #name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,)

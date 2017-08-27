@@ -56,8 +56,8 @@ from koding import Open_Settings, Play_Video, Run, Text_File
     of a global variable from inside a function the value will revert back to the
     value set here once that function has completed.
 """
-debug        = Addon_Setting(setting='debug')       # Grab the setting of our debug mode in add-on settings
-addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
+#debug        = Addon_Setting(setting='debug')       # Grab the setting of our debug mode in add-on settings
+#addon_id     = xbmcaddon.Addon().getAddonInfo('id') # Grab our add-on id
 
 # Set the base plugin url you want to hook into
 BASE  = "plugin://plugin.video.youtube/playlist/"
@@ -122,18 +122,13 @@ def Tchaikovsky_Menu():
 
 @route(mode='london childrens ballet_menu')
 def London Childrens Ballet_Menu():
-    Add_Dir( 
-        name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
+    Add_Dir(name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
 
-    Add_Dir( 
-        name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
+    Add_Dir(name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
 
-    Add_Dir( 
-        name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
+    Add_Dir(name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
 
-    Add_Dir( 
-        name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',)
-
+    Add_Dir(name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',)
 
 
 
