@@ -64,6 +64,8 @@ BASE  = "plugin://plugin.video.youtube/playlist/"
 BASE2 = "plugin://plugin.video.youtube/channel/"
 BASE3 = "play/?video_id="
 
+
+
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_1 = "9rJoB7y6Ncs"
 YOUTUBE_CHANNEL_ID_2 = "xtLoaMfinbU"
@@ -142,8 +144,8 @@ def London Childrens Ballet_Menu():
     Add_Dir( 
         name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt')
 
-    Add_Dir( 
-        name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt')
+    #Add_Dir( 
+        #name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt')
 
     Add_Dir( 
         name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt')
