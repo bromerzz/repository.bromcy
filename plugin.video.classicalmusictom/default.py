@@ -126,6 +126,7 @@ YOUTUBE_CHANNEL_ID_38 = "5uiVoZTBN0"
 # This is the main menu we open into
 @route(mode='main_menu')
 def Main_Menu():
+    
     Add_Dir(name="Wagner", url=' ', mode="wagner_menu", folder=True,)
     Add_Dir(name="Schubert", url=' ', mode="schubert_menu", folder=True,)
     Add_Dir(name="Strauss", url=' ', mode="strauss_menu", folder=True,)
@@ -236,9 +237,15 @@ def Simple_Dialog(title,msg):
     OK_Dialog(title, msg)
 #----------------------------------------------------------------
 # Play a youtube video
+#@route(mode='play_yt', args=['url'])
+#def Play_YT(url):
+    #xbmc.Player().play('plugin://plugin.video.youtube/'+url)
+
+# Play a youtube video
 @route(mode='play_yt', args=['url'])
 def Play_YT(url):
-    xbmc.Player().play('plugin://plugin.video.youtube/'+url)
+    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
+
     """
     SECTION 6:
     Essential if creating list items, this tells kodi we're done creating our list items.
