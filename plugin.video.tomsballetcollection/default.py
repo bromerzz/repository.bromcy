@@ -73,7 +73,10 @@ YOUTUBE_CHANNEL_ID_6 = "0qmZaP9hg5M"
 YOUTUBE_CHANNEL_ID_7 = "6DbjJJbEamQ"
 YOUTUBE_CHANNEL_ID_8 = "KNkjaoZpOdI"
 YOUTUBE_CHANNEL_ID_9 = "GD8IT91Xy90"
-YOUTUBE_CHANNEL_ID_10 = "b8U8B9AA8YA"
+
+
+
+
 
 
 #----------------------------------------------------------------
@@ -144,10 +147,6 @@ def London Childrens Ballet_Menu():
 
     Add_Dir( 
         name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt')
-
-    Add_Dir( 
-        name="The Canterville Ghost", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt')
-
 
 
 
