@@ -148,7 +148,7 @@ def Main_Menu():
         icon="h")
 
     Add_Dir( 
-        name="Around the World Other Styles and Methods", url=' ', mode="around the world other styles and methods_menu", folder=True,)
+        name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,)
 
 
 
@@ -244,8 +244,8 @@ def Sea_Menu():
 
 
 
-@route(mode='around the world other styles and methods_menu')
-def _Menu():
+@route(mode='around the world other methods_menu')
+def Around The World Other Methods_Menu():
 
     Add_Dir( 
         name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,
