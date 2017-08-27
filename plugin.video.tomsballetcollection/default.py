@@ -77,10 +77,6 @@ YOUTUBE_CHANNEL_ID_8 = "KNkjaoZpOdI"
 YOUTUBE_CHANNEL_ID_9 = "GD8IT91Xy90"
 
 
-
-
-
-
 #----------------------------------------------------------------
 
 """
@@ -110,7 +106,7 @@ def Main_Menu():
         name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
 
     Add_Dir( 
-        name="London Childrens", url=' ', mode="london childrens_menu", folder=True,)
+        name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
 
 
 
@@ -119,7 +115,7 @@ def Tchaikovsky_Menu():
 
 
     Add_Dir( 
-        name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, icon="b", mode='play_yt',)
+        name="Swan Lake, Kirov Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
 
     Add_Dir( 
         name="Nutcracker Suite", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
@@ -132,10 +128,9 @@ def Tchaikovsky_Menu():
 
 
 
+@route(mode='london childrens ballet_menu')
+def London Childrens Ballet_Menu():
 
-
-@route(mode='london childrens_menu')
-def London Childrens_Menu():
 
 
     Add_Dir( 
