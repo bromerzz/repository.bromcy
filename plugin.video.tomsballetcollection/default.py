@@ -110,9 +110,9 @@ def Main_Menu():
         name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,
         icon="h")
 
-    Add_Dir( 
-        name="London Childrens", url=' ', mode="london childrens_menu", folder=True,
-        icon="h")
+    #Add_Dir( 
+        #name="London Childrens", url=' ', mode="london childrens_menu", folder=True,
+        #icon="h")
 
 
 
@@ -140,25 +140,25 @@ def Tchaikovsky_Menu():
 
 
 
-@route(mode='london childrens_menu')
-def London Childrens_Menu():
+#@route(mode='london childrens_menu')
+#def London Childrens_Menu():
 
 
-    Add_Dir( 
-        name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',
-        icon="h")
+    #Add_Dir( 
+        #name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',
+        #icon="h")
 
-    Add_Dir( 
-        name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',
-        icon="h")
+    #Add_Dir( 
+        #name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',
+        #icon="h")
 
-    Add_Dir( 
-        name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',
-        icon='h')
+    #Add_Dir( 
+        #name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',
+        #icon='h')
 
-    Add_Dir( 
-        name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',
-        icon="h")
+    #Add_Dir( 
+        #name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',
+        #icon="h")
 
 
 
