@@ -141,8 +141,7 @@ def Main_Menu():
 
     Add_Dir(name="Sea", url=' ', mode="sea_menu", folder=True,)
 
-    #Add_Dir( 
-        #name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,)
+    Add_Dir(name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,)
 
 
 
@@ -232,8 +231,8 @@ def Sea_Menu():
 
 
 
-#@route(mode='around the world other methods_menu')
-#def Around The World Other Methods_Menu():
+@route(mode='around the world other methods_menu')
+def Around The World Other Methods_Menu():
 
 
 
