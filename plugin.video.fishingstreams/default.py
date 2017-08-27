@@ -141,7 +141,7 @@ def Main_Menu():
 
     Add_Dir(name="Sea", url=' ', mode="sea_menu", folder=True,)
 
-    Add_Dir(name="Other Styles", url=' ', mode="other styles_menu", folder=True,)
+    #Add_Dir(name="Other Styles", url=' ', mode="other styles_menu", folder=True,)
 
 
 
@@ -239,8 +239,8 @@ def Sea_Menu():
 
 
 
-@route(mode='other styles_menu')
-def Other Styles_Menu():   
+#@route(mode='other styles_menu')
+#def Other Styles_Menu():   
 
     Add_Dir( 
         name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
