@@ -68,7 +68,6 @@ BASE3 = "play/?video_id="
 YOUTUBE_CHANNEL_ID_1 = "9rJoB7y6Ncs"
 YOUTUBE_CHANNEL_ID_2 = "xtLoaMfinbU"
 YOUTUBE_CHANNEL_ID_3 = "g6eA4PjWhws"
-YOUTUBE_CHANNEL_ID_4 = "Y6G0WG6YwBo"
 YOUTUBE_CHANNEL_ID_5 = "Oni4iY-b1sg"
 YOUTUBE_CHANNEL_ID_6 = "0qmZaP9hg5M"
 YOUTUBE_CHANNEL_ID_7 = "6DbjJJbEamQ"
@@ -101,23 +100,9 @@ YOUTUBE_CHANNEL_ID_10 = "b8U8B9AA8YA"
 @route(mode='main_menu')
 def Main_Menu():
 
-# If debug mode is enabled show the koding tutorials
-    #if debug == 'true':
-    #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    #else:
-        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
-    
-# An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    #my_message= "{'title' : 'Sorry - having a few link connection problems at present', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
-    #Add_Dir(
-        #name="Site issues work in progress -read here", url=my_message, mode="simple_dialog", folder=False,
-        #icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
     Add_Dir( 
         name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
-
-    #Add_Dir( 
-        #name="National de Paris", url=' ', mode="national de paris_menu", folder=True,)
 
     Add_Dir( 
         name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
@@ -177,7 +162,7 @@ def Koding_Settings():
 # A basic OK Dialog
 @route(mode='simple_dialog', args=['title','msg'])
 def Simple_Dialog(title,msg):
-    OK_Dialog(title, msg)
+    OK-Dialog(title, msg)
 #----------------------------------------------------------------
 # Play a youtube video
 @route(mode='play_yt', args=['url'])
