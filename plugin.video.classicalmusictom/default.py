@@ -94,12 +94,12 @@ YOUTUBE_CHANNEL_ID_26 = "RDs68W8KDp5eM"
 YOUTUBE_CHANNEL_ID_27 = "RDs68W8KDp5eM&index=13"
 YOUTUBE_CHANNEL_ID_28 = "m18gDXZP9Hk"
 YOUTUBE_CHANNEL_ID_29 = "m18gDXZP9Hk"
-YOUTUBE_CHANNEL_ID_30 = "neDnpgZPPvY"
+#YOUTUBE_CHANNEL_ID_30 = ""
 YOUTUBE_CHANNEL_ID_31 = "fNU-XAZjhzA"
 YOUTUBE_CHANNEL_ID_32 = "ETXPKHPPov8"
 YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
 YOUTUBE_CHANNEL_ID_34 = "dV1zTM2P_LE"
-YOUTUBE_CHANNEL_ID_35 = "rOjHhS5MtvA&t=147s"
+#YOUTUBE_CHANNEL_ID_35 = ""
 YOUTUBE_CHANNEL_ID_36 = "nFFxFhf2aS8"
 YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
 YOUTUBE_CHANNEL_ID_38 = "5uiVoZTBN0"
@@ -230,7 +230,6 @@ def Bach_Menu():
         name="Bach and Debussy",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
 
 
-
 @route(mode='tchaikovsky_menu')
 def Tchaikovsky_Menu():
 
@@ -238,50 +237,43 @@ def Tchaikovsky_Menu():
         name="Tchaikovsky Symphonies 1 to 5",url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
 
 
-
 @route(mode='beethoven_menu')
 def Beethoven_ Menu'):
 
-    Add_Dir( 
-        name="Beethoven, Symphony No 9, Chicago Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_35, folder=False, mode='play_yt')
 
     Add_Dir( 
-        name="Beethoven, The 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt')   
+        name=" All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt')   
 
     Add_Dir(
-        name="Beethoven No 9, Chicago Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt')
+        name="Symphony No 9, Chicago Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt')
 
-
-
-
+    Add_Dir( 
+        name="Symphony No 8", "BBC Proms", url=BASE3+YOUTUBE_CHANNEL_ID_34, folder=False, mode='play_yt')
 
 
 
 @route(mode='mozart_menu')
 def Mozart_Menu():
     Add_Dir( 
-        name="Mozart, Horn Concerto No 2", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt')
+        name="Horn Concerto No 2", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt')
 
     Add_Dir( 
-        name="Mozart, Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt')
+        name="Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt')
 
     Add_Dir( 
-        name="Mozart Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt')
-
-    Add_Dir( 
-        name="Mozart, Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_30, folder=False, mode='play_yt')
+        name="Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt')
 
     Add_Dir(
-        name="Mozart, Clarinet Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
+        name="Clarinet Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
 
     Add_Dir(
-        name="Mozart, Serenade for 13 Winds B Flat Major",url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,)
+        name="Serenade for 13 Winds B Flat Major",url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,)
 
     Add_Dir(
-        name="Mozart, Bassoon Concerto",url=BASE+YOUTUBE_CHANNEL_ID_20+"/", folder=True,)
+        name="Bassoon Concerto",url=BASE+YOUTUBE_CHANNEL_ID_20+"/", folder=True,)
 
     Add_Dir( 
-        name="Mozart Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt')
+        name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt')
 
 
 
@@ -289,8 +281,6 @@ def Mozart_Menu():
 @route(mode='BBC Proms_menu')
 def BBC Proms_Menu():
 
-    Add_Dir( 
-        name="Beethoven, Symphony No 8", url=BASE3+YOUTUBE_CHANNEL_ID_34, folder=False, mode='play_yt')
 
     Add_Dir( 
         name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38, folder=False, mode='play_yt') 
@@ -323,7 +313,7 @@ def Royal Philharmonic_Menu():
 def Compilations_Menu():
 
     Add_Dir(
-        name=" Variety of Composers", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
+        name="Various", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
 
     Add_Dir(
         name="Nielsen Symphonies",url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)
