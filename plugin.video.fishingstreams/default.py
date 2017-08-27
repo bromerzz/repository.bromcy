@@ -148,7 +148,11 @@ def Main_Menu():
         icon="h")
 
     Add_Dir( 
-        name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,)
+        name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,
+        icon="h")
+
+
+
 
 
 
@@ -218,6 +222,9 @@ def Coarse_Menu():
         icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
 
 
+
+
+
 	
 
 @route(mode='game_menu')
@@ -231,6 +238,12 @@ def Game_Menu():
         name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
         icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
 
+
+
+
+
+
+
 @route(mode='sea_menu')
 def Sea_Menu():
 
@@ -241,6 +254,10 @@ def Sea_Menu():
     Add_Dir( 
         name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,
         icon="h")   
+
+
+
+
 
 
 
