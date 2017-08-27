@@ -136,20 +136,16 @@ def Main_Menu():
 
 
     Add_Dir( 
-        name="Coarse", url=' ', mode="coarse_menu", folder=True,
-        icon="h")
+        name="Coarse", url=' ', mode="coarse_menu", folder=True,)
 
     Add_Dir( 
-        name="Game", url=' ', mode="game_menu", folder=True,
-        icon="h")
+        name="Game", url=' ', mode="game_menu", folder=True,)
 
     Add_Dir( 
-        name="Sea", url=' ', mode="sea_menu", folder=True,
-        icon="h")
+        name="Sea", url=' ', mode="sea_menu", folder=True,)
 
     Add_Dir( 
-        name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,
-        icon="h")
+        name="Around The World Other Methods", url=' ', mode="around the world other methods_menu", folder=True,)
 
 
 
@@ -159,67 +155,53 @@ def Main_Menu():
 @route(mode='coarse_menu')
 def Coarse_Menu():   
 
-    Add_Dir( "Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,
-        icon="chub.gif")
+    Add_Dir( 
+        name="Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
 
-    Add_Dir( "Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,
-        icon="chub.gif")    
+    Add_Dir( 
+        name="Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)    
     
     Add_Dir( 
-        name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,
-        icon="chub.gif") 
+        name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,) 
 
     Add_Dir( 
-        name="Fishing Series", url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,
-        icon="chub.gif") 
+        name="Fishing Series", url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,) 
 
     Add_Dir( 
-        name="Match Fishing", url=BASE+YOUTUBE_CHANNEL_ID_17+"/", folder=True,
-        icon="chub.gif") 
+        name="Match Fishing", url=BASE+YOUTUBE_CHANNEL_ID_17+"/", folder=True,) 
 
     Add_Dir( 
-        name="Coarse Fishing", url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,
-        icon="chub.gif") 
+        name="Coarse Fishing", url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,) 
 
     Add_Dir( 
-        name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,
-        icon="chub.gif") 
+        name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,) 
 
     Add_Dir( 
-        name="Preston Innovations Match Fishing", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,
-        icon="chub.gif")
+        name="Preston Innovations Match Fishing", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
 
     Add_Dir(
-        name="Bob Nudd", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
-        icon="chub.gif")
+        name="Bob Nudd", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
          
     Add_Dir( 
-        name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
-        icon="chub.gif")
+        name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
     Add_Dir( 
-        name="Korda TV", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,
-        icon="chub.gif")
+        name="Korda TV", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
 
     Add_Dir( 
-        name="Rex Hunt and Robson Green", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,
-        icon="chub.gif")
+        name="Rex Hunt and Robson Green", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
 
     Add_Dir( 
-        name="Predators", url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=True,
-        icon="chub.gif")
+        name="Predators", url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=True,)
     
     Add_Dir( 
-        name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,
-        icon="https://yt3.ggpht.com/-8Rt7LjDZrtU/AAAAAAAAAAI/AAAAAAAAAAA/-0-9PLOJWXM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
 
     Add_Dir( 
-        name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,
-        icon="chub.gif")
+        name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
 
     Add_Dir( 
-        name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,
-        icon="https://yt3.ggpht.com/-HB9PwSeNSE8/AAAAAAAAAAI/AAAAAAAAAAA/LmADXY0mgbA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
 
 
 
@@ -231,12 +213,10 @@ def Coarse_Menu():
 def Game_Menu(): 
 
     Add_Dir( 
-        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,
-        icon="https://yt3.ggpht.com/-ldvmtOEepRk/AAAAAAAAAAI/AAAAAAAAAAA/OOEsBMgcqQI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
 
     Add_Dir( 
-        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
-        icon="http://www.free-icons-download.net/images/fishing-icons-23810.png")
+        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
 
 
 
@@ -248,12 +228,10 @@ def Game_Menu():
 def Sea_Menu():
 
     Add_Dir( 
-        name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,
-        icon="https://yt3.ggpht.com/-P2USlMtGNXo/AAAAAAAAAAI/AAAAAAAAAAA/sDV3FPYrotM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg")
+        name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
 
     Add_Dir( 
-        name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,
-        icon="h")   
+        name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,)   
 
 
 
@@ -265,28 +243,22 @@ def Sea_Menu():
 def Around The World Other Methods_Menu():
 
     Add_Dir( 
-        name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,
-        icon="h")  
+        name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
         
     Add_Dir( 
-        name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,
-        icon="h")  
+        name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
         
     Add_Dir( 
-        name="Spear Fishing", url=BASE+YOUTUBE_CHANNEL_ID_23+"/", folder=True,
-        icon="h")  
+        name="Spear Fishing", url=BASE+YOUTUBE_CHANNEL_ID_23+"/", folder=True,)  
         
     Add_Dir( 
-        name="Blue Fishing", url=BASE+YOUTUBE_CHANNEL_ID_24+"/", folder=True,
-        icon="h")             
+        name="Blue Fishing", url=BASE+YOUTUBE_CHANNEL_ID_24+"/", folder=True,)             
 
     Add_Dir( 
-        name="Catfish Fishing", url=BASE+YOUTUBE_CHANNEL_ID_25+"/", folder=True,
-        icon="h")     
+        name="Catfish Fishing", url=BASE+YOUTUBE_CHANNEL_ID_25+"/", folder=True,)     
 
     Add_Dir( 
-        name="Hobie Outdoors Fishing", url=BASE+YOUTUBE_CHANNEL_ID_27+"/", folder=True,
-        icon="h")  
+        name="Hobie Outdoors Fishing", url=BASE+YOUTUBE_CHANNEL_ID_27+"/", folder=True,)  
 
     Add_Dir( 
         name="Jet Ski Fishing", url=BASE+YOUTUBE_CHANNEL_ID_28+"/", folder=True,)
