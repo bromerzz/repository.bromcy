@@ -148,53 +148,37 @@ def Main_Menu():
 @route(mode='coarse_menu')
 def Coarse_Menu():   
 
-    Add_Dir( 
-        name="Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
+    Add_Dir(name="Drennan International", url=BASE2+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
 
-    Add_Dir( 
-        name="Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)    
+    Add_Dir(name="Go Fishing Online", url=BASE2+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)    
     
-    Add_Dir( 
-        name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,) 
+    Add_Dir(name="From The Waters Edge", url=BASE2+YOUTUBE_CHANNEL_ID_7+"/", folder=True,) 
 
-    Add_Dir( 
-        name="Fishing Series", url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,) 
+    Add_Dir(name="Fishing Series", url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,) 
 
-    Add_Dir( 
-        name="Match Fishing", url=BASE+YOUTUBE_CHANNEL_ID_17+"/", folder=True,) 
+    Add_Dir(name="Match Fishing", url=BASE+YOUTUBE_CHANNEL_ID_17+"/", folder=True,) 
 
-    Add_Dir( 
-        name="Coarse Fishing", url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,) 
+    Add_Dir(name="Coarse Fishing", url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,) 
 
-    Add_Dir( 
-        name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,) 
+    Add_Dir(name="Shakespeare Fishing TV", url=BASE2+YOUTUBE_CHANNEL_ID_10+"/", folder=True,) 
 
-    Add_Dir( 
-        name="Preston Innovations Match Fishing", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
+    Add_Dir(name="Preston Innovations Match Fishing", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
 
-    Add_Dir(
-        name="Bob Nudd", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
+    Add_Dir(name="Bob Nudd", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
          
-    Add_Dir( 
-        name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
+    Add_Dir(name="John Wilson", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
-    Add_Dir( 
-        name="Korda TV", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
+    Add_Dir(name="Korda TV", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
 
-    Add_Dir( 
-        name="Rex Hunt and Robson Green", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
+    Add_Dir(name="Rex Hunt and Robson Green", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
 
-    Add_Dir( 
-        name="Predators", url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=True,)
+    Add_Dir(name="Predators", url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=True,)
     
-    Add_Dir( 
-        name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
+    Add_Dir(name="Uncut Angling Channel", url=BASE2+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
 
-    Add_Dir( 
-        name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
+    Add_Dir(name="Matt Hayes and Mick Brown", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
 
-    Add_Dir( 
-        name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
+    Add_Dir(name="Fishing videos from DALLMYD", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
 
 
 
@@ -205,11 +189,9 @@ def Coarse_Menu():
 @route(mode='game_menu')
 def Game_Menu(): 
 
-    Add_Dir( 
-        name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
+    Add_Dir(name="Fly TV", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
 
-    Add_Dir( 
-        name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
+    Add_Dir(name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
 
 
 
@@ -220,11 +202,9 @@ def Game_Menu():
 @route(mode='sea_menu')
 def Sea_Menu():
 
-    Add_Dir( 
-        name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
+    Add_Dir(name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
 
-    Add_Dir( 
-        name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,)   
+    Add_Dir(name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,)   
 
 
 
@@ -233,26 +213,19 @@ def Sea_Menu():
 
 
 
-    Add_Dir( 
-        name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
+    Add_Dir(name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
 
-    Add_Dir( 
-        name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
+    Add_Dir(name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
 
-    Add_Dir( 
-        name="Spear Fishing", url=BASE+YOUTUBE_CHANNEL_ID_23+"/", folder=True,)  
+    Add_Dir(name="Spear Fishing", url=BASE+YOUTUBE_CHANNEL_ID_23+"/", folder=True,)  
         
-    Add_Dir( 
-        name="Blue Fishing", url=BASE+YOUTUBE_CHANNEL_ID_24+"/", folder=True,)             
+    Add_Dir(name="Blue Fishing", url=BASE+YOUTUBE_CHANNEL_ID_24+"/", folder=True,)             
 
-    Add_Dir( 
-        name="Catfish Fishing", url=BASE+YOUTUBE_CHANNEL_ID_25+"/", folder=True,)     
+    Add_Dir(name="Catfish Fishing", url=BASE+YOUTUBE_CHANNEL_ID_25+"/", folder=True,)     
 
-    Add_Dir( 
-        name="Hobie Outdoors Fishing", url=BASE+YOUTUBE_CHANNEL_ID_27+"/", folder=True,)  
+    Add_Dir(name="Hobie Outdoors Fishing", url=BASE+YOUTUBE_CHANNEL_ID_27+"/", folder=True,)  
 
-    Add_Dir( 
-        name="Jet Ski Fishing", url=BASE+YOUTUBE_CHANNEL_ID_28+"/", folder=True,)
+    Add_Dir(name="Jet Ski Fishing", url=BASE+YOUTUBE_CHANNEL_ID_28+"/", folder=True,)
 
 
 
