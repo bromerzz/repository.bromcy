@@ -121,6 +121,10 @@ def Main_Menu():
 def English National Opera_Menu():
 
     Add_Dir(
+        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15+"/",folder=True,
+        icon="/")
+
+    Add_Dir(
         name="Puccini",url=BASE+YOUTUBE_CHANNEL_ID_1+"/",folder=True,
         icon="/")
 
@@ -156,13 +160,13 @@ def English National Opera_Menu():
         name="Jose Carrera Zarzuela",url=BASE+YOUTUBE_CHANNEL_ID_13+"/",folder=True,
         icon="/")
 
+@route(mode='welsh national opera_menu')
+def Welsh National Opera_Menu():    
+
     Add_Dir(
         name="Welsh National Opera, La Boheme",url=BASE+YOUTUBE_CHANNEL_ID_14+"/",folder=True,
         icon="/")
 
-    Add_Dir(
-        name="English National Opera, Rigoletto",url=BASE+YOUTUBE_CHANNEL_ID_15+"/",folder=True,
-        icon="/")
 
             # Add some YT channels (see we're using BASE2 as the url for this one)
 
