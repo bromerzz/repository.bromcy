@@ -117,6 +117,8 @@ def Main_Menu():
     #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
 
 # Add some YT Playlists (see we're using BASE as the url)
+@route(mode='english national opera_menu')
+def English National Opera_Menu():
 
     Add_Dir(
         name="Puccini",url=BASE+YOUTUBE_CHANNEL_ID_1+"/",folder=True,
