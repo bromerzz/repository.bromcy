@@ -132,7 +132,7 @@ def Main_Menu():
         icon="h")
 
     Add_Dir( 
-        name="Puccini", url=' ', mode="puccini_menu", folder=True,
+        name="Various", url=' ', mode="various_menu", folder=True,
         icon="h")
 
     Add_Dir( 
@@ -147,15 +147,15 @@ def Main_Menu():
 def English National Opera_Menu():
 
     Add_Dir(
-        name="English National Opera, Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
+        name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,
         icon="/")
 
 
 
 
 
-@route(mode='puccini_menu')
-def Puccini_Menu():    
+@route(mode='various_menu')
+def Various_Menu():    
 
     Add_Dir(
         name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,
@@ -200,7 +200,7 @@ def Puccini_Menu():
 def Welsh National Opera_Menu():    
 
     Add_Dir(
-        name="Welsh National Opera, La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
+        name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,
         icon="/")
 
 
