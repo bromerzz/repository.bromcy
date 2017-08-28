@@ -117,9 +117,9 @@ def Main_Menu():
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
    
 
-@route(mode='english national opera_menu')
-def English National Opera_Menu():  
-    Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
+#@route(mode='english national opera_menu')
+#def English National Opera_Menu():  
+    #Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
 @route(mode='compilations_menu')
 def Various_Menu():    
