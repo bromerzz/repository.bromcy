@@ -111,29 +111,17 @@ YOUTUBE_CHANNEL_ID_15 = "PL7ShuxblyYmG8XMIaPN9AkSxDIGbDedfg"
 
 @route(mode='main_menu')
 def Main_Menu():
-# If debug mode is enabled show the koding tutorials
-    #if debug == 'true':
-        #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    #else:
-        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
-
-# An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    #my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
-
-# Add some YT Playlists (see we're using BASE as the url)
-
-
     Add_Dir(name="English National Opera", url=' ', mode="english national opera_menu", folder=True,)
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh national opera_menu", folder=True,)
-    Add_Dir(name="Various", url=' ', mode="various_menu", folder=True,)
+    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
    
 
 @route(mode='english national opera_menu')
 def English National Opera_Menu():  
-Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
+    Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
-@route(mode='various_menu')
+@route(mode='compilations_menu')
 def Various_Menu():    
     Add_Dir(name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="Classical Opera extracts", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
@@ -155,14 +143,15 @@ def Welsh National Opera_Menu():
 @route(mode='tosca_menu')
 def Tosca_Menu(): 
     Add_Dir(name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Tosca Arena di Verona",url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="La Traviata",url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Bizet, Carmen , Jonas Kaufman",url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
-    
+    Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Bizet,Carmen,Jonas Kaufman", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+
+
 
 
 #------------------------------------------------------------
-# Open into settings
+# A basic OK Dialog
 @route(mode='koding_settings')
 def Koding_settings():
     Open_Settings()
@@ -170,12 +159,20 @@ def Koding_settings():
 # A basic OK Dialog
 @route(mode='simple_dialog', args=['title','msg'])
 def Simple_Dialog(title,msg):
-   OK_Dialog(title, msg)
+    OK_Dialog(title, msg)
 #---------------------------------------------------------
 # Play a youtube video
 @route(mode='play_yt', args=['url'])
 def Play_YT(url):
-    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)
+    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
+
+
+
+
+
+    
+
+
 #----------------------------------------------------------------
 
 """
