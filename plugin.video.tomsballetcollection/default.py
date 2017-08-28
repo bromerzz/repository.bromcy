@@ -105,7 +105,7 @@ def Main_Menu():
 
 
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
-    Add_Dir(name="London Childrens Ballet", url=' ', mode="london childrens ballet_menu", folder=True,)
+    Add_Dir(name="London_Childrens_Ballet", url=' ', mode="london_childrens_ballet_menu", folder=True,)
 
 
 
@@ -118,8 +118,8 @@ def Tchaikovsky_Menu():
 
 
 
-@route(mode='london childrens ballet_menu')
-def London Childrens Ballet_Menu():
+@route(mode='london_childrens_ballet_menu')
+def London_Childrens_Ballet_Menu():
     Add_Dir(name="A Little Princess", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
