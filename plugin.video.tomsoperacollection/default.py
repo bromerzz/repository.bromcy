@@ -117,11 +117,11 @@ def Main_Menu():
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
    
 @route(mode='welsh_national_opera_menu')
-def Welsh National Opera_Menu(): 
+def Welsh_National_Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
 @route(mode='english_national_opera_menu')
-def English National Opera_Menu(): 
+def English_National_Opera_Menu(): 
     Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
 @route(mode='compilations_menu')
