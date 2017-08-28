@@ -198,7 +198,7 @@ def Mozart_Menu():
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32+"/", folder=False, mode='play_yt')
 
 
-@route(mode='BBC_Proms_menu')
+@route(mode='bbc_proms_menu')
 def BBC_Proms_Menu():
     Add_Dir(name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38+"/", folder=False, mode='play_yt') 
     Add_Dir(name="Birtwistles Deep Time and Elgar 2nd Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_36+"/", folder=False, mode='play_yt')
