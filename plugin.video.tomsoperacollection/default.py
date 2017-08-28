@@ -159,21 +159,12 @@ def Koding_settings():
 # A basic OK Dialog
 @route(mode='simple_dialog', args=['title','msg'])
 def Simple_Dialog(title,msg):
-    OK_Dialog(title, msg)
-#---------------------------------------------------------
-# Play a youtube video
-#@route(mode='play_yt', args=['url'])
-#def Play_YT(url):
-    #xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
+    OK_Dialog(title, msg)     
 #----------------------------------------------------------
-
+# Play a youtube video
 @route(mode='play_yt', args=['url'])
 def Play_YT(url):
     xbmc.Player().play('plugin://plugin.video.youtube/'+url)
-
-
-    
-
 
 #----------------------------------------------------------------
 
