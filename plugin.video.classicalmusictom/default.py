@@ -84,7 +84,6 @@ YOUTUBE_CHANNEL_ID_16 = "4g4UZOedczs"
 YOUTUBE_CHANNEL_ID_17 = "HuoOxF9U0C4"
 YOUTUBE_CHANNEL_ID_18 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr"
 YOUTUBE_CHANNEL_ID_19 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr"
-YOUTUBE_CHANNEL_ID_20 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr&index=5"
 YOUTUBE_CHANNEL_ID_21 = "SQNymNaTr-Y"
 YOUTUBE_CHANNEL_ID_22 = "rOjHhS5MtvA"
 YOUTUBE_CHANNEL_ID_23 = "neDnpgZPPvY"
@@ -189,7 +188,6 @@ def Mozart_Menu():
     Add_Dir(name="Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt')
     Add_Dir(name="Clarinet Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
     Add_Dir(name="Serenade for 13 Winds B Flat Major",url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,)
-    Add_Dir(name="Bassoon Concerto",url=BASE+YOUTUBE_CHANNEL_ID_20+, folder=True,)
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt')
 
 
