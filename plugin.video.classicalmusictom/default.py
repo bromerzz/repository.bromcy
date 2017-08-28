@@ -136,8 +136,8 @@ def Main_Menu():
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
     Add_Dir(name="Beethoven", url=' ', mode="beethoven_menu", folder=True,)
     Add_Dir(name="Mozart", url=' ', mode="mozart_menu", folder=True,)
-    Add_Dir(name="BBC Proms", url=' ', mode="bbc proms_menu", folder=True,)
-    Add_Dir(name="Royal Philharmonic", url=' ', mode="royal philharmonic_menu", folder=True,)
+    Add_Dir(name="BBC Proms", url=' ', mode="bbc_proms_menu", folder=True,)
+    Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
 
 
@@ -198,15 +198,15 @@ def Mozart_Menu():
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32+"/", folder=False, mode='play_yt')
 
 
-@route(mode='BBC Proms_menu')
-def BBC Proms_Menu():
+@route(mode='BBC_Proms_menu')
+def BBC_Proms_Menu():
     Add_Dir(name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38+"/", folder=False, mode='play_yt') 
     Add_Dir(name="Birtwistles Deep Time and Elgar 2nd Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_36+"/", folder=False, mode='play_yt')
     Add_Dir(name="Carmina Burana, BBC Proms 1994", url=BASE3+YOUTUBE_CHANNEL_ID_29+"/", folder=False, mode='play_yt')
 
 
-@route(mode='royal philharmonic_menu') 
-def Royal Philharmonic_Menu(): 
+@route(mode='royal_philharmonic_menu') 
+def Royal_Philharmonic_Menu(): 
     Add_Dir(name="The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt')
     Add_Dir(name="Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt')
     Add_Dir(name="Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/", folder=False, mode='play_yt')
