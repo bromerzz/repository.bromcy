@@ -117,15 +117,15 @@ def Main_Menu():
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
    
 @route(mode='welsh national opera_menu')
-    def Welsh National Opera_Menu():    
+def Welsh National Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
 @route(mode='english national opera_menu')
-    def English National Opera_Menu(): 
+def English National Opera_Menu(): 
     Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
 @route(mode='compilations_menu')
-    def Various_Menu():    
+def Various_Menu():   
     Add_Dir(name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="Classical Opera extracts", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
     Add_Dir(name="Richard Wagner", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
@@ -138,7 +138,7 @@ def Main_Menu():
 
 
 @route(mode='tosca_menu')
-    def Tosca_Menu(): 
+def Tosca_Menu(): 
     Add_Dir(name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
     Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
