@@ -125,22 +125,9 @@ YOUTUBE_CHANNEL_ID_28 = "PL152bjytsMC6UZhJsq1Erq9gKuxQfix51"
 
 @route(mode='main_menu')
 def Main_Menu():
-#If debug mode is enabled show the koding tutorials
-    #if debug == 'true':
-        #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    #else:
-        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", True, '', '', '' )
-    
-#An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    #my_message= "{'Thankyou' : 'Thankyou, 'msg' : \"Thankyou to the Anglers out there who spent the time on the water to create these videos of this great sport.\"}" 
-
-
     Add_Dir(name="Coarse", url=' ', mode="coarse_menu", folder=True,)
     Add_Dir(name="Game", url=' ', mode="game_menu", folder=True,)
     Add_Dir(name="Sea", url=' ', mode="sea_menu", folder=True,)
-
-    #Add_Dir(name="Other Styles", url=' ', mode="other styles_menu", folder=True,)
-
 
 
 @route(mode='coarse_menu')
@@ -169,23 +156,10 @@ def Game_Menu():
     Add_Dir(name="Popular Fly Fishing Videos", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
 
 
-
-
-
-
-
 @route(mode='sea_menu')
 def Sea_Menu():
     Add_Dir(name="Sea Fishing videos from TAFishing", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
     Add_Dir(name="Kayak Fishing Sea", url=BASE+YOUTUBE_CHANNEL_ID_26+"/", folder=True,)   
-
-
-
-#@route(mode='other styles_menu')
-#def Other Styles_Menu():
-
-
-
     Add_Dir(name="Florida Sportsman", url=BASE+YOUTUBE_CHANNEL_ID_21+"/", folder=True,)  
     Add_Dir(name="Ice Fishing", url=BASE+YOUTUBE_CHANNEL_ID_22+"/", folder=True,)  
     Add_Dir(name="Spear Fishing", url=BASE+YOUTUBE_CHANNEL_ID_23+"/", folder=True,)  
