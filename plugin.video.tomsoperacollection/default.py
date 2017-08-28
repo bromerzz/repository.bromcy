@@ -111,16 +111,16 @@ YOUTUBE_CHANNEL_ID_15 = "PL7ShuxblyYmG8XMIaPN9AkSxDIGbDedfg"
 
 @route(mode='main_menu')
 def Main_Menu():
-    Add_Dir(name="Welsh National Opera", url=' ', mode="welsh national opera_menu", folder=True,)
-    Add_Dir(name="English National Opera", url=' ', mode="english national opera_menu", folder=True,)
+    Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
+    Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
    
-@route(mode='welsh national opera_menu')
+@route(mode='welsh_national_opera_menu')
 def Welsh National Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
-@route(mode='english national opera_menu')
+@route(mode='english_national_opera_menu')
 def English National Opera_Menu(): 
     Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
