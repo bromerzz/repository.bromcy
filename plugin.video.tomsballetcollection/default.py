@@ -105,7 +105,7 @@ def Main_Menu():
 
 
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
-    Add_Dir(name="London Childrens Ballet", url=' ', mode="london_childrens_ballet_menu", folder=True,)
+    Add_Dir(name="London_Childrens_Ballet", url=' ', mode="london_childrens_ballet_menu", folder=True,)
 
 
 
