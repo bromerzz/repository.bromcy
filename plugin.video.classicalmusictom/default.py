@@ -98,7 +98,7 @@ YOUTUBE_CHANNEL_ID_29 = "m18gDXZP9Hk"
 YOUTUBE_CHANNEL_ID_31 = "fNU-XAZjhzA"
 YOUTUBE_CHANNEL_ID_32 = "ETXPKHPPov8"
 YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
-YOUTUBE_CHANNEL_ID_34 = "dV1zTM2P_LE"
+#YOUTUBE_CHANNEL_ID_34 = "dV1zTM2P_LE"
 #YOUTUBE_CHANNEL_ID_35 = ""
 YOUTUBE_CHANNEL_ID_36 = "nFFxFhf2aS8"
 YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
@@ -184,7 +184,7 @@ def Tchaikovsky_Menu():
 def Beethoven_Menu():
     Add_Dir(name=" All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37+"/", folder=False, mode='play_yt')   
     Add_Dir(name="Symphony No 9, Chicago Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt')
-    Add_Dir(name="Symphony No 8", "BBC Proms", url=BASE3+YOUTUBE_CHANNEL_ID_34+, folder=False, mode='play_yt')
+    #Add_Dir(name="Symphony No 8", "BBC Proms", url=BASE3+YOUTUBE_CHANNEL_ID_34+, folder=False, mode='play_yt')
 
 
 @route(mode='mozart_menu')
