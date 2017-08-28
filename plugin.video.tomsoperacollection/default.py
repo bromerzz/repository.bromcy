@@ -127,7 +127,7 @@ def Various_Menu():
     Add_Dir(name="Classical Opera extracts", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
     Add_Dir(name="Richard Wagner", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
     Add_Dir(name="Glyndebourne Festival plus Others", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
-    Add_Dir(name="Placido Domingo, Selection", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
+    Add_Dir(name="Placido Domingo", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
     Add_Dir(name="Bryn Terfel", url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
     Add_Dir(name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
     Add_Dir(name="Mezzo Sporanos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
@@ -162,12 +162,14 @@ def Simple_Dialog(title,msg):
     OK_Dialog(title, msg)
 #---------------------------------------------------------
 # Play a youtube video
+#@route(mode='play_yt', args=['url'])
+#def Play_YT(url):
+    #xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
+#----------------------------------------------------------
+
 @route(mode='play_yt', args=['url'])
 def Play_YT(url):
-    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
-
-
-
+    xbmc.Player().play('plugin://plugin.video.youtube/'+url)
 
 
     
