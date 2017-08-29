@@ -83,7 +83,6 @@ YOUTUBE_CHANNEL_ID_15 = "ZeBljzppZsM"
 YOUTUBE_CHANNEL_ID_16 = "4g4UZOedczs"
 YOUTUBE_CHANNEL_ID_17 = "HuoOxF9U0C4"
 YOUTUBE_CHANNEL_ID_18 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr"
-YOUTUBE_CHANNEL_ID_19 = "PL76dJku6jw7GSGh3S-5uPCDPJZDY7ngzr"
 YOUTUBE_CHANNEL_ID_21 = "SQNymNaTr-Y"
 YOUTUBE_CHANNEL_ID_22 = "rOjHhS5MtvA"
 YOUTUBE_CHANNEL_ID_23 = "neDnpgZPPvY"
@@ -92,7 +91,6 @@ YOUTUBE_CHANNEL_ID_25 = "s68W8KDp5eM"
 YOUTUBE_CHANNEL_ID_26 = "RDs68W8KDp5eM"
 YOUTUBE_CHANNEL_ID_27 = "RDs68W8KDp5eM&index=13"
 YOUTUBE_CHANNEL_ID_28 = "m18gDXZP9Hk"
-YOUTUBE_CHANNEL_ID_29 = "m18gDXZP9Hk"
 YOUTUBE_CHANNEL_ID_31 = "fNU-XAZjhzA"
 YOUTUBE_CHANNEL_ID_32 = "ETXPKHPPov8"
 YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
@@ -186,8 +184,7 @@ def Mozart_Menu():
     Add_Dir(name="Horn Concerto No 2", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt')
     Add_Dir(name="Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt')
     Add_Dir(name="Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt')
-    Add_Dir(name="Clarinet Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
-    Add_Dir(name="Serenade for 13 Winds B Flat Major",url=BASE+YOUTUBE_CHANNEL_ID_19+"/", folder=True,)
+    Add_Dir(name="Various Wind Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt')
 
 
@@ -195,7 +192,6 @@ def Mozart_Menu():
 def BBC_Proms_Menu():
     Add_Dir(name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38, folder=False, mode='play_yt') 
     Add_Dir(name="Birtwistles Deep Time and Elgar 2nd Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False, mode='play_yt')
-    Add_Dir(name="Carmina Burana, BBC Proms 1994", url=BASE3+YOUTUBE_CHANNEL_ID_29, folder=False, mode='play_yt')
 
 
 @route(mode='royal_philharmonic_menu') 
