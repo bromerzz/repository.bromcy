@@ -130,37 +130,37 @@ def Main_Menu():
 
 @route(mode='Edinbugh_Military_Tattoo_menu')
 def Edinburgh_Military_Tattoo_Menu():
-    Add_Dir(name="2002", url=BASE2+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
-    Add_Dir(name="2010", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
-	Add_Dir(name="2012", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
-    Add_Dir(name="2013", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
-    Add_Dir(name="2015", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
-    Add_Dir(name="2016", url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
+    Add_Dir(name="2002", url=BASE3+YOUTUBE_CHANNEL_ID_4+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="2010", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="2012", url=BASE3+YOUTUBE_CHANNEL_ID_1+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="2013", url=BASE3+YOUTUBE_CHANNEL_ID_2+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
 
 @route(mode='Regimental_Pipes_And_Drums_menu')
 def Regimental_Pipes_And_Drums_Menu():
-	Add_Dir(name="Black Watch",url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=TRUE,)
-	Add_Dir(name="Rhine Area 2008",url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=TRUE,)
+	Add_Dir(name="Black Watch",url=BASE3+YOUTUBE_CHANNEL_ID_10+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Rhine Area 2008",url=BASE3+YOUTUBE_CHANNEL_ID_9+"/", folder=False, mode='play_yt',)
 
 
 @route(mode='Regimental_Bands_menu')
 def Regimental_Bands_Menu():
-	Add_Dir(name="Royal Regiment of Scotland",url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=TRUE,)
-	Add_Dir(name="Royal Scots Dragoon Guards",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=TRUE,)
-	Add_Dir(name="Rhine Area",url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=TRUE,)
+	Add_Dir(name="Royal Regiment of Scotland",url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Scots Dragoon Guards",url=BASE3+YOUTUBE_CHANNEL_ID_12+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Rhine Area",url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
 
 
 @route(mode='Other_Military_Tattoos_menu')
 def Other_Military_Tattoos_Menu():
-	Add_Dir(name="Austrailian Military Tattoo 2005",url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=TRUE,)
-	Add_Dir(name="Berlin Military Tattoo",url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=TRUE,)
+	Add_Dir(name="Austrailian Military Tattoo 2005",url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Berlin Military Tattoo",url=BASE3+YOUTUBE_CHANNEL_ID_11+"/", folder=False, mode='play_yt',)
 
 @route(mode='Other_Piping_Content_menu')
 def Other_Piping_Content_Menu():
-	Add_Dir(name="Duelling Pipers",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=TRUE,)
-	Add_Dir(name="Andre Rieu Amazing Grace",url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=TRUE,)
-	Add_Dir(name="Various",url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=TRUE,)
-	Add_Dir(name="Various 2",url=BASE+YOUTUBE_CHANNEL_ID_16+"/", folder=TRUE,)
+	Add_Dir(name="Duelling Pipers",url=BASE3+YOUTUBE_CHANNEL_ID_13+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Andre Rieu Amazing Grace",url=BASE3+YOUTUBE_CHANNEL_ID_14+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Various",url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Various 2",url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
 
 #----------------------------------------------------------------
 #----------------------------------------------------------------
