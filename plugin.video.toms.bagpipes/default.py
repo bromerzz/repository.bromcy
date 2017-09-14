@@ -132,7 +132,7 @@ def Main_Menu():
 def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2002", url=BASE2+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
     Add_Dir(name="2010", url=BASE2+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
-	Add_Dir(name="2012",url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
+	Add_Dir(name="2012", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="2013", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
     Add_Dir(name="2015", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
     Add_Dir(name="2016", url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
