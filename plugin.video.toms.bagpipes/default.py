@@ -130,12 +130,12 @@ def Main_Menu():
 
 @route(mode='Edinbugh_Military_Tattoo_menu')
 def Edinburgh_Military_Tattoo_Menu():
-    Add_Dir(name="2002", url=BASE3+YOUTUBE_CHANNEL_ID_4+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="2010", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="2012", url=BASE3+YOUTUBE_CHANNEL_ID_1+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="2013", url=BASE3+YOUTUBE_CHANNEL_ID_2+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="2002", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
+    Add_Dir(name="2010", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
+	Add_Dir(name="2012", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
+    Add_Dir(name="2013", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
+    Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
+    Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
 
 @route(mode='Regimental_Pipes_And_Drums_menu')
 def Regimental_Pipes_And_Drums_Menu():
