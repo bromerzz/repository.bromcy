@@ -74,13 +74,19 @@ YOUTUBE_CHANNEL_ID_6 = "RBHJJ8-rVfoYO"
 YOUTUBE_CHANNEL_ID_7 = "lL45xrqEbL8"
 YOUTUBE_CHANNEL_ID_8 = "mlypMpQ5X7A"
 YOUTUBE_CHANNEL_ID_9 = "6Y5mcLxlSgU"
-YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc"
+YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
-YOUTUBE_CHANNEL_ID_12 = "RDQut2getKFT4"
+YOUTUBE_CHANNEL_ID_12 = "U89Qtbnk-Q4"
 YOUTUBE_CHANNEL_ID_13 = "amNF_F6oeRU"
 YOUTUBE_CHANNEL_ID_14 = "UAOepXDoLlg"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
 YOUTUBE_CHANNEL_ID_16 = "Qut2getKFT4"
+YOUTUBE_CHANNEL_ID_17 = "x-xiiK5Y2BU"
+YOUTUBE_CHANNEL_ID_18 = "b8ZBoId14Q"
+YOUTUBE_CHANNEL_ID_19 = "dMzQiu2mUlE"
+YOUTUBE_CHANNEL_ID_20 = "5xtGjHT0iVc"
+YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
+YOUTUBE_CHANNEL_ID_22 = "mlypMpQ5X7A"
 #----------------------------------------------------------------
 
 """
@@ -132,14 +138,16 @@ def Main_Menu():
 def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2002", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
     Add_Dir(name="2010", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
-	#Add_Dir(name="2012", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
     Add_Dir(name="2013", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
     Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
     Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
 
 @route(mode='regimental_pipes_and_drums_menu')
 def Regimental_Pipes_And_Drums_Menu():
-	Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
+
 
 @route(mode='regimental_bands_menu')
 def Regimental_Bands_Menu():
@@ -155,10 +163,15 @@ def Other_Military_Tattoos_Menu():
 
 @route(mode='other_piping_content_menu')
 def Other_Piping_Content_Menu():
+    Add_Dir(name="Cadets Pipe Band", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/",folder=False, mode='play_yt')
 	Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13+"/", folder=False, mode='play_yt',)
 	Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14+"/", folder=False, mode='play_yt',)
 	Add_Dir(name="Various", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt',)
 	Add_Dir(name="Various 2", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Celtic Tunes", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="RCMP Menin Gate", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)
 
 #----------------------------------------------------------------
 # Open add-on settings
