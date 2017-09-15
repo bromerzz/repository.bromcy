@@ -77,8 +77,8 @@ YOUTUBE_CHANNEL_ID_9 = "6Y5mcLxlSgU"
 YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
 YOUTUBE_CHANNEL_ID_12 = "U89Qtbnk-Q4"
-#YOUTUBE_CHANNEL_ID_13 = "amNF_F6oeRU"
-#YOUTUBE_CHANNEL_ID_14 = "UAOepXDoLlg"
+YOUTUBE_CHANNEL_ID_13 = "amNF_F6oeRU"
+YOUTUBE_CHANNEL_ID_14 = "UAOepXDoLlg"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
 YOUTUBE_CHANNEL_ID_16 = "Qut2getKFT4"
 YOUTUBE_CHANNEL_ID_17 = "x-xiiK5Y2BU"
@@ -86,7 +86,7 @@ YOUTUBE_CHANNEL_ID_18 = "b8ZBoId14Q"
 YOUTUBE_CHANNEL_ID_19 = "dMzQiu2mUlE"
 YOUTUBE_CHANNEL_ID_20 = "5xtGjHT0iVc"
 YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
-YOUTUBE_CHANNEL_ID_22 = "mlypMpQ5X7A"
+#YOUTUBE_CHANNEL_ID_22 = ""
 #----------------------------------------------------------------
 
 """
@@ -144,34 +144,34 @@ def Edinburgh_Military_Tattoo_Menu():
 
 @route(mode='regimental_pipes_and_drums_menu')
 def Regimental_Pipes_And_Drums_Menu():
-    Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
+    Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_+"/", folder=False, mode='play_yt',)
 
 
 @route(mode='regimental_bands_menu')
 def Regimental_Bands_Menu():
-	Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="Rhine Area", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+	Add_Dir(name="Rhine Area", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
 
 
 @route(mode='other_military_tattoos_menu')
 def Other_Military_Tattoos_Menu():
-	Add_Dir(name="Austrailian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="Berlin Military Tattoo", url=BASE3+YOUTUBE_CHANNEL_ID_11+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Austrailian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
+	Add_Dir(name="Berlin Military Tattoo", url=BASE3+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',)
 
 @route(mode='other_piping_content_menu')
 def Other_Piping_Content_Menu():
-    Add_Dir(name="Cadets Pipe Band", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/",folder=False, mode='play_yt')
-	#Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13+"/", folder=False, mode='play_yt',)
-	#Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="Various", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="Various 2", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Celtic Tunes", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="RCMP Menin Gate", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Cadets Pipe Band", url=BASE3+YOUTUBE_CHANNEL_ID_17,folder=False, mode='play_yt')
+	Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
+	Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',)
+	Add_Dir(name="Various", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+	Add_Dir(name="Various 2", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+    Add_Dir(name="Celtic Tunes", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
+    Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
+    Add_Dir(name="RCMP Menin Gate", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_+"/", folder=False, mode='play_yt',)
 
 #----------------------------------------------------------------
 # Open add-on settings
