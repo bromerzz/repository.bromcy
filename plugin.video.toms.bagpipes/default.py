@@ -107,9 +107,9 @@ def Main_Menu():
 
 
     Add_Dir(name="Edinburgh Military Tattoo", url=' ', mode="edinburgh_military_tattoo_menu", folder=True,)
-    Add_Dir(name="Other Military Tattoos", url=' ', mode="other_military_tattoos_menu", folder=True,)
     Add_Dir(name="Regimental Pipes and Drums", url=' ', mode="regimental_pipes_and_drums_menu", folder=True,)
     Add_Dir(name="Regimental Bands", url=' ', mode="regimental_bands_menu", folder=True,)
+    Add_Dir(name="Other Military Tattoos", url=' ', mode="other_military_tattoos_menu", folder=True,) 
     Add_Dir(name="Other Piping Content", url=' ', mode="other_piping_content_menu", folder=True,)
 
 
@@ -128,7 +128,7 @@ def Main_Menu():
         
 # Add some YT Playlists (see we're using BASE as the url)
 
-@route(mode='Edinbugh_Military_Tattoo_menu')
+@route(mode='edinburgh_military_tattoo_menu')
 def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2002", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
     Add_Dir(name="2010", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
@@ -137,34 +137,31 @@ def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
     Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
 
-@route(mode='Regimental_Pipes_And_Drums_menu')
+@route(mode='regimental_pipes_and_drums_menu')
 def Regimental_Pipes_And_Drums_Menu():
-	Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
-	Add_Dir(name="Rhine Area 2008", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',)
+	Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10+"/", folder=False, mode='play_yt',)
 
-
-@route(mode='Regimental_Bands_menu')
+@route(mode='regimental_bands_menu')
 def Regimental_Bands_Menu():
-	Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
-	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
-	Add_Dir(name="Rhine Area", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Rhine Area", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
 
 
-@route(mode='Other_Military_Tattoos_menu')
+@route(mode='other_military_tattoos_menu')
 def Other_Military_Tattoos_Menu():
-	Add_Dir(name="Austrailian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
-	Add_Dir(name="Berlin Military Tattoo", url=BASE3+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',)
+	Add_Dir(name="Austrailian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Berlin Military Tattoo", url=BASE3+YOUTUBE_CHANNEL_ID_11+"/", folder=False, mode='play_yt',)
 
-@route(mode='Other_Piping_Content_menu')
+@route(mode='other_piping_content_menu')
 def Other_Piping_Content_Menu():
-	Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
-	Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',)
-	Add_Dir(name="Various", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
-	Add_Dir(name="Various 2", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+	Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Various", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt',)
+	Add_Dir(name="Various 2", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
 
 #----------------------------------------------------------------
-#----------------------------------------------------------------
-
+# Open add-on settings
 @route(mode='koding_settings')
 def Koding_Settings():
     Open_Settings()
@@ -175,16 +172,10 @@ def Simple_Dialog(title,msg):
     OK_Dialog(title, msg)
 #----------------------------------------------------------------
 # Play a youtube video
-#@route(mode='play_yt', args=['url'])
-#def Play_YT(url):
-    #xbmc.Player().play('plugin://plugin.video.youtube/'+url)
-
-# Play a youtube video
 @route(mode='play_yt', args=['url'])
 def Play_YT(url):
-    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)       
-
-
+    xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url) 
+#_________________________________________________________________      
 """
     SECTION 6:
     Essential if creating list items, this tells kodi we're done creating our list items.
