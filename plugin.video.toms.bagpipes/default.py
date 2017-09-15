@@ -78,7 +78,7 @@ YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
 YOUTUBE_CHANNEL_ID_12 = "U89Qtbnk-Q4"
 #YOUTUBE_CHANNEL_ID_13 = "amNF_F6oeRU"
-YOUTUBE_CHANNEL_ID_14 = "UAOepXDoLlg"
+#YOUTUBE_CHANNEL_ID_14 = "UAOepXDoLlg"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
 YOUTUBE_CHANNEL_ID_16 = "Qut2getKFT4"
 YOUTUBE_CHANNEL_ID_17 = "x-xiiK5Y2BU"
@@ -165,7 +165,7 @@ def Other_Military_Tattoos_Menu():
 def Other_Piping_Content_Menu():
     Add_Dir(name="Cadets Pipe Band", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/",folder=False, mode='play_yt')
 	#Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13+"/", folder=False, mode='play_yt',)
-	Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14+"/", folder=False, mode='play_yt',)
+	#Add_Dir(name="Andre Rieu Amazing Grace", url=BASE3+YOUTUBE_CHANNEL_ID_14+"/", folder=False, mode='play_yt',)
 	Add_Dir(name="Various", url=BASE3+YOUTUBE_CHANNEL_ID_15+"/", folder=False, mode='play_yt',)
 	Add_Dir(name="Various 2", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Celtic Tunes", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
