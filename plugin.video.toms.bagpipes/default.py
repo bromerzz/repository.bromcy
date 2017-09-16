@@ -83,7 +83,7 @@ YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
 YOUTUBE_CHANNEL_ID_16 = "Qut2getKFT4"
 #YOUTUBE_CHANNEL_ID_17 = "x-xiiK5Y2BU"
 YOUTUBE_CHANNEL_ID_18 = "b8ZBoId14Q"
-YOUTUBE_CHANNEL_ID_19 = "dMzQiu2mUlE"
+#YOUTUBE_CHANNEL_ID_19 = "dMzQiu2mUlE"
 #YOUTUBE_CHANNEL_ID_20 = "5xtGjHT0iVc"
 YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
 #YOUTUBE_CHANNEL_ID_22 = ""
@@ -169,7 +169,7 @@ def General_Piping_Content_Menu():
 	Add_Dir(name="Mixed Selection", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
 	Add_Dir(name="Mixed Selection 2", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
     Add_Dir(name="Celtic Tunes", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
-    Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
+    #Add_Dir(name="Celtic Bagpipes  Stephen Megarity", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
     #Add_Dir(name="RCMP Menin Gate", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_+"/", folder=False, mode='play_yt',)
 
