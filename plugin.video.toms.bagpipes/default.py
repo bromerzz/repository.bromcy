@@ -158,10 +158,10 @@ def Regimental_Bands_Menu():
 
 @route(mode='other_military_tattoos_menu')
 def Other_Military_Tattoos_Menu():
-	Add_Dir(name="Austrailian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
+	Add_Dir(name="Australian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
 	#Add_Dir(name="Berlin Military Tattoo", url=BASE3+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',)
 
-@route(mode='other_piping_content_menu')
+@route(mode='general_piping_content_menu')
 def General_Piping_Content_Menu():
     #Add_Dir(name="Cadets Pipe Band", url=BASE3+YOUTUBE_CHANNEL_ID_17,folder=False, mode='play_yt',)
 	#Add_Dir(name="Duelling Pipers", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
