@@ -135,7 +135,7 @@ def Koding_Settings():
 # A basic OK Dialog
 @route(mode='simple_dialog', args=['title','msg'])
 def Simple_Dialog(title,msg):
-    OK-Dialog(title, msg)
+    OK_Dialog(title, msg)
 #----------------------------------------------------------------
 # Play a youtube video
 @route(mode='play_yt', args=['url'])
