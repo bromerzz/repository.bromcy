@@ -82,6 +82,7 @@ YOUTUBE_CHANNEL_ID_12 = "PL46A47F536529049F"
 YOUTUBE_CHANNEL_ID_13 = "PL3Y5ENAJSPRo5s36cu7QW7Y1b93gw7uie"
 YOUTUBE_CHANNEL_ID_14 = "PL494BBD335363B5DE "
 YOUTUBE_CHANNEL_ID_15 = "PL7ShuxblyYmG8XMIaPN9AkSxDIGbDedfg"
+YOUTUBE_CHANNEL_ID_16 = "-fbSqOY8z_4"
 
 
 """
@@ -123,6 +124,7 @@ def Welsh_National_Opera_Menu():
 @route(mode='english_national_opera_menu')
 def English_National_Opera_Menu(): 
     Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
+    Add_Dir(name="Gilbert and Sullivan - The Mikado", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
 
 @route(mode='compilations_menu')
 def Various_Menu():   
