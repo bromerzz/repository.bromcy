@@ -112,7 +112,7 @@ YOUTUBE_CHANNEL_ID_19 = "tempDM_-LKc"
 def Main_Menu():
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
     Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
-    Add_Dir(name="Gilbert and Sullivan", url='', mode="gilbert_and_sullivan",folder=True,)
+    Add_Dir(name="Gilbert And Sullivan", url='', mode="gilbert_and_sullivan",folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
    
@@ -125,7 +125,7 @@ def English_National_Opera_Menu():
     Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
 @route(mode='gilbert_and_sullivan_menu')
-def Gilbert_and_Sullivan_Menu():
+def Gilbert_And_Sullivan_Menu():
     Add_Dir(name="HMS Pinafore", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Mikado", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Pirates Of Penzance", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
@@ -142,7 +142,6 @@ def Various_Menu():
     Add_Dir(name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
     Add_Dir(name="Mezzo Sporanos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
     Add_Dir(name="Jose Carrera Zarzuela", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
-
 
 @route(mode='tosca_menu')
 def Tosca_Menu(): 
