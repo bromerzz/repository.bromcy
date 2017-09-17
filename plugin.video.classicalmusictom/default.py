@@ -97,6 +97,7 @@ YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
 YOUTUBE_CHANNEL_ID_36 = "nFFxFhf2aS8"
 YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
 YOUTUBE_CHANNEL_ID_38 = "5uiVoZTBN0"
+YOUTUBE_CHANNEL_ID_39 = "DsLoe5LaKqU"
 
 
 """
@@ -133,6 +134,7 @@ def Main_Menu():
     Add_Dir(name="BBC Proms", url=' ', mode="bbc_proms_menu", folder=True,)
     Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
+    Add_Dir(name="Sibelius", url=' ', mode="sibelius_menu", folder=True,)
 
 
 @route(mode='wagner_menu')
@@ -187,6 +189,10 @@ def Mozart_Menu():
     Add_Dir(name="Various Wind Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt')
 
+@route(mode='sibelius_menu')
+def Sibelius_Menu():
+    Add_Dir(name="The Best of Sibelius", url=BASE3+YOUTUBE_CHANNEL_ID_39, folder=False,mode='play_yt')
+
 
 @route(mode='bbc_proms_menu')
 def BBC_Proms_Menu():
@@ -212,7 +218,6 @@ def Compilations_Menu():
     Add_Dir(name="Debussy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
     Add_Dir(name="Karajan Legacy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)    
     Add_Dir(name="Rimsky Korsakov, Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt')
-
 
 #----------------------------------------------------------------
 # A basic OK Dialog
