@@ -98,6 +98,7 @@ YOUTUBE_CHANNEL_ID_36 = "nFFxFhf2aS8"
 YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
 YOUTUBE_CHANNEL_ID_38 = "5uiVoZTBN0"
 YOUTUBE_CHANNEL_ID_39 = "DsLoe5LaKqU"
+YOUTUBE_CHANNEL_ID_40 = "4i0TnNI6U-w"
 
 
 """
@@ -140,6 +141,7 @@ def Main_Menu():
 @route(mode='wagner_menu')
 def Wagner_Menu():
     Add_Dir(name="Wagner Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
+    Add_Dir(name="The Best of Wagner", url=BASE3+YOUTUBE_CHANNEL_ID_40, folder=False,mode='play_yt')
 
 
 @route(mode='schubert_menu')
