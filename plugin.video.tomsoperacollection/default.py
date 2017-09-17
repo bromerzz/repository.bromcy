@@ -108,11 +108,6 @@ YOUTUBE_CHANNEL_ID_19 = "tempDM_-LKc"
 #----------------------------------------------------------------
 # This is the main menu we open into
 
-
-
-
-
-
 @route(mode='main_menu')
 def Main_Menu():
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
@@ -133,9 +128,8 @@ def English_National_Opera_Menu():
 def Gilbert_and_Sullivan_Menu():
     Add_Dir(name="HMS Pinafore", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Mikado", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="The Pirates Of Penzance", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=false, mode='play_yt',)
+    Add_Dir(name="The Pirates Of Penzance", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Iolanthe", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)
-
 
 @route(mode='compilations_menu')
 def Various_Menu():   
@@ -156,7 +150,6 @@ def Tosca_Menu():
     Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
     Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Bizet,Carmen,Jonas Kaufman", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
-
 
 
 #------------------------------------------------------------
