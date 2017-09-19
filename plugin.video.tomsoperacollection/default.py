@@ -124,8 +124,6 @@ def Welsh_National_Opera_Menu():
 def English_National_Opera_Menu(): 
     Add_Dir(name="Rigoletto", url=BASE+YOUTUBE_CHANNEL_ID_15+"/", folder=True,)
 
-@route(mode='gilbert_and_sullivan_menu')
-def Gilbert_And_Sullivan_Menu():
     Add_Dir(name="HMS Pinafore", url=BASE3+YOUTUBE_CHANNEL_ID_17+"/", folder=False, mode='Play_YT',)
     Add_Dir(name="The Mikado", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='Play_YT',)
     Add_Dir(name="The Pirates Of Penzance", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='Play_YT',)
