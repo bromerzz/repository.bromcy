@@ -112,10 +112,10 @@ YOUTUBE_CHANNEL_ID_19 = "tempDM_-LKc"
 def Main_Menu():
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
     Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
-    Add_Dir(name="Gilbert And Sullivan", url=' ', mode="gilbert_and_sullivan",folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
-   
+    Add_Dir(name="Gilbert and Sullivan", url=' ', mode="gilbert_and_sullivan_menu", folder=True,)
+ 
 @route(mode='welsh_national_opera_menu')
 def Welsh_National_Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
