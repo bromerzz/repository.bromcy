@@ -99,6 +99,8 @@ YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
 YOUTUBE_CHANNEL_ID_38 = "5uiVoZTBN0"
 YOUTUBE_CHANNEL_ID_39 = "DsLoe5LaKqU"
 YOUTUBE_CHANNEL_ID_40 = "4i0TnNI6U-w"
+YOUTUBE_CHANNEL_ID_41 = "EWgYg5Iicqk"
+YOUTUBE_CHANNEL_ID_42 = "9AmxZnlRa6Q"
 
 
 """
@@ -136,6 +138,8 @@ def Main_Menu():
     Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Sibelius", url=' ', mode="sibelius_menu", folder=True,)
+    Add_Dir(name="Rachmaninoff", url=' ',mode="rachmaninoff_menu", folder=True,)
+
 
 
 @route(mode='wagner_menu')
@@ -220,6 +224,11 @@ def Compilations_Menu():
     Add_Dir(name="Debussy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
     Add_Dir(name="Karajan Legacy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)    
     Add_Dir(name="Rimsky Korsakov, Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt')
+
+@route(mode='rachmaninoff_menu')
+def Rachmaninoff_Menu():
+	Add_Dir(name="Piano Concerto No2, Yuja Wang", url=BASE3+YOUTUBE_CHANNEL_ID_41, Folder=False, mode='play_yt')
+	Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, Folder=False, mode='play_yt')
 
 #----------------------------------------------------------------
 # A basic OK Dialog
