@@ -86,6 +86,9 @@ YOUTUBE_CHANNEL_ID_16 = "-fbSqOY8z_4"
 YOUTUBE_CHANNEL_ID_17 = "2Q-8QhMAnAU"
 YOUTUBE_CHANNEL_ID_18 = "oRy_qhHcnTs"
 YOUTUBE_CHANNEL_ID_19 = "tempDM_-LKc"
+YOUTUBE_CHANNEL_ID_20 = "UAmxb21bqUU"
+YOUTUBE_CHANNEL_ID_21 = "dkXcvzMVQj0"
+YOUTUBE_CHANNEL_ID_22 = "Oni4iY-b1sg"
 
 
 """
@@ -115,6 +118,7 @@ def Main_Menu():
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
     Add_Dir(name="Gilbert and Sullivan", url=' ', mode="gilbert_and_sullivan_menu", folder=True,)
+    Add_Dir(name="Tchaikovsky Operas", url=' ',mode="tchaikovsky_operas_menu", folder=True,)
  
 @route(mode='welsh_national_opera_menu')
 def Welsh_National_Opera_Menu(): 
@@ -151,6 +155,12 @@ def Tosca_Menu():
     Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
     Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Bizet,Carmen,Jonas Kaufman", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+
+@route(mode='Tchaikovsky_menu')
+def Tchaikovsky_menu():
+    Add_Dir(name="La Belle Durmiente, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20,folder=False,mode='play_yt',)
+    Add_Dir(name="The Nutcracker Suite, Royal Swedish Opera", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False,mode='play_yt',)
+    Add_Dir(name="Iolanthe, Black Sea Music Festival", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False,mode='play_yt',)
 
 
 #------------------------------------------------------------
