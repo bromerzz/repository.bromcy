@@ -156,8 +156,8 @@ def Tosca_Menu():
     Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Bizet,Carmen,Jonas Kaufman", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
 
-@route(mode='Tchaikovsky_menu')
-def Tchaikovsky_menu():
+@route(mode='tchaikovsky_operas_menu')
+def Tchaikovsky_Operas_menu():
     Add_Dir(name="La Belle Durmiente, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Nutcracker Suite, Royal Swedish Opera", url=BASE3+YOUTUBE_CHANNEL_ID_21+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Iolanthe, Black Sea Music Festival", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
