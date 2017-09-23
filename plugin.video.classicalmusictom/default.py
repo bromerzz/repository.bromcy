@@ -227,8 +227,8 @@ def Compilations_Menu():
 
 @route(mode='rachmaninoff_menu')
 def Rachmaninoff_Menu():
-	Add_Dir(name="Piano Concerto No2, Yuja Wang", url=BASE3+YOUTUBE_CHANNEL_ID_41, Folder=False, mode='play_yt')
-	Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, Folder=False, mode='play_yt')
+	Add_Dir(name="Piano Concerto No2, Yuja Wang", url=BASE3+YOUTUBE_CHANNEL_ID_41, folder=False, mode='play_yt')
+	Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, folder=False, mode='play_yt')
 
 #----------------------------------------------------------------
 # A basic OK Dialog
