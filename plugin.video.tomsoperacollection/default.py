@@ -158,9 +158,9 @@ def Tosca_Menu():
 
 @route(mode='Tchaikovsky_menu')
 def Tchaikovsky_menu():
-    Add_Dir(name="La Belle Durmiente, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20,folder=False,mode='play_yt',)
-    Add_Dir(name="The Nutcracker Suite, Royal Swedish Opera", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False,mode='play_yt',)
-    Add_Dir(name="Iolanthe, Black Sea Music Festival", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False,mode='play_yt',)
+    Add_Dir(name="La Belle Durmiente, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="The Nutcracker Suite, Royal Swedish Opera", url=BASE3+YOUTUBE_CHANNEL_ID_21+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Iolanthe, Black Sea Music Festival", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
 
 
 #------------------------------------------------------------
