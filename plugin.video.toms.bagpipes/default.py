@@ -86,7 +86,7 @@ YOUTUBE_CHANNEL_ID_16 = "Qut2getKFT4"
 #YOUTUBE_CHANNEL_ID_19 = "dMzQiu2mUlE"
 #YOUTUBE_CHANNEL_ID_20 = "5xtGjHT0iVc"
 YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
-#YOUTUBE_CHANNEL_ID_22 = ""
+YOUTUBE_CHANNEL_ID_22 = "1JsSckijLE"
 #----------------------------------------------------------------
 
 """
@@ -146,7 +146,7 @@ def Edinburgh_Military_Tattoo_Menu():
 def Regimental_Pipes_And_Drums_Menu():
     Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
     Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
 
 
 @route(mode='regimental_bands_menu')
