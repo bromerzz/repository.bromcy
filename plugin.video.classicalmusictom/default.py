@@ -103,6 +103,7 @@ YOUTUBE_CHANNEL_ID_41 = "EWgYg5Iicqk"
 YOUTUBE_CHANNEL_ID_42 = "9AmxZnlRa6Q"
 YOUTUBE_CHANNEL_ID_43 = "K55d9a8j8WE"
 YOUTUBE_CHANNEL_ID_44 = "9qfsBgMK7s0"
+YOUTUBE_CHANNEL_ID_45 = "UCGoVPaw4yHmSR6OGaRHvd_g"
 
 
 """
@@ -168,6 +169,7 @@ def Elgar_Menu():
     Add_Dir(name="Elgar Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
     Add_Dir(name="The Dream of Gerontius", url=BASE3+YOUTUBE_CHANNEL_ID_43, folder=FALSE,mode='play_yt')
     Add_Dir(name="Organ Music", url=BASE3+YOUTUBE_CHANNEL_ID_44, folder=FALSE,mode='play_yt')
+    Add_Dir(name="Elgar Playlist", url=BASE+YOUTUBE_CHANNEL_ID_45+"/", FOLDER=True,)
 
 @route(mode='brahms_menu')
 def Brahms_Menu():
