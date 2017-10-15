@@ -167,9 +167,9 @@ def Strauss_Menu():
 @route(mode='elgar_menu')
 def Elgar_Menu():
     Add_Dir(name="Elgar Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
-    Add_Dir(name="The Dream of Gerontius", url=BASE3+YOUTUBE_CHANNEL_ID_43, folder=FALSE,mode='play_yt')
-    Add_Dir(name="Organ Music", url=BASE3+YOUTUBE_CHANNEL_ID_44, folder=FALSE,mode='play_yt')
-    Add_Dir(name="Elgar Playlist", url=BASE+YOUTUBE_CHANNEL_ID_45+"/", FOLDER=True,)
+    Add_Dir(name="The Dream of Gerontius", url=BASE3+YOUTUBE_CHANNEL_ID_43, folder=False,mode='play_yt')
+    Add_Dir(name="Organ Music", url=BASE3+YOUTUBE_CHANNEL_ID_44, folder=False,mode='play_yt')
+    Add_Dir(name="Elgar Playlist", url=BASE+YOUTUBE_CHANNEL_ID_45+"/", folder=True,)
 
 @route(mode='brahms_menu')
 def Brahms_Menu():
