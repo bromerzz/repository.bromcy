@@ -109,20 +109,11 @@ def Main_Menu():
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
-    Add_Dir( 
-        name="Chaffinch and Brambling", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
-
-    Add_Dir( 
-        name="Green Finches", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
-
-    Add_Dir( 
-        name="Linnet and Twite", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
-
-    Add_Dir( 
-        name="Meadow Pipit, Tree Pipit and Skylark", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
-
-    Add_Dir(
-        name="Rock Pipit and Water Pipit", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
+    Add_Dir(name="Chaffinch and Brambling", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
+    Add_Dir(name="Green Finches", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
+    Add_Dir(name="Linnet and Twite", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
+    Add_Dir(name="Meadow Pipit, Tree Pipit and Skylark", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
+    Add_Dir(name="Rock Pipit and Water Pipit", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
 
 # Add some YT channels (see we're using BASE2 as the url for this one)
     Add_Dir( 
@@ -141,7 +132,7 @@ def Simple_Dialog(title,msg):
 #----------------------------------------------------------------
 # Play a youtube video
 @route(mode='play_yt',args=['url'])
-def Play-YT(url):
+def Play_YT(url):
     xbmc.executebuiltin('PlayMedia(plugin://plugin.video.youtube/%s)'%url)
 
 """
