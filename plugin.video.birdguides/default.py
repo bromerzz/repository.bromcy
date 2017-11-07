@@ -70,6 +70,17 @@ YOUTUBE_CHANNEL_ID_2 = "ZuasCv8b7UQ"
 YOUTUBE_CHANNEL_ID_3 = "HNt1Ccg3y5Q"
 YOUTUBE_CHANNEL_ID_4 = "Ti5-wah4eBA"
 YOUTUBE_CHANNEL_ID_5 = "9eoTPxCcyHM"
+YOUTUBE_CHANNEL_ID_6 = "yofu093bPkw"
+YOUTUBE_CHANNEL_ID_7 = "HUrMrXbJIQk"
+YOUTUBE_CHANNEL_ID_8 = "wixRxZ94dMc"
+YOUTUBE_CHANNEL_ID_9 = "Epz4nJ9ut0I"
+YOUTUBE_CHANNEL_ID_10 = "Rerxw9vloo"
+YOUTUBE_CHANNEL_ID_11 = "MBEfujzRrh8"
+YOUTUBE_CHANNEL_ID_12 = "CQEH3cbw5Yw"
+YOUTUBE_CHANNEL_ID_13 = "Vft1EGTCFbw"
+YOUTUBE_CHANNEL_ID_14 = "qi1p0yh4X3I"
+YOUTUBE_CHANNEL_ID_15 = "klya9oEK57M"
+YOUTUBE_CHANNEL_ID_16 ="SUN_AviJzZ4"
 
 #----------------------------------------------------------------
 
@@ -96,10 +107,10 @@ YOUTUBE_CHANNEL_ID_5 = "9eoTPxCcyHM"
 def Main_Menu():
 
 # If debug mode is enabled show the koding tutorials
-    if debug == 'true':
-        Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
-    else:
-        Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
+    #if debug == 'true':
+        #Add_Dir ( '[COLOR=lime]Koding Tutorials[/COLOR]', '', "tutorials", True, '', '', '' )
+    #else:
+        #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
     my_message= "{'title' : 'Support & Suggestions', 'msg' : \"If you come across any online content you'd like to get added please use the support thread at noobsandnerds.com and I'll be happy to look into it for you.\"}"
@@ -114,11 +125,19 @@ def Main_Menu():
     Add_Dir(name="Linnet and Twite", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
     Add_Dir(name="Meadow Pipit, Tree Pipit and Skylark", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
     Add_Dir(name="Rock Pipit and Water Pipit", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
+    Add_Dir(name="Goldcrest and Firecrest", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
+    Add_Dir(name="Marsh and Willow Tits", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
+    Add_Dir(name="Chiffchaff and Willow Warbler", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
+    Add_Dir(name="Reed Warbler and Sedge Warbler", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',)
+    Add_Dir(name="Whitethroat and Lesser Whitehroat", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
+    Add_Dir(name="Blackcap and Garden Warbler", url=BASE3+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',)
+    Add_Dir(name="Pigeons", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+    Add_Dir(name="Collared Dove and Turtle Dove", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
+    Add_Dir(name="Crow, Rook and Raven", url=BASE3+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',)    #Add_Dir( 
+    Add_Dir(name="Swallows and Swifts", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+    Add_Dir(name="Nigthingales", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
 
-# Add some YT channels (see we're using BASE2 as the url for this one)
-    Add_Dir( 
-        name="", url=BASE3+YOUTUBE_CHANNEL_ID_+"/", folder=True,
-        icon="")
+
 
 # A basic OK Dialog
 @route(mode='koding_settings')
