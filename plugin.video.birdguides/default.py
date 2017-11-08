@@ -67,6 +67,11 @@ BASE3 = "play/?video_id="
 # Set each of your YouTube playlist id's
 YOUTUBE_CHANNEL_ID_1 = "PLE3B611F475AA00AF"
 YOUTUBE_CHANNEL_ID_2 = "PL852BE01ADF00B358"
+YOUTUBE_CHANNEL_ID_3 = "PLBFD1CF77548B0291"
+YOUTUBE_CHANNEL_ID_4 = "PL4F31319F0022ECF8"
+YOUTUBE_CHANNEL_ID_5 = "PLgSpqOFj1Ta6oK7v-UJSGDlsYp1eJwTxu"
+YOUTUBE_CHANNEL_ID_6 = "PLE02AF25046CE2E69"
+
 
 
 
@@ -102,18 +107,32 @@ def Main_Menu():
         #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    my_message= "{'title' : 'Support & Suggestions', 'msg' : \"The content on here has primarily been pulled from You Tube Videos produced by birding organisations such the BTO and Petersens Field Guides and all credit goes to them. Other content is also pulled from Youtube and again credit goes to the producers.\"}"
+    my_message= "{'title' : 'Thankyou for watching - please read this first', 'msg' : \"The content on here has been pulled from freely available YouTube Videos produced by birding organisations such as the British Trust for Ornithology and Petersens Field Guides. As I include additional content from Youtube I would like to record in advance my appreciation for the work those individuals and organisations will have put into their projects.\"}"
 
     Add_Dir(
         name="Support/Suggestions", url=my_message, mode="simple_dialog", folder=False,
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
     Add_Dir(name="Bird ID Workshops", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="Peterson Field Guides:Identyfing Birds By Family", url=BASE+YOUTUBE_CHANNEL_ID_2+"/",folder=True,)
+    Add_Dir(name="Peterson Field Guides:Species Profiles", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
+    Add_Dir(name="Peterson Field Guides:Birding Tutorials", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
+    Add_Dir(name="Cornell lab of Ornithology: The 39 Species of The Birds of Paradise", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
+    Add_Dir(name="Cornell lab of Ornithology: The World of Birds", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
 
 
+
+
+    #BASE2 for channel lists
+    #Add_Dir(name="whatever", url=BASE2+YOUTUBE_CHANNEL_ID_99+"/", folder=True,)
+    #BASE3 for watch or play tv 
+    #Add_Dir(name="whatever", url=BASE3+YOUTUBE_CHANNEL_ID_99, folder=False, mode='play_yt',)
+
+
+    #To add a dircetory in which to add links create a route menu
+#@route(mode='round_the_world_menu')
+#def Round_The_World_Menu():
 
 
 # A basic OK Dialog
