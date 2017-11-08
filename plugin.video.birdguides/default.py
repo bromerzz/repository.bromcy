@@ -65,9 +65,8 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 BASE3 = "play/?video_id="
 
 # Set each of your YouTube playlist id's
-YOUTUBE_CHANNEL_ID_2 = "JdgjIebwD_0"
 YOUTUBE_CHANNEL_ID_1 = "PLE3B611F475AA00AF"
-#YOUTUBE_CHANNEL_ID_55 = ""
+YOUTUBE_CHANNEL_ID_2 = "PL852BE01ADF00B358"
 
 
 
@@ -103,15 +102,16 @@ def Main_Menu():
         #Add_Dir ( '[COLOR=lime]Enable debug mode for some cool dev tools![/COLOR]', '', "koding_settings", False, '', '', '' )
     
 # An example title/message we're going to send through to a popup dialog in the first Add_Dir item
-    my_message= "{'title' : 'Support & Suggestions', 'msg' : \"The content on here has primarily been pulled from You Tube Videos produced by the BTO and all credit goes to them. Other content is also pulled from Youtube and again credit goes to the producers.\"}"
+    my_message= "{'title' : 'Support & Suggestions', 'msg' : \"The content on here has primarily been pulled from You Tube Videos produced by birding organisations such the BTO and Petersens Field Guides and all credit goes to them. Other content is also pulled from Youtube and again credit goes to the producers.\"}"
 
     Add_Dir(
         name="Support/Suggestions", url=my_message, mode="simple_dialog", folder=False,
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
-    Add_Dir(name="Chaffinch and Brambling", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
     Add_Dir(name="Bird ID Workshops", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
+    Add_Dir(name="Peterson Field Guides:Identyfing Birds By Family", url=BASE+YOUTUBE_CHANNEL_ID_2+"/",folder=True,)
 
 
 
