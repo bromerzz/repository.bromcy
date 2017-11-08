@@ -81,6 +81,48 @@ YOUTUBE_CHANNEL_ID_13 = "Vft1EGTCFbw"
 YOUTUBE_CHANNEL_ID_14 = "qi1p0yh4X3I"
 YOUTUBE_CHANNEL_ID_15 = "klya9oEK57M"
 YOUTUBE_CHANNEL_ID_16 ="SUN_AviJzZ4"
+YOUTUBE_CHANNEL_ID_17 = "ns0yg90Ap3M"
+YOUTUBE_CHANNEL_ID_18 = "WFlSCVOYi8"
+YOUTUBE_CHANNEL_ID_19 = "Up_Oq_graC0"
+YOUTUBE_CHANNEL_ID_20 = "ifZaUkXmIcY"
+YOUTUBE_CHANNEL_ID_21 = "7Jo83LevWeE"
+YOUTUBE_CHANNEL_ID_22 = "wJq76iri2CE"
+YOUTUBE_CHANNEL_ID_23 = "86Gw16OuMTM"
+YOUTUBE_CHANNEL_ID_24 = "29f3i-XXDuU"
+YOUTUBE_CHANNEL_ID_25 = "AoX_qkXQi94"
+YOUTUBE_CHANNEL_ID_26 = "V3eiuj37gJE"
+YOUTUBE_CHANNEL_ID_27 = "Vm8c0mnhIRY"
+YOUTUBE_CHANNEL_ID_28 = "vt8ZK8fI3W8"
+YOUTUBE_CHANNEL_ID_29 = "4URaexb9uDw"
+YOUTUBE_CHANNEL_ID_30 = "Ju1j5cxB9pg&t=39s"
+YOUTUBE_CHANNEL_ID_31 = "EbWyHc7GDjY"
+YOUTUBE_CHANNEL_ID_32 = "8pyW1hftvk4"
+YOUTUBE_CHANNEL_ID_33 = "CHh1swq_BOs"
+YOUTUBE_CHANNEL_ID_34 = "Yh2XTAiVXJs"
+YOUTUBE_CHANNEL_ID_35 = "PU3hnwumbqg"
+YOUTUBE_CHANNEL_ID_36 = "ZcH052nY7II"
+YOUTUBE_CHANNEL_ID_37 = "kZyMuqV-l9Y"
+YOUTUBE_CHANNEL_ID_38 = "ecJSoImIT2Y"
+YOUTUBE_CHANNEL_ID_39 = "xYWF3raGwx4"
+YOUTUBE_CHANNEL_ID_40 = "rjjNnfZn2mA"
+YOUTUBE_CHANNEL_ID_41 = "puZId8bfAXU"
+YOUTUBE_CHANNEL_ID_42 = "Petrels"
+YOUTUBE_CHANNEL_ID_43 = "6SDxOy-F3gs"
+YOUTUBE_CHANNEL_ID_44 = "bn6YN5Mb7mU"
+YOUTUBE_CHANNEL_ID_45 = "yd30BlNsmeA"
+YOUTUBE_CHANNEL_ID_46 = "I5TtiYKO9aI&t=14s"
+YOUTUBE_CHANNEL_ID_47 = "KVhkl6rd6T4"
+YOUTUBE_CHANNEL_ID_48 = "2wa0nFf9iug&spfreload=10"
+YOUTUBE_CHANNEL_ID_49 = "PiqVkmqCOc0"
+YOUTUBE_CHANNEL_ID_50 = "PZjAyurw_RQ"
+YOUTUBE_CHANNEL_ID_51 = "S8K2rSlDaKU"
+YOUTUBE_CHANNEL_ID_52 = "C5oN4Pc9Gw4"
+YOUTUBE_CHANNEL_ID_53 = "zT5BYd3oj_Y&t=67s"
+#YOUTUBE_CHANNEL_ID_54 = ""
+#YOUTUBE_CHANNEL_ID_55 = ""
+
+
+
 
 #----------------------------------------------------------------
 
@@ -134,8 +176,46 @@ def Main_Menu():
     Add_Dir(name="Pigeons", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
     Add_Dir(name="Collared Dove and Turtle Dove", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
     Add_Dir(name="Crow, Rook and Raven", url=BASE3+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',)    #Add_Dir( 
-    Add_Dir(name="Swallows and Swifts", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+    Add_Dir(name="Hirendines and Swifts", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
     Add_Dir(name="Nigthingales", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+    Add_Dir(name="Mandarin and Wood Ducks", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+    Add_Dir(name="Female Dabbling ducks", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
+    Add_Dir(name="Garganey and Teal", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
+    Add_Dir(name="Diving Ducks", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
+    Add_Dir(name="Goosander and Red Breasted Merganser", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
+    Add_Dir(name="Winter Grebes", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
+    Add_Dir(name="Small Breeding Grebes", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt',)
+    Add_Dir(name="Winter Divers", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False, mode='play_yt',)
+    Add_Dir(name="Scoters", url=BASE3+YOUTUBE_CHANNEL_ID_25, folder=False, mode='play_yt',)
+    Add_Dir(name="Sanderling and Curlew Sandpiper", url=BASE3+YOUTUBE_CHANNEL_ID_26, folder=False, mode='play_yt',)
+    Add_Dir(name="Wood and Green Sandpiper", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt',)
+    Add_Dir(name="Curlew and Whimbrel", url=BASE3+YOUTUBE_CHANNEL_ID_28, folder=False, mode='play_yt',)
+    Add_Dir(name="Knot and Dunlin", url=BASE3+YOUTUBE_CHANNEL_ID_29, folder=False, mode='play_yt',)
+    Add_Dir(name="Common Shanks", url=BASE3+YOUTUBE_CHANNEL_ID_30, folder=False, mode='play_yt',)
+    Add_Dir(name="Coot and Moorhen", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt',)
+    Add_Dir(name="Wild Swans", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt',)
+    Add_Dir(name="Grey Geese", url=BASE3+YOUTUBE_CHANNEL_ID_33, folder=False, mode='play_yt',)
+    Add_Dir(name="Kittiwake and Other Small Gulls", url=BASE3+YOUTUBE_CHANNEL_ID_34, folder=False, mode='play_yt',)
+    Add_Dir(name="Small black headed gulls", url=BASE3+YOUTUBE_CHANNEL_ID_35, folder=False, mode='play_yt',)
+    Add_Dir(name="Iceland and Glaucous Gulls", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False, mode='play_yt',)
+    Add_Dir(name="Adult black backed gulls", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt',)
+    Add_Dir(name="Godwits", url=BASE3+YOUTUBE_CHANNEL_ID_38, folder=False, mode='play_yt',)
+    Add_Dir(name="Grey and Golden Plovers", url=BASE3+YOUTUBE_CHANNEL_ID_39, folder=False, mode='play_yt',)
+    Add_Dir(name="Ringed Plovers", url=BASE3+YOUTUBE_CHANNEL_ID_40, folder=False, mode='play_yt',)
+    Add_Dir(name="Winter Auks", url=BASE3+YOUTUBE_CHANNEL_ID_41, folder=False, mode='play_yt',)
+    Add_Dir(name="Petrels", url=BASE3+YOUTUBE_CHANNEL_ID_42, folder=False, mode='play_yt',)
+    Add_Dir(name="Skuas", url=BASE3+YOUTUBE_CHANNEL_ID_43, folder=False, mode='play_yt',)
+    Add_Dir(name="Little Egret and Great White Egret", url=BASE3+YOUTUBE_CHANNEL_ID_44, folder=False, mode='play_yt',)
+    Add_Dir(name="Roseate, Sandwich and Little Tern", url=BASE3+YOUTUBE_CHANNEL_ID_45, folder=False, mode='play_yt',)
+    Add_Dir(name="Common and Arctic Terns", url=BASE3+YOUTUBE_CHANNEL_ID_46, folder=False, mode='play_yt',)
+    Add_Dir(name="Hobby and Kestrel", url=BASE3+YOUTUBE_CHANNEL_ID_47, folder=False, mode='play_yt',)
+    Add_Dir(name="Grey Harriers", url=BASE3+YOUTUBE_CHANNEL_ID_48, folder=False, mode='play_yt',)
+    Add_Dir(name="Peregrines", url=BASE3+YOUTUBE_CHANNEL_ID_49, folder=False, mode='play_yt',)
+    Add_Dir(name="Eagles", url=BASE3+YOUTUBE_CHANNEL_ID_50, folder=False, mode='play_yt',)
+    Add_Dir(name="Winter Buzzards: Common and Rough Legged Buzzards", url=BASE3+YOUTUBE_CHANNEL_ID_51, folder=False, mode='play_yt',)
+    Add_Dir(name="Summer Buzzards: Common and Honey Buzzards", url=BASE3+YOUTUBE_CHANNEL_ID_52, folder=False, mode='play_yt',)
+    Add_Dir(name="Goshawk and Sparrowhawk", url=BASE3+YOUTUBE_CHANNEL_ID_53, folder=False, mode='play_yt',)
+
 
 
 
