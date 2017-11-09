@@ -122,6 +122,13 @@ YOUTUBE_CHANNEL_ID_60 = "OCiKqIsF2IQ"
 YOUTUBE_CHANNEL_ID_61 = ""
 YOUTUBE_CHANNEL_ID_62 = ""
 YOUTUBE_CHANNEL_ID_63 = ""
+YOUTUBE_CHANNEL_ID_64 = ""
+YOUTUBE_CHANNEL_ID_65 = ""
+YOUTUBE_CHANNEL_ID_66 = ""
+YOUTUBE_CHANNEL_ID_67 = ""
+YOUTUBE_CHANNEL_ID_68 = ""
+YOUTUBE_CHANNEL_ID_69 = ""
+YOUTUBE_CHANNEL_ID_70 = ""
 
 
 """
@@ -170,6 +177,13 @@ def Main_Menu():
 def Wagner_Menu():
     Add_Dir(name="Wagner Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="The Best of Wagner", url=BASE3+YOUTUBE_CHANNEL_ID_40, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
 
 @route(mode='mahler_menu')
 def Mahler_Menu():
@@ -272,7 +286,7 @@ def Compilations_Menu():
 @route(mode='rachmaninoff_menu')
 def Rachmaninoff_Menu():
 	Add_Dir(name="Piano Concerto No2, Yuja Wang", url=BASE3+YOUTUBE_CHANNEL_ID_41, folder=False, mode='play_yt')
-    Add_Dir(name="Piano Concerto No2 Op 18, Anna Fedorova", url=BASE3+YOUTUBE_CHANNEL_ID_52, folder=False, mode='play_yt')
+    #Add_Dir(name="Piano Concerto No2 Op 18, Anna Fedorova", url=BASE3+YOUTUBE_CHANNEL_ID_52, folder=False, mode='play_yt')
 	Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, folder=False, mode='play_yt')
     Add_Dir(name="Symphony No 2 Op 27, NL Radio Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_51, folder=False, mode='play_yt')
 
