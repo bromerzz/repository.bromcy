@@ -279,7 +279,7 @@ def Mozart_Menu():
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt',)
     Add_Dir(name="Flute & Harp - Mehta -Israel Philharmonic Orcestra", url=BASE3+YOUTUBE_CHANNEL_ID_65, folder=False, mode='play_yt',)
     Add_Dir(name="Clarinet Concerto - Iceland Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_66, folder=False, mode='play_yt',)
-    Add_Dir(name="Playlist",url=BASE+YOUTUBE_CHANNEL_ID_67"/", folder=True,)
+    #Add_Dir(name="Playlist",url=BASE+YOUTUBE_CHANNEL_ID_67"/", folder=True,)
 
 @route(mode='rachmaninoff_menu')
 def Rachmaninoff_Menu():
