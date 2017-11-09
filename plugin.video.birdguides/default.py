@@ -110,7 +110,7 @@ def Main_Menu():
     my_message= "{'title' : 'Thankyou for watching - please read this first', 'msg' : \"The content on here has been pulled from freely available YouTube Videos produced by birding organisations such as the British Trust for Ornithology and Petersens Field Guides. As I include additional content from Youtube I would like to record in advance my appreciation for the work those individuals and organisations will have put into their projects.\"}"
 
     Add_Dir(
-        name="Support/Suggestions", url=my_message, mode="simple_dialog", folder=False,
+        name="Thankyou for watching - please read this first", url=my_message, mode="simple_dialog", folder=False,
         icon="https://cdn2.iconfinder.com/data/icons/picons-basic-2/57/basic2-087_info-512.png")
         
 # Add some YT Playlists (see we're using BASE as the url)
