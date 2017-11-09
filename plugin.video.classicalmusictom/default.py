@@ -129,15 +129,14 @@ YOUTUBE_CHANNEL_ID_67 = "PLRhAdIodfVA9TQ1QL76zx1vxRt9ppBJ0E"
 YOUTUBE_CHANNEL_ID_68 = "LHmWoAj4al0"
 YOUTUBE_CHANNEL_ID_69 = "-Tm0Phjiouk"
 YOUTUBE_CHANNEL_ID_70 = "1lHOYvIhLxo"
-YOUTUBE_CHANNEL_ID_71 = ""
-YOUTUBE_CHANNEL_ID_72 = ""
-YOUTUBE_CHANNEL_ID_73 = ""
-YOUTUBE_CHANNEL_ID_74 = ""
-YOUTUBE_CHANNEL_ID_75 = ""
-YOUTUBE_CHANNEL_ID_76 = ""
-YOUTUBE_CHANNEL_ID_77 = ""
-YOUTUBE_CHANNEL_ID_78 = ""
-YOUTUBE_CHANNEL_ID_79 = ""
+#YOUTUBE_CHANNEL_ID_71 = ""
+#YOUTUBE_CHANNEL_ID_72 = ""
+#YOUTUBE_CHANNEL_ID_73 = ""
+#YOUTUBE_CHANNEL_ID_74 = ""
+#YOUTUBE_CHANNEL_ID_75 = ""
+#YOUTUBE_CHANNEL_ID_77 = ""
+#YOUTUBE_CHANNEL_ID_78 = ""
+#YOUTUBE_CHANNEL_ID_79 = ""
 
 
 
@@ -183,10 +182,10 @@ def Main_Menu():
     Add_Dir(name="Rachmaninoff", url=' ',mode="rachmaninoff_menu", folder=True,)
     Add_Dir(name="Mahler", url=' ',mode="mahler_menu", folder=True,)
     Add_Dir(name="Dvorak", url=' ',mode="dvorak_menu", folder=True,)
-    Add_Dir(name="Wetz", url='',mode="wetz_menu", folder=True,)
-    Add_Dir(name="Schumann", url='',mode="schumann_menu", folder=True,)
-    Add_Dir(name="Mendelsohn", url='',mode="mendelsohn_menu", folder=True)
-    #Add_Dir(name="", url='',mode="_menu", folder=True)
+    Add_Dir(name="Wetz", url=' ',mode="wetz_menu", folder=True,)
+    Add_Dir(name="Schumann", url=' ',mode="schumann_menu", folder=True,)
+    Add_Dir(name="Mendelsohn", url=' ',mode="mendelsohn_menu", folder=True,)
+    #Add_Dir(name="", url='',mode="_menu", folder=True,)
 
 
 
@@ -195,28 +194,28 @@ def Main_Menu():
 @route(mode='wagner_menu')
 def Wagner_Menu():
     Add_Dir(name="Wagner Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
-    Add_Dir(name="The Best of Wagner", url=BASE3+YOUTUBE_CHANNEL_ID_40, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
-    Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt')
+    Add_Dir(name="The Best of Wagner", url=BASE3+YOUTUBE_CHANNEL_ID_40, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 @route(mode='mahler_menu')
 def Mahler_Menu():
-    Add_Dir(name="Symphony No 1 The Titan - Bernstein Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_46, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 2 Auferstehung - Rotal Concertgebouw Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_47, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 2 Abbado - Resurrection Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_53, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 3 Bernstein- Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_54, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 4 Bernstein- Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_59, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 5 Abbado - Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_48, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 6 Abbado - Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_56, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 7 Bernstein - Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_60, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 8 Bernstein Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_57, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 9 Barenbolm- Berlin State Opera", url=BASE3+YOUTUBE_CHANNEL_ID_58, folder=False,mode='play_yt')
-    Add_Dir(name="Symphony No 10 Rotterdam Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_55, folder=False,mode='play_yt')
+    Add_Dir(name="Symphony No 1 The Titan - Bernstein Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_46, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 2 Auferstehung - Rotal Concertgebouw Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_47, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 2 Abbado - Resurrection Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_53, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 3 Bernstein- Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_54, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 4 Bernstein- Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_59, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 5 Abbado - Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_48, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 6 Abbado - Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_56, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 7 Bernstein - Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_60, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 8 Bernstein Vienna Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_57, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 9 Barenbolm- Berlin State Opera", url=BASE3+YOUTUBE_CHANNEL_ID_58, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 10 Rotterdam Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_55, folder=False,mode='play_yt',)
 
 
 @route(mode='schubert_menu')
@@ -225,28 +224,28 @@ def Schubert_Menu():
 
 @route(mode='dvorak_menu')
 def Dvorak_Menu():
-    Add_Dir(name="New World Symphony No 9 - New York Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_49, folder=False,mode='play_yt')
-    Add_Dir(name="New World Symphony No 9- Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_49, folder=False,mode='play_yt')
+    Add_Dir(name="New World Symphony No 9 - New York Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_49, folder=False,mode='play_yt',)
+    Add_Dir(name="New World Symphony No 9- Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_49, folder=False,mode='play_yt',)
 
 @route(mode='strauss_menu')
 def Strauss_Menu():
-    Add_Dir(name="Strauss, Horn Certo No1, Okayama Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False, mode='play_yt')
-    Add_Dir(name="Strauss, French Horn No 1, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_25, folder=False, mode='play_yt')
+    Add_Dir(name="Strauss, Horn Certo No1, Okayama Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False, mode='play_yt',)
+    Add_Dir(name="Strauss, French Horn No 1, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_25, folder=False, mode='play_yt',)
     Add_Dir(name="Horn Lesson, Berlin Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_26, folder=False, mode='play_yt')
-    Add_Dir(name="Strauss, Concerto No 1, French Horn, Monila Nemcova", url=BASE3+YOUTUBE_CHANNEL_ID_28, folder=False, mode='play_yt')
+    Add_Dir(name="Strauss, Concerto No 1, French Horn, Monila Nemcova", url=BASE3+YOUTUBE_CHANNEL_ID_28, folder=False, mode='play_yt',)
 
 
 @route(mode='elgar_menu')
 def Elgar_Menu():
     Add_Dir(name="Elgar Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
-    Add_Dir(name="The Dream of Gerontius", url=BASE3+YOUTUBE_CHANNEL_ID_43, folder=False,mode='play_yt')
-    Add_Dir(name="Organ Music", url=BASE3+YOUTUBE_CHANNEL_ID_44, folder=False,mode='play_yt')
+    Add_Dir(name="The Dream of Gerontius", url=BASE3+YOUTUBE_CHANNEL_ID_43, folder=False,mode='play_yt',)
+    Add_Dir(name="Organ Music", url=BASE3+YOUTUBE_CHANNEL_ID_44, folder=False,mode='play_yt',)
     Add_Dir(name="Elgar Playlist", url=BASE+YOUTUBE_CHANNEL_ID_45+"/", folder=True,)
 
 @route(mode='brahms_menu')
 def Brahms_Menu():
     Add_Dir(name="Brahms",url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
-    Add_Dir(name="Brahms and Sibelius, Double Concerto for Violin and Viola", url=BASE3+YOUTUBE_CHANNEL_ID_33, folder=False, mode='play_yt')   
+    Add_Dir(name="Brahms and Sibelius, Double Concerto for Violin and Viola", url=BASE3+YOUTUBE_CHANNEL_ID_33, folder=False, mode='play_yt',)   
 
 
 @route(mode='bach_menu')
@@ -255,39 +254,39 @@ def Bach_Menu():
 
 @route(mode='wetz_menu')
 def Wetz_Menu():
-    Add_Dir(name="Violin Concerto B Minor Op 57 - ",url=BASE+YOUTUBE_CHANNEL_ID_61+"/", folder=True,)
-    Add_Dir(name="kleist Overture Staatsphilharmonie Rheinland-Pfalz ",url=BASE+YOUTUBE_CHANNEL_ID_62+"/", folder=True,)
+    Add_Dir(name="Violin Concerto B Minor Op 57", url=BASE+YOUTUBE_CHANNEL_ID_61+"/", folder=True,)
+    Add_Dir(name="kleist Overture Staatsphilharmonie Rheinland-Pfalz ", url=BASE+YOUTUBE_CHANNEL_ID_62+"/", folder=True,)
 
 @route(mode='tchaikovsky_menu')
 def Tchaikovsky_Menu():
-    Add_Dir(name="Tchaikovsky Symphonies 1 to 6",url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
+    Add_Dir(name="Tchaikovsky Symphonies 1 to 6", url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
 
 
 @route(mode='beethoven_menu')
 def Beethoven_Menu():
-    Add_Dir(name=" Symphony No 6 - Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_68, folder=False, mode='play_yt')
-    Add_Dir(name=" Piano Concerto No 3 - Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_69, folder=False, mode='play_yt')
-    Add_Dir(name=" Symphony No 5 - Bernstein", url=BASE3+YOUTUBE_CHANNEL_ID_70, folder=False, mode='play_yt')
-    Add_Dir(name=" All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt')   
-    Add_Dir(name=" Symphony No 9, Chicago Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt')
+    Add_Dir(name="Symphony No 6 - Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_68, folder=False, mode='play_yt',)
+    Add_Dir(name="Piano Concerto No 3 - Lucerne Festival Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_69, folder=False, mode='play_yt',)
+    Add_Dir(name="Symphony No 5 - Bernstein", url=BASE3+YOUTUBE_CHANNEL_ID_70, folder=False, mode='play_yt',)
+    Add_Dir(name="All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt',)   
+    Add_Dir(name="Symphony No 9, Chicago Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
 
 @route(mode='mozart_menu')
 def Mozart_Menu():
-    Add_Dir(name="Horn Concerto No 2", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt')
-    Add_Dir(name="Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt')
-    Add_Dir(name="Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt')
+    Add_Dir(name="Horn Concerto No 2", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt',)
+    Add_Dir(name="Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt',)
+    Add_Dir(name="Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt',)
     Add_Dir(name="Various Wind Concerto",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
-    Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt')
-    Add_Dir(name="Flute & Harp - Mehta -Israel Philharmonic Orcestra", url=BASE3+YOUTUBE_CHANNEL_ID_65, folder=False, mode='play_yt')
-    Add_Dir(name="Clarinet Concerto - Iceland Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_66, folder=False, mode='play_yt')
+    Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt',)
+    Add_Dir(name="Flute & Harp - Mehta -Israel Philharmonic Orcestra", url=BASE3+YOUTUBE_CHANNEL_ID_65, folder=False, mode='play_yt',)
+    Add_Dir(name="Clarinet Concerto - Iceland Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_66, folder=False, mode='play_yt',)
     Add_Dir(name="Playlist",url=BASE+YOUTUBE_CHANNEL_ID_67"/", folder=True,)
 
 @route(mode='rachmaninoff_menu')
 def Rachmaninoff_Menu():
-    Add_Dir(name="Piano Concerto No2, Yuja Wang", url=BASE3+YOUTUBE_CHANNEL_ID_41, folder=False, mode='play_yt')
-    #Add_Dir(name="Piano Concerto No2 Op 18, Anna Fedorova", url=BASE3+YOUTUBE_CHANNEL_ID_52, folder=False, mode='play_yt')
-    Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, folder=False, mode='play_yt')
-    Add_Dir(name="Symphony No 2 Op 27, NL Radio Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_51, folder=False, mode='play_yt')
+    Add_Dir(name="Piano Concerto No2, Yuja Wang", url=BASE3+YOUTUBE_CHANNEL_ID_41, folder=False, mode='play_yt',)
+    Add_Dir(name="Piano Concerto No2 Op 18, Anna Fedorova", url=BASE3+YOUTUBE_CHANNEL_ID_52, folder=False, mode='play_yt')
+    Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, folder=False, mode='play_yt',)
+    Add_Dir(name="Symphony No 2 Op 27, NL Radio Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_51, folder=False, mode='play_yt',)
 
 @route(mode='schumann_menu')
 def Schumann_Menu():
@@ -295,24 +294,24 @@ def Schumann_Menu():
 
 @route(mode='mendelsohn_menu')
 def Mendelsohn_Menu():
-    Add_Dir(name="Concerto for Flute, Harp C Major", url=BASE3+YOUTUBE_CHANNEL_ID_64, folder=False,mode='play_yt')
+    Add_Dir(name="Concerto for Flute, Harp C Major", url=BASE3+YOUTUBE_CHANNEL_ID_64, folder=False, mode='play_yt',)
 
 @route(mode='sibelius_menu')
 def Sibelius_Menu():
-    Add_Dir(name="The Best of Sibelius", url=BASE3+YOUTUBE_CHANNEL_ID_39, folder=False,mode='play_yt')
+    Add_Dir(name="The Best of Sibelius", url=BASE3+YOUTUBE_CHANNEL_ID_39, folder=False, mode='play_yt',)
 
 
 @route(mode='bbc_proms_menu')
 def BBC_Proms_Menu():
-    Add_Dir(name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38, folder=False, mode='play_yt') 
-    Add_Dir(name="Birtwistles Deep Time and Elgar 2nd Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False, mode='play_yt')
+    Add_Dir(name="Last Night at the Proms 2015", url=BASE3+YOUTUBE_CHANNEL_ID_38, folder=False, mode='play_yt',) 
+    Add_Dir(name="Birtwistles Deep Time and Elgar 2nd Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False, mode='play_yt',)
 
 
 @route(mode='royal_philharmonic_menu') 
 def Royal_Philharmonic_Menu(): 
-    Add_Dir(name="The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt')
-    Add_Dir(name="Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt')
-    Add_Dir(name="Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt')
+    Add_Dir(name="The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+    Add_Dir(name="Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+    Add_Dir(name="Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
 
 
 @route(mode='compilations_menu')
@@ -325,7 +324,7 @@ def Compilations_Menu():
     Add_Dir(name="Baroque Music ",url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
     Add_Dir(name="Debussy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
     Add_Dir(name="Karajan Legacy Berlin Philharmonic", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)    
-    Add_Dir(name="Rimsky Korsakov, Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt')
+    Add_Dir(name="Rimsky Korsakov, Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
 
 
 #----------------------------------------------------------------
@@ -339,11 +338,6 @@ def Koding_Settings():
 def Simple_Dialog(title,msg):
     OK_Dialog(title, msg)
 #----------------------------------------------------------------
-# Play a youtube video
-#@route(mode='play_yt', args=['url'])
-#def Play_YT(url):
-    #xbmc.Player().play('plugin://plugin.video.youtube/'+url)
-
 # Play a youtube video
 @route(mode='play_yt', args=['url'])
 def Play_YT(url):
