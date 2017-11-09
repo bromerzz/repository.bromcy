@@ -295,11 +295,11 @@ def Rimsky_Korsakhov_Menu():
 def Nielsen_Menu():
     Add_Dir(name="Soundtracks only - Symphonies 1 to 6", url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)
 
-@route(mode='royal_philharmonic_menu')
-def Royal Philharmonic_Menu():
-    Add_Dir(name="Soundtrack only - The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
-    Add_Dir(name="Soundtrack only - Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
-    Add_Dir(name="Soundtrack only - Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+#@route(mode='royal_philharmonic_menu')
+#def Royal Philharmonic_Menu():
+    #Add_Dir(name="Soundtrack only - The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+    #Add_Dir(name="Soundtrack only - Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+    #Add_Dir(name="Soundtrack only - Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
 
 #@route(mode='baroque_menu')
 #def Baroque_Menu():
