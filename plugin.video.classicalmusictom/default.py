@@ -165,20 +165,18 @@ YOUTUBE_CHANNEL_ID_70 = "1lHOYvIhLxo"
 @route(mode='main_menu')
 def Main_Menu():
     
-    Add_Dir(name="Wagner", url=' ', mode="wagner_menu", folder=True,)
-    Add_Dir(name="Schubert", url=' ', mode="schubert_menu", folder=True,)
+    Add_Dir(name="Mahler", url=' ',mode="mahler_menu", folder=True,)
+    Add_Dir(name="Mozart", url=' ', mode="mozart_menu", folder=True,)
+    Add_Dir(name="Beethoven", url=' ', mode="beethoven_menu", folder=True,)
+    Add_Dir(name="Rachmaninoff", url=' ',mode="rachmaninoff_menu", folder=True,)
     Add_Dir(name="Strauss", url=' ', mode="strauss_menu", folder=True,)
     Add_Dir(name="Elgar", url=' ', mode="elgar_menu", folder=True,)
     Add_Dir(name="Brahms", url=' ', mode="brahms_menu", folder=True,)
     Add_Dir(name="Bach", url=' ', mode="bach_menu", folder=True,)
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
-    Add_Dir(name="Beethoven", url=' ', mode="beethoven_menu", folder=True,)
-    Add_Dir(name="Mozart", url=' ', mode="mozart_menu", folder=True,)
-    Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
-    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
+    Add_Dir(name="Wagner", url=' ', mode="wagner_menu", folder=True,)
     Add_Dir(name="Sibelius", url=' ', mode="sibelius_menu", folder=True,)
-    Add_Dir(name="Rachmaninoff", url=' ',mode="rachmaninoff_menu", folder=True,)
-    Add_Dir(name="Mahler", url=' ',mode="mahler_menu", folder=True,)
+    Add_Dir(name="Schubert", url=' ', mode="schubert_menu", folder=True,)
     Add_Dir(name="Dvorak", url=' ',mode="dvorak_menu", folder=True,)
     Add_Dir(name="Schumann", url=' ',mode="schumann_menu", folder=True,)
     Add_Dir(name="Mendelsohn", url=' ',mode="mendelsohn_menu", folder=True,)
@@ -186,7 +184,8 @@ def Main_Menu():
     Add_Dir(name="Debussy", url=' ',mode="debussy_menu", folder=True,)
     Add_Dir(name="Rimsky Korsakhov", url=' ',mode="rimsky_korsakhov_menu", folder=True,)
     Add_Dir(name="Baroque", url='',mode='baroque_menu', folder=True,)
-
+    Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
+    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
 
 
 
