@@ -199,13 +199,10 @@ def Main_Menu():
     Add_Dir(name="Nielsen", url=' ',mode="nielsen_menu", folder=True,)
     Add_Dir(name="Debussy", url=' ',mode="debussy_menu", folder=True,)
     Add_Dir(name="Rimsky Korsakhov", url=' ',mode="rimsky_korsakhov_menu", folder=True,)
-    Add_Dir(name="Baroque", url='',mode='baroque_menu', folder=True,)
-    Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
-    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Ravel", url='', mode="ravel_menu", folder=True,)
-
-
-
+    Add_Dir(name="Baroque", url='',mode='baroque_menu', folder=True,)
+    #Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
+    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
 
 
 @route(mode='wagner_menu')
