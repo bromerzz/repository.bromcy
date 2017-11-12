@@ -373,11 +373,6 @@ def Ravel_Menu():
     Add_Dir(name="Bolero, Gergiev, London Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_71, folder=False, mode='play_yt',)
     Add_Dir(name="Piano Concerto No 6 in G Major, Yuja wang, Camerata Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_95, folder=False,mode='play_yt',)
 
-@route(mode='royal_philharmonic_menu')
-def Royal Philharmonic_Menu():
-    Add_Dir(name="Soundtrack only - The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
-    Add_Dir(name="Soundtrack only - Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
-    Add_Dir(name="Soundtrack only - Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
 
 @route(mode='baroque_menu')
 def Baroque_Menu():
@@ -386,7 +381,7 @@ def Baroque_Menu():
 @route(mode='compilations_menu')
 def Compilations_Menu():
     Add_Dir(name="Classical Short Clips",url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
-    Add_Dir(name="Soundtracks only - Many Major Composers",url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
+    Add_Dir(name="Soundtracks only - Full Length Music for Listening to - Many Major Composers",url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
     Add_Dir(name="Czech Composers",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
 
 
