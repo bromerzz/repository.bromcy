@@ -356,9 +356,9 @@ def Debussy_Menu():
 @route(mode='rimsky_korsakhov_menu')
 def Rimsky_Korsakhov_Menu():
     Add_Dir(name="Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
-    Add_Dir(name="Fantsais on Russian Themes Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
+    Add_Dir(name="Fantasy on Russian Themes Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
     Add_Dir(name="Flight of the Bumblebee, Russian National Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_93, folder=False, mode='play_yt',)
-    Add_Dir(name="the Imperial March, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_94, folder=False, mode='play_yt',)
+    Add_Dir(name="The Imperial March, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_94, folder=False, mode='play_yt',)
     Add_Dir(name="Capriccio Espagnol, Berlin Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_91, folder=False,mode='play_yt',)
 
 
@@ -373,15 +373,15 @@ def Ravel_Menu():
     Add_Dir(name="Bolero, Gergiev, London Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_71, folder=False, mode='play_yt',)
     Add_Dir(name="Piano Concerto No 6 in G Major, Yuja wang, Camerata Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_95, folder=False,mode='play_yt',)
 
-#@route(mode='royal_philharmonic_menu')
-#def Royal Philharmonic_Menu():
-    #Add_Dir(name="Soundtrack only - The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
-    #Add_Dir(name="Soundtrack only - Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
-    #Add_Dir(name="Soundtrack only - Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+@route(mode='royal_philharmonic_menu')
+def Royal Philharmonic_Menu():
+    Add_Dir(name="Soundtrack only - The Symphonic Beatles", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+    Add_Dir(name="Soundtrack only - Queen", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+    Add_Dir(name="Soundtrack only - Pink Floyd", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
 
-#@route(mode='baroque_menu')
-#def Baroque_Menu():
-    #Add_Dir(name="Baroque Music ", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
+@route(mode='baroque_menu')
+def Baroque_Menu():
+    Add_Dir(name="Baroque Music ", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
 @route(mode='compilations_menu')
 def Compilations_Menu():
