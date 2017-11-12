@@ -301,8 +301,8 @@ def Mendelsohn_Menu():
 
 @route(mode='sibelius_menu')
 def Sibelius_Menu():
-Add_Dir(name="Symphony No 2 in D Major, Jansons, Bavaria State Orcehstra", url=BASE3+YOUTUBE_CHANNEL_ID_75, folder=False, mode='play_yt',)
-Add_Dir(name="Soundtrack only - The Best of Sibelius", url=BASE3+YOUTUBE_CHANNEL_ID_39, folder=False, mode='play_yt',)
+    Add_Dir(name="Symphony No 2 in D Major, Jansons, Bavaria State Orcehstra", url=BASE3+YOUTUBE_CHANNEL_ID_75, folder=False, mode='play_yt',)
+    Add_Dir(name="Soundtrack only - The Best of Sibelius", url=BASE3+YOUTUBE_CHANNEL_ID_39, folder=False, mode='play_yt',)
 
 @route(mode='debussy_menu')
 def Debussy_Menu():
