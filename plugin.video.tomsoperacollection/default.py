@@ -115,7 +115,7 @@ YOUTUBE_CHANNEL_ID_22 = "Oni4iY-b1sg"
 def Main_Menu():
     Add_Dir(name="Gilbert and Sullivan", url=' ', mode="gilbert_and_sullivan_menu", folder=True,)
     Add_Dir(name="Tchaikovsky Operas", url=' ',mode="tchaikovsky_operas_menu", folder=True,)
-    Add_Dir(name="Puccini", url=' ', mode="tosca_menu", folder=True,)
+    Add_Dir(name="Puccini", url=' ', mode="puccini_menu", folder=True,)
     Add_Dir(name="Wagner", url='',mode="wagner_menu", folder=True,)
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
     Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
@@ -143,7 +143,7 @@ def Glynebourne_Menu():
 def Welsh_National_Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
-@route(mode='placido_domingo_opera_menu')
+@route(mode='placido_domingo_menu')
 def Placido_Domingo_Menu(): 
     Add_Dir(name="Placido Domingo", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
 
