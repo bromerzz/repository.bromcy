@@ -183,7 +183,7 @@ def Puccini_Menu():
     Add_Dir(name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
     Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
-    Add_Dir(name="Bizet,Carmen,Jonas Kaufman", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Carmen", url=BASE3+YOUTUBE_CHANNEL_ID_8+"/", folder=False, mode='play_yt',)
 
 @route(mode='tchaikovsky_operas_menu')
 def Tchaikovsky_Operas_menu():
