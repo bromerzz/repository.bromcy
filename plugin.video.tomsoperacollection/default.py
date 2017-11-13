@@ -115,16 +115,17 @@ YOUTUBE_CHANNEL_ID_22 = "Oni4iY-b1sg"
 def Main_Menu():
     Add_Dir(name="Gilbert and Sullivan", url=' ', mode="gilbert_and_sullivan_menu", folder=True,)
     Add_Dir(name="Tchaikovsky Operas", url=' ',mode="tchaikovsky_operas_menu", folder=True,)
-    Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
-    Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
-    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Puccini", url=' ', mode="tosca_menu", folder=True,)
     Add_Dir(name="Wagner", url='',mode="wagner_menu", folder=True,)
+    Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
+    Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
     Add_Dir(name="Glyndebourne", url='',mode="glyndebourne_menu", folder=True,)
     Add_Dir(name="Placido Domingo", url='', mode="placido_domingo_menu", folder=True,)
     Add_Dir(name="Bryn Terfel", url='', mode="bryn_terfel_menu", folder=True,)
     Add_Dir(name="Juan Diego Florez", url='', mode="juan_diego_florez_menu", folder=True,)
     Add_Dir(name="Jose Carreras", url='', mode="jose_carreras_menu", folder=True,)
+    Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
+
 
 
 
@@ -139,7 +140,7 @@ def Glynebourne_Menu():
     Add_Dir(name="Glyndebourne Festival", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
  
 @route(mode='welsh_national_opera_menu')
-def Welsh_National_Opera_Menu(): 
+def Welsh National Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
 @route(mode='placido_domingo_opera_menu')
@@ -151,7 +152,7 @@ def Bryn Terfel_Menu():
     Add_Dir(name="Bryn Terfel", url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
 
 @route(mode='juan_diego_florez_menu')
-def Juan_Diego_Florez_Menu(): 
+def Juan Diego Florez_Menu(): 
     Add_Dir(name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
 
 @route(mode='jose_carreras_menu')
@@ -172,7 +173,7 @@ def Gilbert_And_Sullivan_Menu():
 
 
 @route(mode='compilations_menu')
-def Various_Menu():   
+def Compilations_Menu():   
     Add_Dir(name="Classical Opera extracts", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
     Add_Dir(name="Mezzo Sopranos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
 
