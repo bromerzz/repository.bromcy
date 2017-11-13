@@ -120,7 +120,7 @@ def Main_Menu():
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
     Add_Dir(name="Puccini", url=' ', mode="tosca_menu", folder=True,)
     Add_Dir(name="Wagner", url='',mode="wagner_menu", folder=True,)
-    Add_Dir(NAME="Glyndebourne", url='',mode="glyndebourne_menu", folder=True,)
+    Add_Dir(name="Glyndebourne", url='',mode="glyndebourne_menu", folder=True,)
     Add_Dir(name="Placido Domingo", url='', mode="placido_domingo_menu", folder=True,)
     Add_Dir(name="Bryn Terfel", url='', mode="bryn_terfel_menu", folder=True,)
     Add_Dir(name="Juan Diego Florez", url='', mode="juan_diego_florez_menu", folder=True,)
