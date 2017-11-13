@@ -97,7 +97,6 @@ YOUTUBE_CHANNEL_ID_31 = "fNU-XAZjhzA"
 YOUTUBE_CHANNEL_ID_32 = "ETXPKHPPov8"
 YOUTUBE_CHANNEL_ID_33 = "5OjLKhmzQTA"
 YOUTUBE_CHANNEL_ID_34 = "PvrPGO7ja3k"
-YOUTUBE_CHANNEL_ID_35 + "N-mA9OMP3DE"
 YOUTUBE_CHANNEL_ID_36 = "DXeBFhqViYg"
 YOUTUBE_CHANNEL_ID_37 = "nzB1_2G_QX0"
 YOUTUBE_CHANNEL_ID_38 = "yDqCIcsUtPI"
@@ -358,7 +357,7 @@ def Mozart_Menu():
     Add_Dir(name="Concert No 23 in A major, Trifonov, Israel Camerata Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt')
     Add_Dir(name="Piano Concerto No 23 A Major Pollini & Bohm, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False, mode='play_yt')
     Add_Dir(name="Piano Concert No 26, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_61, folder=False, mode='play_yt')
-    Add_Dir(name="Violin Concerto No 3, Hahn, Frankfurt Radio Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_35, folder=False, mode='play_yt')
+    #Add_Dir(name="Violin Concerto No 3, Hahn, Frankfurt Radio Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_35, folder=False, mode='play_yt')
     Add_Dir(name="Soundtracks and some Video content - Wind Concertos ",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
 
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt')
