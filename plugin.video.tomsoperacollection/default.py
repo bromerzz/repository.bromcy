@@ -113,17 +113,50 @@ YOUTUBE_CHANNEL_ID_22 = "Oni4iY-b1sg"
 
 @route(mode='main_menu')
 def Main_Menu():
+    Add_Dir(name="Gilbert and Sullivan", url=' ', mode="gilbert_and_sullivan_menu", folder=True,)
+    Add_Dir(name="Tchaikovsky Operas", url=' ',mode="tchaikovsky_operas_menu", folder=True,)
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
     Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
-    Add_Dir(name="Tosca", url=' ', mode="tosca_menu", folder=True,)
-    Add_Dir(name="Gilbert and Sullivan", url=' ', mode="gilbert_and_sullivan_menu", folder=True,)
-    Add_Dir(name="Tchaikovsky Operas", url=' ',mode="tchaikovsky_operas_menu", folder=True,)
+    Add_Dir(name="Puccini", url=' ', mode="tosca_menu", folder=True,)
+    Add_Dir(name="Wagner", url='',mode="wagner_menu", folder=True,)
+    Add_Dir(NAME="Glyndebourne", url='',mode="glyndebourne_menu", folder=True,)
+    Add_Dir(name="Placido Domingo", url='', mode="placido_domingo_menu", folder=True,)
+    Add_Dir(name="Bryn Terfel", url='', mode="bryn_terfel_menu", folder=True,)
+    Add_Dir(name="Juan Diego Florez", url='', mode="juan_diego_florez_menu", folder=True,)
+    Add_Dir(name="Jose Carreras", url='', mode="jose_carreras_menu", folder=True,)
+
+
+
+
+
+@route(mode='wagner_menu')
+def Wagner_Menu(): 
+    Add_Dir(name="Richard Wagner", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
+
+@route(mode='glyndebourne_menu')
+def Glynebourne_Menu(): 
+    Add_Dir(name="Glyndebourne Festival", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
  
 @route(mode='welsh_national_opera_menu')
 def Welsh_National_Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
+@route(mode='placido_domingo_opera_menu')
+def Placido Domingo_Menu(): 
+    Add_Dir(name="Placido Domingo", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
+
+@route(mode='bryn_terfel_menu')
+def Bryn Terfel_Menu(): 
+    Add_Dir(name="Bryn Terfel", url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
+
+@route(mode='juan_diego_florez_menu')
+def Juan_Diego_Florez_Menu(): 
+    Add_Dir(name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
+
+@route(mode='jose_carreras_menu')
+def Jose Carreras_Menu(): 
+    Add_Dir(name="Jose Carrera", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
 
 
 @route(mode='english_national_opera_menu')
@@ -137,20 +170,15 @@ def Gilbert_And_Sullivan_Menu():
     Add_Dir(name="The Pirates Of Penzance", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Iolanthe", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)
 
+
 @route(mode='compilations_menu')
 def Various_Menu():   
-    Add_Dir(name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="Classical Opera extracts", url=BASE+YOUTUBE_CHANNEL_ID_2+"/", folder=True,)
-    Add_Dir(name="Richard Wagner", url=BASE+YOUTUBE_CHANNEL_ID_3+"/", folder=True,)
-    Add_Dir(name="Glyndebourne Festival plus Others", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
-    Add_Dir(name="Placido Domingo", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
-    Add_Dir(name="Bryn Terfel", url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
-    Add_Dir(name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
-    Add_Dir(name="Mezzo Sporanos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
-    Add_Dir(name="Jose Carrera Zarzuela", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
+    Add_Dir(name="Mezzo Sopranos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
 
-@route(mode='tosca_menu')
-def Tosca_Menu(): 
+@route(mode='puccini_menu')
+def puccini_Menu(): 
+    Add_Dir(name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
     Add_Dir(name="La Traviata", url=BASE3+YOUTUBE_CHANNEL_ID_7+"/", folder=False, mode='play_yt',)
@@ -158,7 +186,7 @@ def Tosca_Menu():
 
 @route(mode='tchaikovsky_operas_menu')
 def Tchaikovsky_Operas_menu():
-    Add_Dir(name="La Belle Durmiente, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
+    Add_Dir(name="Sleeping Beauty, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Nutcracker Suite, Royal Swedish Opera", url=BASE3+YOUTUBE_CHANNEL_ID_21+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Iolanthe, Black Sea Music Festival", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
 
