@@ -140,23 +140,23 @@ def Glynebourne_Menu():
     Add_Dir(name="Glyndebourne Festival", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
  
 @route(mode='welsh_national_opera_menu')
-def Welsh National Opera_Menu(): 
+def Welsh_National_Opera_Menu(): 
     Add_Dir(name="La Boheme", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
 
 @route(mode='placido_domingo_opera_menu')
-def Placido Domingo_Menu(): 
+def Placido_Domingo_Menu(): 
     Add_Dir(name="Placido Domingo", url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
 
 @route(mode='bryn_terfel_menu')
-def Bryn Terfel_Menu(): 
+def Bryn_Terfel_Menu(): 
     Add_Dir(name="Bryn Terfel", url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
 
 @route(mode='juan_diego_florez_menu')
-def Juan Diego Florez_Menu(): 
+def Juan_Diego_Florez_Menu(): 
     Add_Dir(name="Juan Diego Florez", url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
 
 @route(mode='jose_carreras_menu')
-def Jose Carreras_Menu(): 
+def Jose_Carreras_Menu(): 
     Add_Dir(name="Jose Carrera", url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
 
 
@@ -178,7 +178,7 @@ def Compilations_Menu():
     Add_Dir(name="Mezzo Sopranos", url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
 
 @route(mode='puccini_menu')
-def puccini_Menu(): 
+def Puccini_Menu(): 
     Add_Dir(name="Puccini", url=BASE+YOUTUBE_CHANNEL_ID_1+"/", folder=True,)
     Add_Dir(name="Madame Butterfly", url=BASE3+YOUTUBE_CHANNEL_ID_5+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Tosca Arena di Verona", url=BASE3+YOUTUBE_CHANNEL_ID_6+"/", folder=False, mode='play_yt',)
