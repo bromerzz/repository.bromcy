@@ -75,6 +75,15 @@ YOUTUBE_CHANNEL_ID_6 = "0qmZaP9hg5M"
 YOUTUBE_CHANNEL_ID_7 = "6DbjJJbEamQ"
 YOUTUBE_CHANNEL_ID_8 = "KNkjaoZpOdI"
 YOUTUBE_CHANNEL_ID_9 = "GD8IT91Xy90"
+YOUTUBE_CHANNEL_ID_10 = "b8U8B9AA8YA"
+YOUTUBE_CHANNEL_ID_11 = "HlFVT_eZh9Y"
+YOUTUBE_CHANNEL_ID_12 = "kBwn_9T7Zes"
+YOUTUBE_CHANNEL_ID_13 = "aO3-5Y9jc2E"
+YOUTUBE_CHANNEL_ID_14 = "-hM0B70F1YM"
+YOUTUBE_CHANNEL_ID_15 = "SX_hN3_vQyo"
+YOUTUBE_CHANNEL_ID_16 = "l7_PXqcJPmg"
+YOUTUBE_CHANNEL_ID_17 = "s9jbn27wIew"
+YOUTUBE_CHANNEL_ID_18 = "Lydw07UQ5GM"
 
 
 #----------------------------------------------------------------
@@ -100,11 +109,10 @@ YOUTUBE_CHANNEL_ID_9 = "GD8IT91Xy90"
 # This is the main menu we open into
 @route(mode='main_menu')
 def Main_Menu():
-
-
-
-
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
+    Add_Dir(name="Prokofiev", url=' ', mode="prokofiev_menu", folder=True,)
+    Add_Dir(name="Khachaturian", url=' ', mode="khachaturian_menu", folder=True,)
+    Add_Dir(name="Grieg", url=' ', mode="grieg_menu", folder=True,)
     Add_Dir(name="London Childrens Ballet", url=' ', mode="london_childrens_ballet_menu", folder=True,)
 
 
@@ -116,6 +124,26 @@ def Tchaikovsky_Menu():
     Add_Dir(name="Sleeping Beauty", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
     Add_Dir(name="Iolanta", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
 
+@route(mode='prokofiev_menu')
+def Prokofiev_Menu():
+    Add_Dir(name="Romeo and Juliet, Nureyev, Orchestra de L'opera de Paris", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
+    Add_Dir(name="Romeo and Juliet, La Scala Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_15, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+
+@route(mode='khachaturian_menu')
+def Khachaturian_Menu():
+    Add_Dir(name="Spartacus, Bolshoi Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_16, folder=False, mode='play_yt',)
+    Add_Dir(name="Gayanee, Armenian Ballet", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+
+@route(mode='grieg_menu')
+def Grieg_Menu():
+    Add_Dir(name="Peer Gynt, Santiago Municipal Theatre", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
 
 @route(mode='london_childrens_ballet_menu')
@@ -124,6 +152,13 @@ def London_Childrens_Ballet_Menu():
     Add_Dir(name="Rumpelstiltskin", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
     Add_Dir(name="The Secret Garden", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
     Add_Dir(name="Snow White", url=BASE3+YOUTUBE_CHANNEL_ID_9, folder=False, mode='play_yt',)
+    Add_Dir(name="The Canterville Ghosts", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
+    Add_Dir(name="Jane Eyre", url=BASE3+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',)
+    Add_Dir(name="Nanny McPhee Act 1 ", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+    Add_Dir(name="Nanny McPhee Act 2 ", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
+
+
+
 
 
 #----------------------------------------------------------------
