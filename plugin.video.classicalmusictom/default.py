@@ -380,7 +380,7 @@ def Mozart_Menu():
     Add_Dir(name="Soundtracks and some Video content - Wind Concertos ",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
     Add_Dir(name="Clarinet Concerto, Czech Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_112, folder=False, mode='play_yt')
     Add_Dir(name="La Santa Messa, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_113, folder=False,mode='play_yt',)
-    Add_Dir(name="Coronation Mass in C major, equilbey", url=BASE3+YOUTUBE_CHANNEL_ID_114 folder=False,mode='play_yt',)
+    Add_Dir(name="Coronation Mass in C major, equilbey", url=BASE3+YOUTUBE_CHANNEL_ID_114, folder=False,mode='play_yt',)
     Add_Dir(name="Great Mass, Stutzmann", url=BASE3+YOUTUBE_CHANNEL_ID_115, folder=False,mode='play_yt',)
     Add_Dir(name="Concert for Clarinet and Orchestra Nr 12, Bayern Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_116, folder=False,mode='play_yt',)
     Add_Dir(name="Piano Concerto Nr 1, Solsbaerg Festival", url=BASE3+YOUTUBE_CHANNEL_ID_117, folder=False,mode='play_yt',)
