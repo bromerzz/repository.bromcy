@@ -167,6 +167,11 @@ YOUTUBE_CHANNEL_ID_102 = "7rVW4Z70TfE"
 YOUTUBE_CHANNEL_ID_103 = "z921INvMVPM"
 YOUTUBE_CHANNEL_ID_104 = "OOlc2PAiWUU"
 YOUTUBE_CHANNEL_ID_105 = "KE93NdTBBvc"
+YOUTUBE_CHANNEL_ID_106 = "GHNgfF19CTY"
+YOUTUBE_CHANNEL_ID_107 = "625WOYzdvFw"
+YOUTUBE_CHANNEL_ID_108 = "lD7gjmvM66M"
+YOUTUBE_CHANNEL_ID_109 = 'IEuxKCB6o8'
+YOUTUBE_CHANNEL_ID_110 = "ZuGSOkYWfDQ"
 
 
 
@@ -215,6 +220,8 @@ def Main_Menu():
     Add_Dir(name="Baroque", url='',mode='baroque_menu', folder=True,)
     #Add_Dir(name="Royal Philharmonic", url=' ', mode="royal_philharmonic_menu", folder=True,)
     Add_Dir(name="Compilations", url=' ', mode="compilations_menu", folder=True,)
+    Add_Dir(name="Benjamin Britten", url='', mode="benjamin_britten_menu", folder=True,)
+    Add_Dir(name="Handel", url='', mode="handel_menu", folder=True,)
 
 
 @route(mode='wagner_menu')
@@ -424,6 +431,9 @@ def Debussy_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
+@route(mode='handel_menu')
+def Handel_Menu():
+    Add_Dir(name="A Sacred Oratorio, Sir Colin Davis", url=BASE3+YOUTUBE_CHANNEL_ID_110, folder=False,mode='play_yt',)
 
 @route(mode='rimsky_korsakhov_menu')
 def Rimsky_Korsakhov_Menu():
@@ -443,6 +453,12 @@ def Nielsen_Menu():
     Add_Dir(name="Soundtracks only - Symphonies 1 to 6", url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
+@route(mode='benjamin_britten_menu')
+def Benjamin_Britten_Menu():
+    Add_Dir(name="War Requiem, German Orchstra", url=BASE3+YOUTUBE_CHANNEL_ID_106, folder=False, mode='play_yt',)
+    Add_Dir(name="War Requiem, Marin Alsop", url=BASE3+YOUTUBE_CHANNEL_ID_107, folder=False, mode='play_yt',)
+    Add_Dir(name="Piano Concerto, BBC Proms", url=BASE3+YOUTUBE_CHANNEL_ID_108, folder=False, mode='play_yt',)
+    Add_Dir(name="A Ceremony of Carols, St Jacobs Vokalensemble", url=BASE3+YOUTUBE_CHANNEL_ID_108, folder=False, mode='play_yt',)
 
 @route(mode='ravel_menu')
 def Ravel_Menu():
