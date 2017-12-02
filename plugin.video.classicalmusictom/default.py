@@ -172,6 +172,13 @@ YOUTUBE_CHANNEL_ID_107 = "625WOYzdvFw"
 YOUTUBE_CHANNEL_ID_108 = "lD7gjmvM66M"
 YOUTUBE_CHANNEL_ID_109 = 'IEuxKCB6o8'
 YOUTUBE_CHANNEL_ID_110 = "ZuGSOkYWfDQ"
+YOUTUBE_CHANNEL_ID_111 = "9JoDAOSKUu4"
+YOUTUBE_CHANNEL_ID_112 = "o_gm0NCabPs"
+YOUTUBE_CHANNEL_ID_113 = "UfkyR6Nfeo0"
+YOUTUBE_CHANNEL_ID_114 = "RxDCgFFBk20"
+YOUTUBE_CHANNEL_ID_115 = "oWWeL8YvS2g"
+YOUTUBE_CHANNEL_ID_116 = "IARUa3l5Hxg"
+YOUTUBE_CHANNEL_ID_117 = "FpK1tjbeeA0"
 
 
 
@@ -261,6 +268,10 @@ def Schubert_Menu():
     Add_Dir(name="Octet in F major, Hochrhein Musikfestival", url=BASE3+YOUTUBE_CHANNEL_ID_100, folder=False,mode='play_yt',)
     Add_Dir(name="Octete in F Major, J Jansen", url=BASE3+YOUTUBE_CHANNEL_ID_101, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+
+
 
 @route(mode='dvorak_menu')
 def Dvorak_Menu():
@@ -303,6 +314,9 @@ def Brahms_Menu():
     Add_Dir(name="Piano Concerto No 1 Helene Grimaud", url=BASE3+YOUTUBE_CHANNEL_ID_104, folder=False,mode='play_yt',)
     Add_Dir(name="Piano Concerto No 1, Barenboim, Celibidache, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_105, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtracks only - Symphonies 1 to 4",url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 
 @route(mode='bach_menu')
@@ -322,7 +336,6 @@ def Tchaikovsky_Menu():
     Add_Dir(name="Piano Concerto,Khatia Buniatishvili, Israel Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False,mode='play_yt',)
     Add_Dir(name="Viloin Concerto In D Major, Arabella Steinbacher", url=BASE3+YOUTUBE_CHANNEL_ID_98, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtracks only - Symphonies 1 to 6", url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
-
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
@@ -341,7 +354,6 @@ def Beethoven_Menu():
     Add_Dir(name="Violin Concerto, Arabella Steinbacher, Orcehstra RTVE", url=BASE3+YOUTUBE_CHANNEL_ID_34, folder=False,mode='play_yt',)
     Add_Dir(name="Concerto for Violin, Cello and Piano in C Major, Tel Aviv", url=BASE3+YOUTUBE_CHANNEL_ID_99, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtrack only - All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt',)   
-
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
@@ -364,12 +376,14 @@ def Mozart_Menu():
     Add_Dir(name="Concert No 23 in A major, Trifonov, Israel Camerata Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_27, folder=False, mode='play_yt')
     Add_Dir(name="Piano Concerto No 23 A Major Pollini & Bohm, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_36, folder=False, mode='play_yt')
     Add_Dir(name="Piano Concert No 26, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_61, folder=False, mode='play_yt')
-    #Add_Dir(name="Violin Concerto No 3, Hahn, Frankfurt Radio Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_35, folder=False, mode='play_yt')
+    Add_Dir(name="Flute and Harp Concerto, Academy in the Fields", url=BASE3+YOUTUBE_CHANNEL_ID_111, folder=False, mode='play_yt')
     Add_Dir(name="Soundtracks and some Video content - Wind Concertos ",url=BASE+YOUTUBE_CHANNEL_ID_18+"/", folder=True,)
-
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt')
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Clarinet Concerto, Czech Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_112, folder=False, mode='play_yt')
+    Add_Dir(name="La Santa Messa, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_113, folder=False,mode='play_yt',)
+    Add_Dir(name="Coronation Mass in C major, equilbey", url=BASE3+YOUTUBE_CHANNEL_ID_114 folder=False,mode='play_yt',)
+    Add_Dir(name="Great Mass, Stutzmann", url=BASE3+YOUTUBE_CHANNEL_ID_115, folder=False,mode='play_yt',)
+    Add_Dir(name="Concert for Clarinet and Orchestra Nr 12, Bayern Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_116, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto Nr 1, Solsbaerg Festival", url=BASE3+YOUTUBE_CHANNEL_ID_117, folder=False,mode='play_yt',)
 
 
 
@@ -405,7 +419,7 @@ def Mendelsohn_Menu():
     Add_Dir(name="Violin Concerto E Minor, H Hahn,frankfurt RSO,", url=BASE3+YOUTUBE_CHANNEL_ID_62, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-        #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 
 
@@ -434,6 +448,10 @@ def Debussy_Menu():
 @route(mode='handel_menu')
 def Handel_Menu():
     Add_Dir(name="A Sacred Oratorio, Sir Colin Davis", url=BASE3+YOUTUBE_CHANNEL_ID_110, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+
 
 @route(mode='rimsky_korsakhov_menu')
 def Rimsky_Korsakhov_Menu():
@@ -452,13 +470,19 @@ def Rimsky_Korsakhov_Menu():
 def Nielsen_Menu():
     Add_Dir(name="Soundtracks only - Symphonies 1 to 6", url=BASE+YOUTUBE_CHANNEL_ID_8+"/", folder=True,)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+
 
 @route(mode='benjamin_britten_menu')
 def Benjamin_Britten_Menu():
     Add_Dir(name="War Requiem, German Orchstra", url=BASE3+YOUTUBE_CHANNEL_ID_106, folder=False, mode='play_yt',)
     Add_Dir(name="War Requiem, Marin Alsop", url=BASE3+YOUTUBE_CHANNEL_ID_107, folder=False, mode='play_yt',)
     Add_Dir(name="Piano Concerto, BBC Proms", url=BASE3+YOUTUBE_CHANNEL_ID_108, folder=False, mode='play_yt',)
-    Add_Dir(name="A Ceremony of Carols, St Jacobs Vokalensemble", url=BASE3+YOUTUBE_CHANNEL_ID_108, folder=False, mode='play_yt',)
+    Add_Dir(name="A Ceremony of Carols, St Jacobs Vokalensemble", url=BASE3+YOUTUBE_CHANNEL_ID_109, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+
 
 @route(mode='ravel_menu')
 def Ravel_Menu():
@@ -472,6 +496,9 @@ def Ravel_Menu():
 @route(mode='baroque_menu')
 def Baroque_Menu():
     Add_Dir(name="Baroque Music ", url=BASE+YOUTUBE_CHANNEL_ID_14+"/", folder=True,)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+
 
 @route(mode='compilations_menu')
 def Compilations_Menu():
