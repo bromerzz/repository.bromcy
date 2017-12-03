@@ -169,7 +169,7 @@ def Gurkha_Pipes_And_Drums_Menu():
 @route(mode='other_military_tattoos_menu')
 def Other_Military_Tattoos_Menu():
 	Add_Dir(name="Australian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
-    Add_Dir(name="Berlin Military Tattoo 2011", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+    #Add_Dir(name="Berlin Military Tattoo 2011", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
     Add_Dir(name="Basel Tattoo 2016", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
     Add_Dir(name="Basel Tattoo 2017", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
