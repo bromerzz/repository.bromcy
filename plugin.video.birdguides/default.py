@@ -71,6 +71,8 @@ YOUTUBE_CHANNEL_ID_3 = "PLBFD1CF77548B0291"
 YOUTUBE_CHANNEL_ID_4 = "PL4F31319F0022ECF8"
 YOUTUBE_CHANNEL_ID_5 = "PLgSpqOFj1Ta6oK7v-UJSGDlsYp1eJwTxu"
 YOUTUBE_CHANNEL_ID_6 = "PLE02AF25046CE2E69"
+YOUTUBE_CHANNEL_ID_7 = "3nYgs69Q9FQ"
+YOUTUBE_CHANNEL_ID_8 = "ABJxTvC_jao"
 
 
 
@@ -120,6 +122,8 @@ def Main_Menu():
     Add_Dir(name="Peterson Field Guides:Birding Tutorials", url=BASE+YOUTUBE_CHANNEL_ID_4+"/", folder=True,)
     Add_Dir(name="Cornell lab of Ornithology: The 39 Species of The Birds of Paradise", url=BASE+YOUTUBE_CHANNEL_ID_5+"/", folder=True,)
     Add_Dir(name="Cornell lab of Ornithology: The World of Birds", url=BASE+YOUTUBE_CHANNEL_ID_6+"/", folder=True,)
+    Add_Dir(name="National Geographic Guide to Birding in N America", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
+    Add_Dir(name="Audobon Society Guide to Birds of N America, Vol 3", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
 
 
 
