@@ -65,7 +65,7 @@ BASE2 = "plugin://plugin.video.youtube/channel/"
 BASE3 = "play/?video_id="
 
 # Set each of your YouTube playlist id's
-#YOUTUBE_CHANNEL_ID_1 = "Yq7R2MBkqlk"
+YOUTUBE_CHANNEL_ID_1 = "bsbu4_A5BuU"
 YOUTUBE_CHANNEL_ID_2 = "oBYVmnMFMtA"
 YOUTUBE_CHANNEL_ID_3 = "OhI3_FABzVI"
 YOUTUBE_CHANNEL_ID_4 = "KuQ7JpL2eCc"
@@ -87,6 +87,7 @@ YOUTUBE_CHANNEL_ID_19 = "e82budbYTlE&t=93s"
 YOUTUBE_CHANNEL_ID_20 = "tgso9Sk2B6U"
 YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
 YOUTUBE_CHANNEL_ID_22 = "_1JsSckijLE"
+YOUTUBE_CHANNEL_ID_23 = "lIFamj22RqU"
 #----------------------------------------------------------------
 
 """
@@ -140,7 +141,9 @@ def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2002", url=BASE3+YOUTUBE_CHANNEL_ID_4, folder=False, mode='play_yt',)
     Add_Dir(name="2010", url=BASE3+YOUTUBE_CHANNEL_ID_6, folder=False, mode='play_yt',)
     Add_Dir(name="2011", url=BASE3+YOUTUBE_CHANNEL_ID_14, folder=False, mode='play_yt',)
+    Add_Dir(name="2012", url=BASE3+YOUTUBE_CHANNEL_ID_1, folder=False, mode='play_yt',)
     Add_Dir(name="2013", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
+    Add_Dir(name="2014", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt',)
     Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
     Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
     Add_Dir(name="2017", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
@@ -170,7 +173,7 @@ def Gurkha_Pipes_And_Drums_Menu():
 def Other_Military_Tattoos_Menu():
 	Add_Dir(name="Australian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
     #Add_Dir(name="Berlin Military Tattoo 2011", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
-    Add_Dir(name="Basel Tattoo 2016", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
+    #Add_Dir(name="Basel Tattoo 2016", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
     Add_Dir(name="Basel Tattoo 2017", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
