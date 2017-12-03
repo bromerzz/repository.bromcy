@@ -76,15 +76,15 @@ YOUTUBE_CHANNEL_ID_8 = "mlypMpQ5X7A"
 YOUTUBE_CHANNEL_ID_9 = "6Y5mcLxlSgU"
 YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
-#YOUTUBE_CHANNEL_ID_12 = "U89Qtbnk-Q4"
-#YOUTUBE_CHANNEL_ID_13 = "amNF_F6oeRU"
+YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
+YOUTUBE_CHANNEL_ID_13 = "4BNE_Z_EDgE"
 #YOUTUBE_CHANNEL_ID_14 = "UAOepXDoLlg"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
 YOUTUBE_CHANNEL_ID_16 = "Qut2getKFT4"
-#YOUTUBE_CHANNEL_ID_17 = "x-xiiK5Y2BU"
-#YOUTUBE_CHANNEL_ID_18 = "b8ZBoId14Q"
-#YOUTUBE_CHANNEL_ID_19 = "dMzQiu2mUlE"
-#YOUTUBE_CHANNEL_ID_20 = "5xtGjHT0iVc"
+YOUTUBE_CHANNEL_ID_17 = "hCtBXLWkTMM"
+YOUTUBE_CHANNEL_ID_18 = "2h4xyq-ChCc"
+YOUTUBE_CHANNEL_ID_19 = "e82budbYTlE"
+YOUTUBE_CHANNEL_ID_20 = "tgso9Sk2B6U"
 YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
 YOUTUBE_CHANNEL_ID_22 = "_1JsSckijLE"
 #----------------------------------------------------------------
@@ -117,6 +117,7 @@ def Main_Menu():
     Add_Dir(name="Regimental Bands", url=' ', mode="regimental_bands_menu", folder=True,)
     Add_Dir(name="Other Military Tattoos", url=' ', mode="other_military_tattoos_menu", folder=True,) 
     Add_Dir(name="General Piping Content", url=' ', mode="general_piping_content_menu", folder=True,)
+    Add_Dir(name="Gurkha Pipes and Drums", url=' ', mode="gurkha_pipes_and_drums_menu", folder=True,)
 
 
 # If debug mode is enabled show the koding tutorials
@@ -141,6 +142,8 @@ def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2013", url=BASE3+YOUTUBE_CHANNEL_ID_2, folder=False, mode='play_yt',)
     Add_Dir(name="2015", url=BASE3+YOUTUBE_CHANNEL_ID_5, folder=False, mode='play_yt',)
     Add_Dir(name="2016", url=BASE3+YOUTUBE_CHANNEL_ID_7, folder=False, mode='play_yt',)
+    Add_Dir(name="2017", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
+
 
 @route(mode='regimental_pipes_and_drums_menu')
 def Regimental_Pipes_And_Drums_Menu():
@@ -155,11 +158,26 @@ def Regimental_Bands_Menu():
 	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
 	#Add_Dir(name="Rhine Area", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
+@route(mode='gurkha_pipes_and_drums_menu')
+def Gurkha_Pipes_And_Drums_Menu():
+    Add_Dir(name="1/3 GR", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+    Add_Dir(name="Indian Army 14th Gorkha Regt, Trg  Centre Display", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+
+
+
+
+
+
 
 @route(mode='other_military_tattoos_menu')
 def Other_Military_Tattoos_Menu():
 	Add_Dir(name="Australian Military Tattoo 2005", url=BASE3+YOUTUBE_CHANNEL_ID_3, folder=False, mode='play_yt',)
-	#Add_Dir(name="Berlin Military Tattoo", url=BASE3+YOUTUBE_CHANNEL_ID_11, folder=False, mode='play_yt',)
+	Add_Dir(name="Berlin Military Tattoo 2011", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+    Add_Dir(name="Basel Tattoo 2016", url=BASE3+YOUTUBE_CHANNEL_ID_20, folder=False, mode='play_yt',)
+    Add_Dir(name="Basel Tattoo 2017", url=BASE3+YOUTUBE_CHANNEL_ID_13, folder=False, mode='play_yt',)
+    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
+
 
 @route(mode='general_piping_content_menu')
 def General_Piping_Content_Menu():
