@@ -157,10 +157,10 @@ def Edinburgh_Military_Tattoo_Menu():
 	#Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
 	#Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
-#@route(mode='gurkha_pipes_and_drums_menu')
-#def Gurkha_Pipes_And_Drums_Menu():
-    #Add_Dir(name="1/3 GR", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
-    #Add_Dir(name="Indian Army 14th Gorkha Regt, Trg  Centre Display", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
+@route(mode='gurkha_pipes_and_drums_menu')
+def Gurkha_Pipes_And_Drums_Menu():
+    Add_Dir(name="1/3 GR", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+    Add_Dir(name="Indian Army 14th Gorkha Regt, Trg  Centre Display", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
 
