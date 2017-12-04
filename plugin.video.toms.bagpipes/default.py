@@ -74,9 +74,9 @@ YOUTUBE_CHANNEL_ID_6 = "RBHJJ8-rVfoYO"
 YOUTUBE_CHANNEL_ID_7 = "lL45xrqEbL8"
 #YOUTUBE_CHANNEL_ID_8 = "mlypMpQ5X7A"
 YOUTUBE_CHANNEL_ID_9 = "6Y5mcLxlSgU"
-YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
+#YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
-YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
+#YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
 YOUTUBE_CHANNEL_ID_13 = "4BNE_Z_EDgE"
 YOUTUBE_CHANNEL_ID_14 = "wR6D7744cgk"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
@@ -85,8 +85,8 @@ YOUTUBE_CHANNEL_ID_17 = "hCtBXLWkTMM"
 YOUTUBE_CHANNEL_ID_18 = "2h4xyq-ChCc"
 YOUTUBE_CHANNEL_ID_19 = "e82budbYTlE&t=93s"
 YOUTUBE_CHANNEL_ID_20 = "tgso9Sk2B6U"
-YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
-YOUTUBE_CHANNEL_ID_22 = "_1JsSckijLE"
+#YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
+#YOUTUBE_CHANNEL_ID_22 = "_1JsSckijLE"
 YOUTUBE_CHANNEL_ID_23 = "lIFamj22RqU"
 #----------------------------------------------------------------
 
@@ -114,7 +114,7 @@ def Main_Menu():
 
 
     Add_Dir(name="Edinburgh Military Tattoo", url=' ', mode="edinburgh_military_tattoo_menu", folder=True,)
-    Add_Dir(name="Regimental Bands", url=' ', mode="regimental_bands_menu", folder=True,)
+    #Add_Dir(name="Regimental Bands", url=' ', mode="regimental_bands_menu", folder=True,)
     Add_Dir(name="Other Military Tattoos", url=' ', mode="other_military_tattoos_menu", folder=True,) 
     Add_Dir(name="General Piping Content", url=' ', mode="general_piping_content_menu", folder=True,)
     Add_Dir(name="Gurkha Pipes and Drums", url=' ', mode="gurkha_pipes_and_drums_menu", folder=True,)
@@ -148,19 +148,19 @@ def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2017", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
 
 
-@route(mode='regimental_bands_menu')
-def Regimental_Bands_Menu():
-    Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
-    Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
-    Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
+#@route(mode='regimental_bands_menu')
+#def Regimental_Bands_Menu():
+    #Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
+    #Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
+    #Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
 	#Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
-	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+	#Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
 	#Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
-@route(mode='gurkha_pipes_and_drums_menu')
-def Gurkha_Pipes_And_Drums_Menu():
-    Add_Dir(name="1/3 GR", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
-    Add_Dir(name="Indian Army 14th Gorkha Regt, Trg  Centre Display", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
+#@route(mode='gurkha_pipes_and_drums_menu')
+#def Gurkha_Pipes_And_Drums_Menu():
+    #Add_Dir(name="1/3 GR", url=BASE3+YOUTUBE_CHANNEL_ID_17, folder=False, mode='play_yt',)
+    #Add_Dir(name="Indian Army 14th Gorkha Regt, Trg  Centre Display", url=BASE3+YOUTUBE_CHANNEL_ID_18, folder=False, mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
 
