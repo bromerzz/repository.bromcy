@@ -76,7 +76,7 @@ YOUTUBE_CHANNEL_ID_7 = "lL45xrqEbL8"
 YOUTUBE_CHANNEL_ID_9 = "6Y5mcLxlSgU"
 YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
-YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
+#YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
 YOUTUBE_CHANNEL_ID_13 = "4BNE_Z_EDgE"
 YOUTUBE_CHANNEL_ID_14 = "wR6D7744cgk"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
@@ -154,7 +154,7 @@ def Regimental_Bands_Menu():
     Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
     Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
 	#Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
-	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+	#Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
 	#Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
 @route(mode='gurkha_pipes_and_drums_menu')
