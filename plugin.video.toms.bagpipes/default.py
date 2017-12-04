@@ -114,8 +114,7 @@ def Main_Menu():
 
 
     Add_Dir(name="Edinburgh Military Tattoo", url=' ', mode="edinburgh_military_tattoo_menu", folder=True,)
-    Add_Dir(name="Regimental Pipes and Drums", url=' ', mode="regimental_pipes_and_drums_menu", folder=True,)
-    Add_Dir(name="Regimental Bands", url=' ', mode="regimental_bands_menu", folder=True,)
+    Add_Dir(name="Regimental Bands, Pipes and Drums", url=' ', mode="regimental_band_pipes_and_drums_menu", folder=True,)
     Add_Dir(name="Other Military Tattoos", url=' ', mode="other_military_tattoos_menu", folder=True,) 
     Add_Dir(name="General Piping Content", url=' ', mode="general_piping_content_menu", folder=True,)
     Add_Dir(name="Gurkha Pipes and Drums", url=' ', mode="gurkha_pipes_and_drums_menu", folder=True,)
@@ -149,15 +148,11 @@ def Edinburgh_Military_Tattoo_Menu():
     Add_Dir(name="2017", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False, mode='play_yt',)
 
 
-@route(mode='regimental_pipes_and_drums_menu')
-def Regimental_Pipes_And_Drums_Menu():
+@route(mode='regimental_bands_pipes_and_drums_menu')
+def Regimental_Bands,_Pipes_And_Drums_Menu():
     Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
     Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
     Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
-
-
-@route(mode='regimental_bands_menu')
-def Regimental_Bands_Menu():
 	Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
 	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
 	#Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
