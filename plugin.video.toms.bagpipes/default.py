@@ -72,11 +72,11 @@ YOUTUBE_CHANNEL_ID_4 = "KuQ7JpL2eCc"
 YOUTUBE_CHANNEL_ID_5 = "kJTuRfAo2eU"
 YOUTUBE_CHANNEL_ID_6 = "RBHJJ8-rVfoYO"
 YOUTUBE_CHANNEL_ID_7 = "lL45xrqEbL8"
-#YOUTUBE_CHANNEL_ID_8 = "mlypMpQ5X7A"
+YOUTUBE_CHANNEL_ID_8 = "mlypMpQ5X7A"
 YOUTUBE_CHANNEL_ID_9 = "6Y5mcLxlSgU"
 YOUTUBE_CHANNEL_ID_10 = "P2gDkcpYnMc&t"
 YOUTUBE_CHANNEL_ID_11 = "RDQut2getKFT4"
-#YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
+YOUTUBE_CHANNEL_ID_12 = "8DohLjFAuLk"
 YOUTUBE_CHANNEL_ID_13 = "4BNE_Z_EDgE"
 YOUTUBE_CHANNEL_ID_14 = "wR6D7744cgk"
 YOUTUBE_CHANNEL_ID_15 = "RsxjXArvdXU"
@@ -86,7 +86,7 @@ YOUTUBE_CHANNEL_ID_18 = "2h4xyq-ChCc"
 YOUTUBE_CHANNEL_ID_19 = "e82budbYTlE&t=93s"
 YOUTUBE_CHANNEL_ID_20 = "tgso9Sk2B6U"
 YOUTUBE_CHANNEL_ID_21 = "cjDXWPW9f9s"
-#YOUTUBE_CHANNEL_ID_22 = "_1JsSckijLE"
+YOUTUBE_CHANNEL_ID_22 = "_1JsSckijLE"
 YOUTUBE_CHANNEL_ID_23 = "lIFamj22RqU"
 #----------------------------------------------------------------
 
@@ -152,9 +152,9 @@ def Edinburgh_Military_Tattoo_Menu():
 def Regimental_Bands_Menu():
     Add_Dir(name="Black Watch", url=BASE3+YOUTUBE_CHANNEL_ID_10, folder=False, mode='play_yt',)
     Add_Dir(name="Royal Irish Regiment", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
-    #Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
-	#Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
-	#Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
+    Add_Dir(name="RAF Pipes and Drums", url=BASE3+YOUTUBE_CHANNEL_ID_22, folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Regiment of Scotland", url=BASE3+YOUTUBE_CHANNEL_ID_8, folder=False, mode='play_yt',)
+	Add_Dir(name="Royal Scots Dragoon Guards", url=BASE3+YOUTUBE_CHANNEL_ID_12, folder=False, mode='play_yt',)
 	#Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False, mode='play_yt',)
 
 @route(mode='gurkha_pipes_and_drums_menu')
