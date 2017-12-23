@@ -198,6 +198,11 @@ YOUTUBE_CHANNEL_ID_133 = "Dyf2MWHnwOU"
 YOUTUBE_CHANNEL_ID_134 = "akrn3t0FL64&feature=em-subs_digest-vrecs"
 YOUTUBE_CHANNEL_ID_135 = "Y5MJDd8zEOM"
 YOUTUBE_CHANNEL_ID_136 = "AgXW-57UDMc"
+YOUTUBE_CHANNEL_ID_137 = "zhqg4U32p9w"
+YOUTUBE_CHANNEL_ID_138 = "yIJ3wCqaScQ"
+YOUTUBE_CHANNEL_ID_139 = "NnLIMWLs0b8"
+YOUTUBE_CHANNEL_ID_140 = "y3K5oLg-Fq4"
+
 
 
 
@@ -543,6 +548,10 @@ def Compilations_Menu():
     Add_Dir(name="Classical Short Clips",url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
     Add_Dir(name="Soundtracks only - Full Length Music for Listening to - Many Major Composers",url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
     Add_Dir(name="Czech Composers",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
+    Add_Dir(name="XMAS in Vienna 2015, Ortner, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_137, folder=False,mode='play_yt',)
+    Add_Dir(name="XMAS in Vienna 2016, Ortner, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_138, folder=False,mode='play_yt',)
+    Add_Dir(name="XMAS in Vienna 2008, Chichon, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_139, folder=False,mode='play_yt',)
+    Add_Dir(name="XMAS in Vienna 1999, The Three Tenors, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_140, folder=False,mode='play_yt',)
 
 
 
