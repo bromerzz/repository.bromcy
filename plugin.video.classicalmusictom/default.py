@@ -186,6 +186,13 @@ YOUTUBE_CHANNEL_ID_121 = "K94ePzs14Nc"
 YOUTUBE_CHANNEL_ID_122 = "fvy0nN5t0Po"
 YOUTUBE_CHANNEL_ID_123 = "98UjjwzJBFE"
 YOUTUBE_CHANNEL_ID_124 = "X6s6YKlTpfw"
+YOUTUBE_CHANNEL_ID_125 = "JH3T6YwwU9s"
+YOUTUBE_CHANNEL_ID_126 = "dS65-ZvUSSM"
+YOUTUBE_CHANNEL_ID_127 = "uoiXvQhWrKY"
+YOUTUBE_CHANNEL_ID_128 = "EVAB2z1RPu4"
+YOUTUBE_CHANNEL_ID_129 = "cAcXRHN8uWw"
+YOUTUBE_CHANNEL_ID_130 = "onDXSnrcL9s"
+
 
 
 
@@ -329,7 +336,7 @@ def Brahms_Menu():
 @route(mode='bach_menu')
 def Bach_Menu():
     Add_Dir(name="Soundtracks only - Bach and Debussy",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
-    Add_Dir(name="Christmas Oratorio, aded Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_123, folder=False,mode='play_yt',)X6s6YKlTpfw
+    Add_Dir(name="Christmas Oratorio, aded Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_123, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
@@ -455,6 +462,12 @@ def Debussy_Menu():
 @route(mode='handel_menu')
 def Handel_Menu():
     Add_Dir(name="A Sacred Oratorio, Sir Colin Davis", url=BASE3+YOUTUBE_CHANNEL_ID_110, folder=False,mode='play_yt',)
+    Add_Dir(name="Messiah, V Luks, added Dec17", url=BASE3+YOUTUBE_CHANNEL_ID_125, folder=False,mode='play_yt',)
+    Add_Dir(name="Dixit Dominus, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_126, folder=False,mode='play_yt',)
+    Add_Dir(name="Organ Concertos, Munich Bach Orchestra, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_127, folder=False,mode='play_yt',)
+    Add_Dir(name="Water Music, Berlin, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_128, folder=False,mode='play_yt',)
+    Add_Dir(name="Water Music, Jordi Savall, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_129, folder=False,mode='play_yt',)
+    Add_Dir(name="Fireworks Music, Jordi Savall, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_130, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
