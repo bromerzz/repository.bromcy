@@ -44,7 +44,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.bromcy" name="Bromerzz Repository" version="0.0.5" provider-name="bromerzz">
+<addon id="repository.bromcy" name="Bromerzz Repository" version="0.0.6" provider-name="bromerzz">
 	<extension point="xbmc.addon.repository" name="repository.bromcy">
 		<dir>
 		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
@@ -62,13 +62,6 @@ modules4all/master/zips/</datadir>
 		<genre>sports,uk</genre>
 	</extension>
 </addon>
-
-
-
-
-			#<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			#<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			#<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/
 
 <addon id="plugin.video.fishingstreams" name="Fishing Streams" version="0.0.51" provider-name="Bromerzz">
 	<requires>
