@@ -179,6 +179,13 @@ YOUTUBE_CHANNEL_ID_114 = "RxDCgFFBk20"
 YOUTUBE_CHANNEL_ID_115 = "oWWeL8YvS2g"
 YOUTUBE_CHANNEL_ID_116 = "IARUa3l5Hxg"
 YOUTUBE_CHANNEL_ID_117 = "FpK1tjbeeA0"
+YOUTUBE_CHANNEL_ID_118 = "UFl9xuYP5T8"
+YOUTUBE_CHANNEL_ID_119 = "weTtT4tb9bE"
+YOUTUBE_CHANNEL_ID_120 = "pjRt-o0XwZ4"
+YOUTUBE_CHANNEL_ID_121 = "K94ePzs14Nc"
+YOUTUBE_CHANNEL_ID_122 = "fvy0nN5t0Po"
+YOUTUBE_CHANNEL_ID_123 = "98UjjwzJBFE"
+YOUTUBE_CHANNEL_ID_124 = "X6s6YKlTpfw"
 
 
 
@@ -314,7 +321,7 @@ def Brahms_Menu():
     Add_Dir(name="Piano Concerto No 1 Helene Grimaud", url=BASE3+YOUTUBE_CHANNEL_ID_104, folder=False,mode='play_yt',)
     Add_Dir(name="Piano Concerto No 1, Barenboim, Celibidache, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_105, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtracks only - Symphonies 1 to 4",url=BASE+YOUTUBE_CHANNEL_ID_9+"/", folder=True,)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Violin Concerto, Hilary Hahn, Frankfurt RO, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_118, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
@@ -322,7 +329,7 @@ def Brahms_Menu():
 @route(mode='bach_menu')
 def Bach_Menu():
     Add_Dir(name="Soundtracks only - Bach and Debussy",url=BASE+YOUTUBE_CHANNEL_ID_12+"/", folder=True,)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Christmas Oratorio, aded Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_123, folder=False,mode='play_yt',)X6s6YKlTpfw
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
@@ -354,7 +361,7 @@ def Beethoven_Menu():
     Add_Dir(name="Violin Concerto, Arabella Steinbacher, Orcehstra RTVE", url=BASE3+YOUTUBE_CHANNEL_ID_34, folder=False,mode='play_yt',)
     Add_Dir(name="Concerto for Violin, Cello and Piano in C Major, Tel Aviv", url=BASE3+YOUTUBE_CHANNEL_ID_99, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtrack only - All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt',)   
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Ode To Joy, Japanese Choirs, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_124, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
@@ -394,10 +401,10 @@ def Rachmaninoff_Menu():
     Add_Dir(name="Piano Concerto No2 Op 18, Anna Fedorova", url=BASE3+YOUTUBE_CHANNEL_ID_52, folder=False, mode='play_yt')
     Add_Dir(name="Piano Concerto No3, Olga Kern", url=BASE3+YOUTUBE_CHANNEL_ID_42, folder=False, mode='play_yt',)
     Add_Dir(name="Symphony No 2 Op 27, NL Radio Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_51, folder=False, mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',) 
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto No3, Martha Argerich, Berlin RSO, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_119, folder=False,mode='play_yt',)
+    Add_Dir(name="Vespers, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_120, folder=False,mode='play_yt',) 
+    Add_Dir(name="Liturgie van St Johannes Chystostomous, Klava, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_121, folder=False,mode='play_yt',)
+    Add_Dir(name="The Bells, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_122, folder=False,mode='play_yt',)
 
 
 @route(mode='schumann_menu')
