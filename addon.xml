@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.bromcy" name="Bromerzz repository" version="0.0.7" provider-name="bromerzz">
+<addon id="repository.bromcy" name="Bromerzz repository" version="0.0.10" provider-name="bromerzz">
 	<extension point="xbmc.addon.repository" name="repository.bromcy">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
@@ -18,6 +18,3 @@
 </addon>
 
 
-			#<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			#<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			#<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
