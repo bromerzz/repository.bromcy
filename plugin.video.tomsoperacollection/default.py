@@ -89,6 +89,7 @@ YOUTUBE_CHANNEL_ID_19 = "tempDM_-LKc"
 YOUTUBE_CHANNEL_ID_20 = "UAmxb21bqUU"
 YOUTUBE_CHANNEL_ID_21 = "dkXcvzMVQj0"
 YOUTUBE_CHANNEL_ID_22 = "Oni4iY-b1sg"
+YOUTUBE_CHANNEL_ID_23 = "b8rsOzPzYr8"
 
 
 """
@@ -117,6 +118,7 @@ def Main_Menu():
     Add_Dir(name="Tchaikovsky Operas", url=' ',mode="tchaikovsky_operas_menu", folder=True,)
     Add_Dir(name="Puccini", url=' ', mode="puccini_menu", folder=True,)
     Add_Dir(name="Wagner", url='',mode="wagner_menu", folder=True,)
+    Add_Dir(name="Verdi", url='',mode="verdi_menu", folder=True,)
     Add_Dir(name="Welsh National Opera", url=' ', mode="welsh_national_opera_menu", folder=True,)
     Add_Dir(name="English National Opera", url=' ', mode="english_national_opera_menu", folder=True,)
     Add_Dir(name="Glyndebourne", url='',mode="glyndebourne_menu", folder=True,)
@@ -190,6 +192,13 @@ def Tchaikovsky_Operas_menu():
     Add_Dir(name="Sleeping Beauty, Opera Paris", url=BASE3+YOUTUBE_CHANNEL_ID_20+"/", folder=False, mode='play_yt',)
     Add_Dir(name="The Nutcracker Suite, Royal Swedish Opera", url=BASE3+YOUTUBE_CHANNEL_ID_21+"/", folder=False, mode='play_yt',)
     Add_Dir(name="Iolanthe, Black Sea Music Festival", url=BASE3+YOUTUBE_CHANNEL_ID_22+"/", folder=False, mode='play_yt',)
+
+@route(mode='verdi_menu')
+def Verdi_menu():
+    Add_Dir(name="Aida, Pavarotti, San Fransisco Opera", url=BASE3+YOUTUBE_CHANNEL_ID_23+"/", folder=False, mode='play_yt',)
+    #Add_Dir(name="The Mikado", url=BASE3+YOUTUBE_CHANNEL_ID_16+"/", folder=False, mode='play_yt',)
+    #Add_Dir(name="The Pirates Of Penzance", url=BASE3+YOUTUBE_CHANNEL_ID_18+"/", folder=False, mode='play_yt',)
+    #Add_Dir(name="Iolanthe", url=BASE3+YOUTUBE_CHANNEL_ID_19+"/", folder=False, mode='play_yt',)    
 
 
 #------------------------------------------------------------
