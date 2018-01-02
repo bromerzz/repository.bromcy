@@ -213,7 +213,20 @@ YOUTUBE_CHANNEL_ID_148 = "alm_TjQT76U"
 YOUTUBE_CHANNEL_ID_149 = "QQAWqqaUTHE"
 YOUTUBE_CHANNEL_ID_150 = "7F7TVM8m95Y"
 YOUTUBE_CHANNEL_ID_151 = "BnjqGhAlFzs"
-#YOUTUBE_CHANNEL_ID_152 = ""
+YOUTUBE_CHANNEL_ID_152 = "tk5Uturacx8"
+YOUTUBE_CHANNEL_ID_153 = "yDqCIcsUtPI&t=189s"
+YOUTUBE_CHANNEL_ID_154 = "VbxgYlcNxE8"
+YOUTUBE_CHANNEL_ID_155 = "FqZfoK25lnY"
+YOUTUBE_CHANNEL_ID_156 = "tSJ_woWnmk"
+YOUTUBE_CHANNEL_ID_157 = "w2JBT0HC98I"
+YOUTUBE_CHANNEL_ID_158 = "8vHL0UNCa1Q"
+YOUTUBE_CHANNEL_ID_159 = "nMViOrqBzPk"
+YOUTUBE_CHANNEL_ID_160 = "in_HCO9FlSk"
+YOUTUBE_CHANNEL_ID_161 = "1KzF1KgaREo"
+YOUTUBE_CHANNEL_ID_162 = "ozq-XfBv3Y8"
+YOUTUBE_CHANNEL_ID_163 = "KX29pHsEeqQ"
+#YOUTUBE_CHANNEL_ID_164 = ""
+
 
 
 
@@ -378,28 +391,31 @@ def Bach_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 
-
-
-
-
-
-
-
-
-
-
-
 @route(mode='tchaikovsky_menu')
 def Tchaikovsky_Menu():
+    Add_Dir(name="Symphony No 2, Little Russian, Slatkin, Detroit SO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_160, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 4, Von Karajan, Vienna PO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_159, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 5, Shani, Radio Philharmonic Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_84, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 5, Petrenko, Russian State Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_85, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 5, Bernstein, Boston SO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_157, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 6, Von Karajan, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_86, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 6,Chung Myung-Whun, Seoul PO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_153, folder=False,mode='play_yt',)
+    Add_Dir(name="1812 Overture, Pappano,Koninkliijk Concertgebouw, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_161, folder=False,mode='play_yt',)
+    Add_Dir(name="1812 Overture, Leningrad Military Band, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_162, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto No1, Argerich, Dutoit, Orcehstra de la Suisse, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_156, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto No2, Yuja Wang, Simonov, Moscow PO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_163, folder=False,mode='play_yt',)
     Add_Dir(name="Piano Concerto,Khatia Buniatishvili, Israel Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_19, folder=False,mode='play_yt',)
+    Add_Dir(name="Nutcracker Suite, Rotterdam PO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_152, folder=False,mode='play_yt',)
+    Add_Dir(name="Violin Concerto in D Major, Sayka Shoji, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_158, folder=False,mode='play_yt',)
     Add_Dir(name="Viloin Concerto In D Major, Arabella Steinbacher", url=BASE3+YOUTUBE_CHANNEL_ID_98, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtracks only - Symphonies 1 to 6", url=BASE+YOUTUBE_CHANNEL_ID_7+"/", folder=True,)
     Add_Dir(name="Soundtrack only - Hymn of the Cherubim, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_132, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Soundtrack only - 1812 Overture, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_154, folder=False,mode='play_yt',)
+    Add_Dir(name="Soundtrack only - Swan Lake, Moscow Radio SO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_155, folder=False,mode='play_yt',)
+
+
+
+
 
 
 @route(mode='beethoven_menu')
