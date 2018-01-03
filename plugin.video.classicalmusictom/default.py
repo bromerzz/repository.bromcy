@@ -237,6 +237,21 @@ YOUTUBE_CHANNEL_ID_172 = "pj_2Xoyoy8Y"
 YOUTUBE_CHANNEL_ID_173 = "ozq-XfBv3Y8"
 YOUTUBE_CHANNEL_ID_174 = "A3aulUgdQyM"
 YOUTUBE_CHANNEL_ID_175 = "rN1o90rtflE"
+YOUTUBE_CHANNEL_ID_176 = "ETveS23djXM"
+YOUTUBE_CHANNEL_ID_177 = "ZRXdfKHVjVY"
+YOUTUBE_CHANNEL_ID_178 = "LAVvBF7m260"
+YOUTUBE_CHANNEL_ID_179 = "FHFf7NIwOHQ"
+YOUTUBE_CHANNEL_ID_180 = "GGnD-JkvWaA"
+YOUTUBE_CHANNEL_ID_181 = "eDrVtXPpuRI"
+YOUTUBE_CHANNEL_ID_182 = "IOwqkJvuj20"
+YOUTUBE_CHANNEL_ID_183 = "OitPLIowJ70"
+YOUTUBE_CHANNEL_ID_184 = "eVXalu0p1wo"
+YOUTUBE_CHANNEL_ID_185 = "VDKIeyAnCBc"
+YOUTUBE_CHANNEL_ID_186 = "kaI8x-saprI"
+YOUTUBE_CHANNEL_ID_187 = "l3O2K-LyJ9o"
+YOUTUBE_CHANNEL_ID_188 = "32Xq7Tcj428"
+
+
 
 """
     SECTION 5:
@@ -272,6 +287,7 @@ def Main_Menu():
     Add_Dir(name="Dvorak", url=' ',mode="dvorak_menu", folder=True,)
     Add_Dir(name="Elgar", url=' ', mode="elgar_menu", folder=True,)
     Add_Dir(name="Handel", url='', mode="handel_menu", folder=True,)
+    Add_Dir(name="Haydn", url='', mode="haydn_menu", folder=True,)
     Add_Dir(name="Mahler", url=' ',mode="mahler_menu", folder=True,)
     Add_Dir(name="Mendelsohn", url=' ',mode="mendelsohn_menu", folder=True,)
     Add_Dir(name="Mozart", url=' ', mode="mozart_menu", folder=True,)
@@ -339,6 +355,11 @@ def Dvorak_Menu():
 
 @route(mode='strauss_menu')
 def Strauss_Menu():
+    Add_Dir(name="Also sprach Zarathustra and Tod und Verklarung, Dudamel, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_176, folder=False,mode='play_yt',)
+    Add_Dir(name="Blue Danube Waltz, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_177, folder=False,mode='play_yt',)
+    Add_Dir(name="Emperor Waltz, Berlin PO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_178, folder=False,mode='play_yt',)
+    Add_Dir(name="Radetzky March, Karajan, Vienna PO, added jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_179, folder=False,mode='play_yt',)
+    Add_Dir(name="Elektra, BBC promenade Concert, added jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_180, folder=False,mode='play_yt',)
     Add_Dir(name="Horn Certo No1, Okayama Symphony", url=BASE3+YOUTUBE_CHANNEL_ID_24, folder=False, mode='play_yt',)
     Add_Dir(name="French Horn No 1, Munich Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_25, folder=False, mode='play_yt',)
     Add_Dir(name="Concerto No 1, French Horn, Monila Nemcova", url=BASE3+YOUTUBE_CHANNEL_ID_28, folder=False, mode='play_yt',)
@@ -347,8 +368,6 @@ def Strauss_Menu():
     Add_Dir(name="Alpensinfonie, Estrada, Frankfurt Radio Orchestra,", url=BASE3+YOUTUBE_CHANNEL_ID_83, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
-
 
 
 
@@ -455,6 +474,7 @@ def Beethoven_Menu():
 
 @route(mode='mozart_menu')
 def Mozart_Menu():
+    Add_Dir(name="Oboe Konzertr, Estrada, Frankfurt RS, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_181, folder=False, mode='play_yt',)
     Add_Dir(name="Requiem", url=BASE3+YOUTUBE_CHANNEL_ID_23, folder=False, mode='play_yt',)
     Add_Dir(name="Piano Concerto No 21", url=BASE3+YOUTUBE_CHANNEL_ID_31, folder=False, mode='play_yt',)
     Add_Dir(name="Violin Concerto No 5, Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_32, folder=False, mode='play_yt',)
@@ -511,7 +531,15 @@ def Mendelsohn_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
-
+@route(mode='haydn_menu')
+def Haydn_Menu():
+    Add_Dir(name="Oboe Concerto, Hartrmann, OSUCS, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_182, folder=False, mode='play_yt',)
+    Add_Dir(name="Symphony No 104, Proms, London PO, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_183, folder=False, mode='play_yt',)
+    Add_Dir(name="Symphony No 94, Bernstein, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_184, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto No 11, Pletnev, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_185, folder=False,mode='play_yt',)
+    Add_Dir(name="The Creation, Lawrence Symphony Orchetra, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_186, folder=False,mode='play_yt',)
+    Add_Dir(name="The Seasons, Harnoncourt, Salzburg, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_187, folder=False,mode='play_yt',)
+    Add_Dir(name="The Creation, Bernstein, Benedictine Abbey, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_188, folder=False,mode='play_yt',)
 
 @route(mode='sibelius_menu')
 def Sibelius_Menu():
