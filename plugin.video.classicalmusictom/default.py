@@ -74,10 +74,7 @@ YOUTUBE_CHANNEL_ID_6 = "v0xypy7JCF4"
 YOUTUBE_CHANNEL_ID_7 = "PLS6C4jHVZhO5xlfh8IZYzbgJaKZt8XNDZ"
 YOUTUBE_CHANNEL_ID_8 = "PLS6C4jHVZhO6fV14M7M0kuSfIf5dqx5oz"
 YOUTUBE_CHANNEL_ID_9 = "PLS6C4jHVZhO7mdvWazKgf3aHo4rryrnbW"
-YOUTUBE_CHANNEL_ID_10 = "PL2788304DC59DBEB4"
-YOUTUBE_CHANNEL_ID_11 = "PLc87N-d3x2CpUxoF7DRaHbCjFMbg286d3"
 YOUTUBE_CHANNEL_ID_12 = "PLcGkkXtask_c_iDYwGpTkK0i--J8iafgH"
-YOUTUBE_CHANNEL_ID_13 = "PL3E85427E7F6E6C28"
 YOUTUBE_CHANNEL_ID_14 = "PL_qM1lclHDwUPGV9v5tJzTv1X5e8fAJRu"
 YOUTUBE_CHANNEL_ID_15 = "ZeBljzppZsM"
 YOUTUBE_CHANNEL_ID_16 = "4g4UZOedczs"
@@ -636,9 +633,6 @@ def Baroque_Menu():
 
 @route(mode='compilations_menu')
 def Compilations_Menu():
-    Add_Dir(name="Classical Short Clips",url=BASE+YOUTUBE_CHANNEL_ID_10+"/", folder=True,)
-    Add_Dir(name="Soundtracks only - Full Length Music for Listening to - Many Major Composers",url=BASE+YOUTUBE_CHANNEL_ID_11+"/", folder=True,)
-    Add_Dir(name="Czech Composers",url=BASE+YOUTUBE_CHANNEL_ID_13+"/", folder=True,)
     Add_Dir(name="XMAS in Vienna 2015, Ortner, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_137, folder=False,mode='play_yt',)
     Add_Dir(name="XMAS in Vienna 2016, Ortner, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_138, folder=False,mode='play_yt',)
     Add_Dir(name="XMAS in Vienna 2008, Chichon, added Dec 17",url=BASE3+YOUTUBE_CHANNEL_ID_139, folder=False,mode='play_yt',)
