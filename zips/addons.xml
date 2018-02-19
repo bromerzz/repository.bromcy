@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.birdguides" name="Bird Guides" version="0.0.8" provider-name="Bromerzz">
+<addon id="plugin.video.birdguides" name="Bird Guides" version="0.0.9" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -22,10 +22,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.82" provider-name="Bromerzz">
+<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.83" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -44,10 +44,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.fishingstreams" name="Fishing Streams" version="0.0.51" provider-name="Bromerzz">
+<addon id="plugin.video.fishingstreams" name="Fishing Streams" version="0.0.52" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -66,10 +66,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.toms.bagpipes" name="Toms Bagpipe Collection" version="0.0.46" provider-name="Bromerzz">
+<addon id="plugin.video.toms.bagpipes" name="Toms Bagpipe Collection" version="0.0.47" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -88,10 +88,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tomsballetcollection" name="Toms Ballet Collection" version="0.0.55" provider-name="Bromerzz">
+<addon id="plugin.video.tomsballetcollection" name="Toms Ballet Collection" version="0.0.56" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -110,10 +110,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.98" provider-name="Bromerzz">
+<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.99" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
