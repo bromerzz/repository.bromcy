@@ -286,7 +286,7 @@ def Main_Menu():
     Add_Dir(name="Elgar", url=' ', mode="elgar_menu", folder=True,)
     Add_Dir(name="Handel", url='', mode="handel_menu", folder=True,)
     Add_Dir(name="Haydn", url='', mode="haydn_menu", folder=True,)
-    Add_Dir(name="Holtz", url='',mode="holtz_menu", folder=True,)
+    Add_Dir(name="Holst, update Apr 18", url='',mode="holst_menu", folder=True,)
     Add_Dir(name="Mahler", url=' ',mode="mahler_menu", folder=True,)
     Add_Dir(name="Mendelsohn", url=' ',mode="mendelsohn_menu", folder=True,)
     Add_Dir(name="Mozart", url=' ', mode="mozart_menu", folder=True,)
@@ -575,9 +575,9 @@ def Handel_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
-@route(mode='holtz_menu')
-def Holtz_Menu():
-    Add_Dir(name="The Planets, Op.32, Warsaw Philharmonic, added Apr 18", url=BASE3+YOUTUBE_CHANNEL_ID_189, folder=False,mode='play_yt',)
+@route(mode='holst_menu')
+def Holst, update Apr 18_Menu():
+    Add_Dir(name="The Planets, Op.32, Warsaw Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_189, folder=False,mode='play_yt',)
     #Add_Dir(name="Fire, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_130, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
