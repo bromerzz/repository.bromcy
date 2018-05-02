@@ -248,7 +248,10 @@ YOUTUBE_CHANNEL_ID_186 = "kaI8x-saprI"
 YOUTUBE_CHANNEL_ID_187 = "l3O2K-LyJ9o"
 YOUTUBE_CHANNEL_ID_188 = "32Xq7Tcj428"
 YOUTUBE_CHANNEL_ID_189 = "3OD_HzdZwKk"
-
+YOUTUBE_CHANNEL_ID_190 = "LhnW9K4h4lU"
+YOUTUBE_CHANNEL_ID_191 = "PM0HqmptYlY"
+YOUTUBE_CHANNEL_ID_192 = "zY4w4_W30aQ"
+YOUTUBE_CHANNEL_ID_193 = "ZKdeqvmSq5M"
 
 
 """
@@ -465,7 +468,7 @@ def Beethoven_Menu():
     Add_Dir(name="Ode To Joy, Japanese Choirs, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_124, folder=False,mode='play_yt',)
     Add_Dir(name="Violin Concerto D Major, Christina Bauey, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_131, folder=False,mode='play_yt',)
     Add_Dir(name="Soundtrack only - All 9 Symphonies", url=BASE3+YOUTUBE_CHANNEL_ID_37, folder=False, mode='play_yt',)   
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Pianoi Concerto No 3, Radio France Philharmonis Jan 2018, Alice Sara Ott, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_191, folder=False,mode='play_yt',)
 
 
 
@@ -539,6 +542,7 @@ def Haydn_Menu():
     Add_Dir(name="The Creation, Lawrence Symphony Orchetra, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_186, folder=False,mode='play_yt',)
     Add_Dir(name="The Seasons, Harnoncourt, Salzburg, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_187, folder=False,mode='play_yt',)
     Add_Dir(name="The Creation, Bernstein, Benedictine Abbey, added Jan 18", url=BASE3+YOUTUBE_CHANNEL_ID_188, folder=False,mode='play_yt',)
+    Add_Dir(name="Trumpet Concerto in E flat, Alison Balsom, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_193, folder=False,mode='play_yt',)
 
 @route(mode='sibelius_menu')
 def Sibelius_Menu():
@@ -591,7 +595,7 @@ def Rimsky_Korsakhov_Menu():
     Add_Dir(name="The Imperial March, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_94, folder=False, mode='play_yt',)
     Add_Dir(name="Capriccio Espagnol, Berlin Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_91, folder=False,mode='play_yt',)
     Add_Dir(name="Scheherazade, Kuerti, Frankfurt RS, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_133, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Scherazade, Leif Segerstam, Sinfonica de Galicia, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_192, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 @route(mode='chopin_menu')
@@ -628,7 +632,7 @@ def Benjamin_Britten_Menu():
 def Ravel_Menu():
     Add_Dir(name="Bolero, Gergiev, London Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_71, folder=False, mode='play_yt',)
     Add_Dir(name="Piano Concerto No 6 in G Major, Yuja wang, Camerata Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_95, folder=False,mode='play_yt',)
-    #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto in G Major, Argerich,La Scala 2016, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_190, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 
