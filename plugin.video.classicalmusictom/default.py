@@ -262,6 +262,7 @@ YOUTUBE_CHANNEL_ID_200 = "3xIsfjCxPKE"
 YOUTUBE_CHANNEL_ID_201 = "vGwW9ecNWEs"
 YOUTUBE_CHANNEL_ID_202 = "wW5USVKVAx4"
 YOUTUBE_CHANNEL_ID_203 = "TqOfvcd7hqY"
+YOUTUBE_CHANNEL_ID_204 = "0FF4HyB77hQ"
 
 
 """
@@ -351,7 +352,7 @@ def Mahler_Menu():
 def Shostakovich_Menu():   
     Add_Dir(name="Symphony No 11, Gergiev, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_202, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 5, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_204, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 5, Bernstein, New York Philharmonic, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_204, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
