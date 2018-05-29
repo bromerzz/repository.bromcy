@@ -328,7 +328,7 @@ def Wagner_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
-@route(mode='schostakovich_menu')
+@route(mode='shostakovich_menu')
 def Shostakovich_Menu():
 	Add_Dir(name="Symphony No 11, Gergiev, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_202, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
@@ -535,7 +535,7 @@ def Rachmaninoff_Menu():
 @route(mode='schumann_menu')
 def Schumann_Menu():
     Add_Dir(name="Piano Concerto in A Minor, Martha Argerich", url=BASE3+YOUTUBE_CHANNEL_ID_96, folder=False,mode='play_yt',)
-    Add_Dir(name="Soundtracks only - R Schumann",url=BASE+YOUTUBE_CHANNEL_ID_63+"/", folder=True,)
+    Add_Dir(name="Soundtracks only - R Schumann", url=BASE+YOUTUBE_CHANNEL_ID_63+"/", folder=True,)
     Add_Dir(name="Khatia Buniatishvili, Frankfurt Radio Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_97, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
@@ -547,7 +547,7 @@ def Prokoviev_Menu():
     Add_Dir(name="Symphony No 2, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_200, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 3, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_199, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 4, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_198, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 5, Gergiev, Marlinsky Theatre Orchestra, added May 18",url=BASE3+YOUTUBE_CHANNEL_ID_195, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 5, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_195, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 6, Gergiev, Marlinksy Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_196, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 7, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_197, folder=False,mode='play_yt',)
     Add_Dir(name="Piano Concerto No.3, Martha Argerich, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_194, folder=False,mode='play_yt',)
