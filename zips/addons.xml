@@ -22,7 +22,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.99" provider-name="Bromerzz">
+<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.90" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.universalscrapers" version="1.0.0" />
@@ -32,8 +32,8 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Opera collection</summary>
-		<description lang="en">Youtube streams of Opera Music</description>
+		<summary lang="en">Classical Music for Tom</summary>
+		<description lang="en">Toms classical Music collection</description>
 		<platform>all</platform>
 		<forum>http://www.noobsandnerds.com/support</forum>
 		<website>www.noobsandnerds.com</website>
@@ -41,26 +41,6 @@
 		<genre>music,uk</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
-	</extension>
-</addon>
-
-<addon id="repository.bromcy" name="Bromerzz Repository" version="0.0.14" provider-name="bromerzz">
-	<extension point="xbmc.addon.repository" name="repository.bromcy">
-		<dir>
-		<info compressed="false">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/</datadir>
-		</dir>
-		<dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Media player add on repo</summary>
-		<description lang="en">Media player add on repo for my creations!</description>
-		<genre>music,fishing,birding,uk</genre>
 	</extension>
 </addon>
 
@@ -130,7 +110,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.89" provider-name="Bromerzz">
+<addon id="plugin.video.tomsoperacollection" name="Toms Opera Collection" version="0.0.99" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.universalscrapers" version="1.0.0" />
@@ -140,8 +120,8 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Classical Music for Tom</summary>
-		<description lang="en">Toms classical Music collection</description>
+		<summary lang="en">Opera collection</summary>
+		<description lang="en">Youtube streams of Opera Music</description>
 		<platform>all</platform>
 		<forum>http://www.noobsandnerds.com/support</forum>
 		<website>www.noobsandnerds.com</website>
@@ -149,6 +129,26 @@
 		<genre>music,uk</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.bromcy" name="Bromerzz Repository" version="0.0.14" provider-name="bromerzz">
+	<extension point="xbmc.addon.repository" name="repository.bromcy">
+		<dir>
+		<info compressed="false">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/</datadir>
+		</dir>
+		<dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Media player add on repo</summary>
+		<description lang="en">Media player add on repo for my creations!</description>
+		<genre>music,fishing,birding,uk</genre>
 	</extension>
 </addon>
 </addons>
