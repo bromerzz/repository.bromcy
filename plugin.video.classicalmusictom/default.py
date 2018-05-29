@@ -328,11 +328,11 @@ def Wagner_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
-#@route(mode='shostakovich_menu')
-#def Shostakovich_Menu():
-	#Add_Dir(name="Symphony No 11, Gergiev, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_202, folder=False,mode='play_yt',)
-    #Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
-    #Add_Dir(name="Symphony No 5, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_204, folder=False,mode='play_yt',)
+@route(mode='shostakovich_menu')
+def Shostakovich_Menu():
+	Add_Dir(name="Symphony No 11, Gergiev, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_202, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 5, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_204, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
