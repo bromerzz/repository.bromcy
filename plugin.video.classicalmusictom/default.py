@@ -304,15 +304,15 @@ def Main_Menu():
     Add_Dir(name="Mendelsohn", url=' ',mode="mendelsohn_menu", folder=True,)
     Add_Dir(name="Mozart", url=' ', mode="mozart_menu", folder=True,)
     Add_Dir(name="Nielsen", url=' ',mode="nielsen_menu", folder=True,)
-    #Add_Dir(name="Prokoviev", url=' ',mode="prokoviev_menu", folder=True,)
+    Add_Dir(name="Prokoviev", url=' ',mode="prokoviev_menu", folder=True,)
     Add_Dir(name="Rachmaninoff", url=' ',mode="rachmaninoff_menu", folder=True,)
     Add_Dir(name="Ravel", url='', mode="ravel_menu", folder=True,)
     Add_Dir(name="Rimsky Korsakhov", url=' ',mode="rimsky_korsakhov_menu", folder=True,)
     Add_Dir(name="Schubert", url=' ', mode="schubert_menu", folder=True,)
     Add_Dir(name="Schumann", url=' ',mode="schumann_menu", folder=True,)
     Add_Dir(name="Strauss", url=' ', mode="strauss_menu", folder=True,)
+    Add_Dir(name="Shostakovich", url=' ',mode="shostakovich_menu", folder=True,)
     Add_Dir(name="Sibelius", url=' ', mode="sibelius_menu", folder=True,)
-    #Add_Dir(name="Shostakovich", url=' ', mode="shostakovich_menu", folder=True,)
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
     Add_Dir(name="Wagner", url=' ', mode="wagner_menu", folder=True,)
 
@@ -540,7 +540,7 @@ def Schumann_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
-@route(mode='prokoviev_menu')
+#@route(mode='prokoviev_menu')
 #def Prokoviev_Menu():
 	#Add_Dir(name="Symphony No 1, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_201, folder=False,mode='play_yt',)
     #Add_Dir(name="Symphony No 2, Gergiev, Marlinsky Theatre Orchestra, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_200, folder=False,mode='play_yt',)
@@ -617,7 +617,7 @@ def Holst_Menu():
 @route(mode='rimsky_korsakhov_menu')
 def Rimsky_Korsakhov_Menu():
     Add_Dir(name="Scheherazade, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
-    Add_Dir(name="Fantasy on Russian Themes Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
+    Add_Dir(name="Fantasy on Russian Themes, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_21, folder=False, mode='play_yt',)
     Add_Dir(name="Flight of the Bumblebee, Russian National Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_93, folder=False, mode='play_yt',)
     Add_Dir(name="The Imperial March, Vienna Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_94, folder=False, mode='play_yt',)
     Add_Dir(name="Capriccio Espagnol, Berlin Philharmonic", url=BASE3+YOUTUBE_CHANNEL_ID_91, folder=False,mode='play_yt',)
@@ -627,7 +627,7 @@ def Rimsky_Korsakhov_Menu():
 
 @route(mode='chopin_menu')
 def Chopin_Menu():
-    Add_Dir(name="Concertos 1 and 2, trifanov-Pletnev, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_134, folder=False,mode='play_yt',)
+    Add_Dir(name="Concertos 1 and 2, Trifanov-Pletnev, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_134, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
@@ -658,7 +658,7 @@ def Benjamin_Britten_Menu():
 @route(mode='ravel_menu')
 def Ravel_Menu():
     Add_Dir(name="Bolero, Gergiev, London Symphony Orchestra", url=BASE3+YOUTUBE_CHANNEL_ID_71, folder=False, mode='play_yt',)
-    Add_Dir(name="Piano Concerto No 6 in G Major, Yuja wang, Camerata Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_95, folder=False,mode='play_yt',)
+    Add_Dir(name="Piano Concerto No 6 in G Major, Yuja Wang, Camerata Salzburg", url=BASE3+YOUTUBE_CHANNEL_ID_95, folder=False,mode='play_yt',)
     Add_Dir(name="Piano Concerto in G Major, Argerich,La Scala 2016, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_190, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
