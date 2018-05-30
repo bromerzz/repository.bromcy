@@ -326,7 +326,7 @@ def Main_Menu():
     Add_Dir(name="Strauss", url=' ', mode="strauss_menu", folder=True,)
     Add_Dir(name="Shostakovich", url=' ',mode="shostakovich_menu", folder=True,)
     Add_Dir(name="Sibelius", url=' ', mode="sibelius_menu", folder=True,)
-    Add_Dir(name="Spohr", url='', mode="spoor_menu", folder=True,)
+    Add_Dir(name="Spohr", url='', mode="spohr_menu", folder=True,)
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
     Add_Dir(name="Wagner", url=' ', mode="wagner_menu", folder=True,)
     Add_Dir(name="Weber", url='' mode="weber_menu", folder=True,)
@@ -344,7 +344,7 @@ def Wagner_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 
-@route(mode='spoor_menu')
+@route(mode='spohr_menu')
 def Spoor_Menu():
     Add_Dir(name="Clarinet Concerto No 1, Youjin Jung, Beijing, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_208, folder=False,mode='play_yt',)
     Add_Dir(name="Clarinet Concerto No 3, Andrea Fallico, Brussels Philharmonic, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_209, folder=False,mode='play_yt',)
