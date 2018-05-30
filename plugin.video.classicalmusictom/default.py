@@ -329,7 +329,7 @@ def Main_Menu():
     Add_Dir(name="Spohr", url='', mode="spohr_menu", folder=True,)
     Add_Dir(name="Tchaikovsky", url=' ', mode="tchaikovsky_menu", folder=True,)
     Add_Dir(name="Wagner", url=' ', mode="wagner_menu", folder=True,)
-    Add_Dir(name="Weber", url='' mode="weber_menu", folder=True,)
+    Add_Dir(name="Weber", url='',mode="weber_menu", folder=True,)
 
 
 @route(mode='wagner_menu')
@@ -355,7 +355,7 @@ def Spoor_Menu():
 
 
 @route(mode='weber_menu')
-def Weber _Menu():
+def Weber_Menu():
     Add_Dir(name="Quintet for Clarinet & Strings", url=BASE3+YOUTUBE_CHANNEL_ID_213, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
