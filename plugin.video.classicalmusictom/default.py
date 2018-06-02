@@ -273,8 +273,9 @@ YOUTUBE_CHANNEL_ID_211 = "9GnJBLwOjFo&list=RD4HZ0qMrZ7g0&index=5"
 YOUTUBE_CHANNEL_ID_212 = "_3fE1v3WQco"
 YOUTUBE_CHANNEL_ID_213 = "iN8O_LIpSlw&list=RDiN8O_LIpSlw&t=10"
 YOUTUBE_CHANNEL_ID_214 = "AHULTzlCDqE"
-
-
+YOUTUBE_CHANNEL_ID_215 = "3w5QU4lPQe8"
+YOUTUBE_CHANNEL_ID_216 = "bdlRnM9XOQE"
+YOUTUBE_CHANNEL_ID_217 = "3Tt2NbA4AUc"
 
 """
     SECTION 5:
@@ -397,11 +398,14 @@ def Mahler_Menu():
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
 @route(mode='shostakovich_menu')
-def Shostakovich_Menu():   
+def Shostakovich_Menu():  
+	Add_Dir(name="Symphony No 1, Benedetti, Sondergard, Gothenburg Symphony, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_216, folder=False,mode='play_yt',)
+	Add_Dir(name="Symphony No 2, Savkina, Hirokami & Sendai Philharmonic, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_217, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 5, Bernstein, New York Philharmonic, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_204, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 7, Alsop, Frankfurt Radio Symphony, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_205, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 7, Bykov, Koln Symphony, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_206, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 10, Gergiev, National Youth Orchestra,USA, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_207, folder=False,mode='play_yt')
+    Add_Dir(name="Symphony No 7, Bartok, Jansen, Royal Concertgebouw, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_215, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 10, Gergiev, National Youth Orchestra,USA, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_207, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 11, Gergiev, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_202, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
 
