@@ -405,9 +405,9 @@ def Shostakovich_Menu():
     Add_Dir(name="Symphony No 10, Gergiev, National Youth Orchestra,USA, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_207, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 11, Gergiev, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_202, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 1, Benedetti, Sondergard, Gothenburg Symphony, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_216, folder=False,mode='play_yt',)
-	Add_Dir(name="Symphony No 2, Savkina, Hirokami & Sendai Philharmonic, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_217, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 7, Bartok, Jansen, Royal Concertgebouw, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_215, folder=False,mode='play_yt',)
+    #Add_Dir(name="Symphony No 1, Benedetti, Sondergard, Gothenburg Symphony, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_216, folder=False,mode='play_yt',)
+	#Add_Dir(name="Symphony No 2, Savkina, Hirokami & Sendai Philharmonic, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_217, folder=False,mode='play_yt',)
+    #Add_Dir(name="Symphony No 7, Bartok, Jansen, Royal Concertgebouw, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_215, folder=False,mode='play_yt',)
 
 
 @route(mode='prokoviev_menu')
