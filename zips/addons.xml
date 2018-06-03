@@ -66,7 +66,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.toms.bagpipes" name="Toms Bagpipe Collection" version="0.0.47" provider-name="Bromerzz">
+<addon id="plugin.video.toms.bagpipes" name="Toms Bagpipe Collection" version="0.0.48" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.universalscrapers" version="1.0.0" />
@@ -79,8 +79,8 @@
 		<summary lang="en">You tube Bagpipe music</summary>
 		<description lang="en">Collection of Bagpipe and Military music</description>
 		<platform>all</platform>
-		<forum>http://www.noobsandnerds.com/support</forum>
-		<website>www.noobsandnerds.com</website>
+		#<forum>http://www.noobsandnerds.com/support</forum>
+		#<website>www.noobsandnerds.com</website>
 		<news></news>
 		<genre>music</genre>
 		<video_guide></video_guide>
