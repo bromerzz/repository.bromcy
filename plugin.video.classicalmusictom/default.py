@@ -423,7 +423,7 @@ def Shostakovich_Menu():
     Add_Dir(name="Symphony No 12, Mravinsky, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_203, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 13, Symbatyan, Armenian State O, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_223, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 14, Diadiura, Kiev Chamber Orchestra, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_224, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 15, Haitink, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_225, folder=False,mode='play_yt',)
+    Add_Dir(name="Symphony No 15, Haitink,Bayern Rundfunk, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_225, folder=False,mode='play_yt',)
 
 @route(mode='prokoviev_menu')
 def Prokoviev_Menu():
