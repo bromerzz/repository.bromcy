@@ -262,12 +262,12 @@ YOUTUBE_CHANNEL_ID_200 = "3xIsfjCxPKE"
 YOUTUBE_CHANNEL_ID_201 = "vGwW9ecNWEs"
 YOUTUBE_CHANNEL_ID_202 = "wW5USVKVAx4"
 YOUTUBE_CHANNEL_ID_203 = "TqOfvcd7hqY"
-YOUTUBE_CHANNEL_ID_204 = "0FF4HyB77hQ"
+YOUTUBE_CHANNEL_ID_204 = ""
 YOUTUBE_CHANNEL_ID_205 = "_z8TZjcqYhY"
 YOUTUBE_CHANNEL_ID_206 = "DQJcFMHLXek"
 YOUTUBE_CHANNEL_ID_207 = "fSJwP5dvzPg"
 YOUTUBE_CHANNEL_ID_208 = "XoJRcwOzDEE"
-YOUTUBE_CHANNEL_ID_209 = "wCUkO1JuBMA"
+YOUTUBE_CHANNEL_ID_209 = ""
 YOUTUBE_CHANNEL_ID_210 = "4HZ0qMrZ7g0"
 YOUTUBE_CHANNEL_ID_211 = "9GnJBLwOjFo&list=RD4HZ0qMrZ7g0&index=5"
 YOUTUBE_CHANNEL_ID_212 = "_3fE1v3WQco"
@@ -277,7 +277,7 @@ YOUTUBE_CHANNEL_ID_215 = "3w5QU4lPQe8"
 YOUTUBE_CHANNEL_ID_216 = "bdlRnM9XOQE"
 YOUTUBE_CHANNEL_ID_217 = "3Tt2NbA4AUc"
 YOUTUBE_CHANNEL_ID_218 = "AfakIg9E_ao"
-#YOUTUBE_CHANNEL_ID_219 = "aqcvBM18ugk"
+YOUTUBE_CHANNEL_ID_219 = "aqcvBM18ugk"
 YOUTUBE_CHANNEL_ID_220 = "kGgqg2S7V_8&t=129s"
 YOUTUBE_CHANNEL_ID_221 = "LzwxyzQm7hE&t=71s"
 YOUTUBE_CHANNEL_ID_222 = "H1D-MNLNgNo"
@@ -411,8 +411,6 @@ def Shostakovich_Menu():
     Add_Dir(name="Symphony No 2, Savkina, Hirokami & Sendai Philharmonic, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_217, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 3, Marlinsky, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_220, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 4, Haitink, Berlin PO, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_221, folder=False,mode='play_yt',)
-    Add_Dir(name="Symphony No 5, Bernstein, New York Philharmonic, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_204, folder=False,mode='play_yt',)
-    #Add_Dir(name="Symphony No 6, Bernstein, Vienna Philharmonic, added Oct 18", url=BASE3+YOUTUBE_CHANNEL_ID_219, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 7, Bartok, Jansen, Royal Concertgebouw, added Jun 18", url=BASE3+YOUTUBE_CHANNEL_ID_215, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 7, Alsop, Frankfurt Radio Symphony, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_205, folder=False,mode='play_yt',)
     Add_Dir(name="Symphony No 7, Bykov, Koln Symphony, added May 18", url=BASE3+YOUTUBE_CHANNEL_ID_206, folder=False,mode='play_yt',)
