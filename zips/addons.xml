@@ -110,8 +110,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.116" provider-name="Bromerzz">
-<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.108" provider-name="Bromerzz">
+<addon id="plugin.video.classicalmusictom" name="Toms Classical Music Collection" version="0.0.120" provider-name="Bromerzz">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.universalscrapers" version="1.0.0" />
@@ -124,6 +123,8 @@
 		<summary lang="en">Classical Music for Tom</summary>
 		<description lang="en">Toms classical Music collection</description>
 		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
 		<news></news>
 		<genre>music,uk</genre>
 		<video_guide></video_guide>
