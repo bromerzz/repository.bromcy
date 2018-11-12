@@ -192,7 +192,6 @@ YOUTUBE_CHANNEL_ID_130 = "onDXSnrcL9s"
 YOUTUBE_CHANNEL_ID_131 = "Xba1Fpv6GM4&feature=em-subs_digest-vrecs"
 YOUTUBE_CHANNEL_ID_132 = "OPlK5HwFxcw"
 YOUTUBE_CHANNEL_ID_133 = "Dyf2MWHnwOU"
-YOUTUBE_CHANNEL_ID_134 = "akrn3t0FL64&feature=em-subs_digest-vrecs"
 YOUTUBE_CHANNEL_ID_135 = "Y5MJDd8zEOM"
 YOUTUBE_CHANNEL_ID_136 = "AgXW-57UDMc"
 YOUTUBE_CHANNEL_ID_137 = "zhqg4U32p9w"
@@ -698,7 +697,7 @@ def Rimsky_Korsakhov_Menu():
 
 @route(mode='chopin_menu')
 def Chopin_Menu():
-    Add_Dir(name="Concertos 1 and 2, Trifanov-Pletnev, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_134, folder=False,mode='play_yt',)
+    #(name="Concertos 1 and 2, Trifanov-Pletnev, added Dec 17", url=BASE3+YOUTUBE_CHANNEL_ID_134, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
     #Add_Dir(name="", url=BASE3+YOUTUBE_CHANNEL_ID_, folder=False,mode='play_yt',)
 
